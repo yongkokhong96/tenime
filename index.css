@@ -66,9 +66,17 @@
 }
 
 /*
-	elements for anime details page
+	elements in anime details page (Only for 'Title One')
 */
 
+#info-s2{
+	display: none
+}
+
+#info-s3{
+	display: none
+}
+
 /*
-	elements for suggest anime page
+	elements in suggest anime page
 */
