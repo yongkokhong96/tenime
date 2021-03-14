@@ -1,4 +1,4 @@
-var infoCurrentSeason = document.getElementById("seasonOne");
+var infoCurrentSeason = document.getElementById("selectedSeason");
 	infoCurrentSeason.addEventListener("change", changeSeason);
 
 	function changeSeason(){
