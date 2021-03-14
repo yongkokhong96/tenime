@@ -77,6 +77,25 @@
 	display: none
 }
 
+.character-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.character-slot{
+	border:5px solid black;
+	padding: 3px;
+	margin: 1rem;
+	max-height: 100px;
+}
+
+.character-img{
+	max-width: 100px;
+}
+
+.character-name{
+	text-align: center;
+}
 /*
 	elements in suggest anime page
 */
