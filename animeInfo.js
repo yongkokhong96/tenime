@@ -19,6 +19,10 @@ function changeSeason(){
 		document.getElementById("info-s3").style.display = "block";
 	}
 }
+const infoMain = document.getElementById("titleInfo")
+const infoEpisode = document.getElementById("titleEpisode")
+const infoImage = document.getElementById("titleImage")
+const infoVideo = document.getElementById("titleVideo")
 
 infoMain.addEventListener("click", showInfo) 
 infoEpisode.addEventListener("click", showEpisode) 
