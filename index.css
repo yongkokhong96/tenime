@@ -7,8 +7,9 @@
 }
 .navbar{
 	display: flex;
-	background-color: rgb(0,0,180);
+	background-color: rgb(0,100,180);
 	flex-direction: row;
+	margin-bottom: 2rem;
 	padding-left: 15px;
 	font-size: 18px;
 	font-weight: bold;
@@ -20,6 +21,7 @@
 	padding-right: 5px;
 	padding-left: 5px;
 	align-content: center;
+	cursor: pointer;
 }
 
 .navbar-item:hover{
@@ -77,24 +79,54 @@
 	display: none
 }
 
+.cover-img{
+	max-height: 300px;
+	margin-bottom: 1rem;
+}
+
+.header-small{
+	font-size: 24px;
+}
+
+.spacing-bottom-50{
+	margin-bottom: 50px;
+}
+
 .character-container{
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .character-slot{
-	border:5px solid black;
+	border:3px solid black;
 	padding: 3px;
-	margin: 1rem;
+	margin: 1rem 1rem 3rem 1rem;
 	max-height: 100px;
+	max-width: 100px;
+	border-radius: 50%;
+}
+
+.character-slot:hover{
+	box-shadow: 0px 0px 10px rgb(0,0,0,.5);
+	max-width: 140px;
+	max-height: 140px;
 }
 
 .character-img{
 	max-width: 100px;
+	max-height: 100px;
+	border-radius: 50%;
+}
+
+.character-img:hover{
+	max-width: 140px;
+	max-height: 140px;
 }
 
 .character-name{
 	text-align: center;
+	max-width: 100px;
+	margin-bottom: 5rem;
 }
 /*
 	elements in suggest anime page
