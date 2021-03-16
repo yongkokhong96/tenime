@@ -1,5 +1,6 @@
 //Functions for changing the info displayed based on season 
 
+document.getElementById("seasonSelector").value = 1;
 var infoCurrentSeason = document.getElementById("seasonSelector")
 infoCurrentSeason.addEventListener("change", changeSeason);
 
