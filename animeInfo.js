@@ -1,4 +1,6 @@
-var infoCurrentSeason = document.getElementById("selectedSeason");
+//Functions for changing the info displayed based on season 
+
+var infoCurrentSeason = document.getElementById("seasonSelector")
 infoCurrentSeason.addEventListener("change", changeSeason);
 
 function changeSeason(){
@@ -19,6 +21,9 @@ function changeSeason(){
 		document.getElementById("info-s3").style.display = "block";
 	}
 }
+
+//Functions for switching between infomation pages
+
 const infoMain = document.getElementById("titleInfo")
 const infoEpisode = document.getElementById("titleEpisode")
 const infoImage = document.getElementById("titleImage")
@@ -31,32 +36,94 @@ infoVideo.addEventListener("click", showVideo)
 
 function showInfo(){
 	console.log("1a");
-	document.getElementById("info-s1").style.display = "block";
-	document.getElementById("episodeAll").style.display = "none";
-	document.getElementById("imageAll").style.display = "none";
-	document.getElementById("videoAll").style.display = "none";
+	if (infoCurrentSeason.value == 1){
+		console.log("INFO ONE");
+		document.getElementById("detailsSeasonOne").style.display = "block";
+		document.getElementById("episodesSeasonOne").style.display = "none";
+		document.getElementById("imagesSeasonOne").style.display = "none";
+		document.getElementById("videosSeasonOne").style.display = "none";
+	}
+	if (infoCurrentSeason.value == 2){
+		console.log("INFO TWO");
+		document.getElementById("detailsSeasonTwo").style.display = "block";
+		document.getElementById("episodesSeasonTwo").style.display = "none";
+		document.getElementById("imagesSeasonTwo").style.display = "none";
+		document.getElementById("videosSeasonTwo").style.display = "none";
+	}
+	if (infoCurrentSeason.value == 3){
+		console.log("INFO THREE");
+		document.getElementById("detailsSeasonThree").style.display = "block";
+		document.getElementById("episodesSeasonThree").style.display = "none";
+		document.getElementById("imagesSeasonThree").style.display = "none";
+		document.getElementById("videosSeasonThree").style.display = "none";
+	}
 }
 
 function showEpisode(){
 	console.log("2b");
-	document.getElementById("info-s1").style.display = "none";
-	document.getElementById("episodeAll").style.display = "block";
-	document.getElementById("imageAll").style.display = "none";
-	document.getElementById("videoAll").style.display = "none";
+	if (infoCurrentSeason.value == 1){
+		console.log("EPISODE ONE");
+		document.getElementById("detailsSeasonOne").style.display = "none";
+		document.getElementById("episodesSeasonOne").style.display = "block";
+		document.getElementById("imagesSeasonOne").style.display = "none";
+		document.getElementById("videosSeasonOne").style.display = "none";
+	}
+	if (infoCurrentSeason.value == 2){
+		console.log("EPISODE TWO");
+		document.getElementById("detailsSeasonTwo").style.display = "none";
+		document.getElementById("episodesSeasonTwo").style.display = "block";
+		document.getElementById("imagesSeasonTwo").style.display = "none";
+		document.getElementById("videosSeasonTwo").style.display = "none";
+	}
+	if (infoCurrentSeason.value == 3){
+		console.log("EPISODE THREE");
+		document.getElementById("detailsSeasonThree").style.display = "none";
+		document.getElementById("episodesSeasonThree").style.display = "block";
+		document.getElementById("imagesSeasonThree").style.display = "none";
+		document.getElementById("videosSeasonThree").style.display = "none";
+	}
 }
 
 function showImage(){
 	console.log("3c")
-	document.getElementById("info-s1").style.display = "none";
-	document.getElementById("episodeAll").style.display = "none";
-	document.getElementById("imageAll").style.display = "block";
-	document.getElementById("videoAll").style.display = "none";
+	if (infoCurrentSeason.value == 1){
+		document.getElementById("detailsSeasonOne").style.display = "none";
+		document.getElementById("episodesSeasonOne").style.display = "none";
+		document.getElementById("imagesSeasonOne").style.display = "block";
+		document.getElementById("videosSeasonOne").style.display = "none";
+	}
+	if (infoCurrentSeason.value == 2){
+		document.getElementById("detailsSeasonTwo").style.display = "none";
+		document.getElementById("episodesSeasonTwo").style.display = "none";
+		document.getElementById("imagesSeasonTwo").style.display = "block";
+		document.getElementById("videosSeasonTwo").style.display = "none";
+	}
+	if (infoCurrentSeason.value == 3){
+		document.getElementById("detailsSeasonThree").style.display = "none";
+		document.getElementById("episodesSeasonThree").style.display = "none";
+		document.getElementById("imagesSeasonThree").style.display = "block";
+		document.getElementById("videosSeasonThree").style.display = "none";
+	}
 }
 
 function showVideo(){
 	console.log("4d")
-	document.getElementById("info-s1").style.display = "none";
-	document.getElementById("episodeAll").style.display = "none";
-	document.getElementById("imageAll").style.display = "none";
-	document.getElementById("videoAll").style.display = "block";
+	if (infoCurrentSeason.value == 1){
+		document.getElementById("detailsSeasonOne").style.display = "none";
+		document.getElementById("episodesSeasonOne").style.display = "none";
+		document.getElementById("imagesSeasonOne").style.display = "none";
+		document.getElementById("videosSeasonOne").style.display = "block";
+	}
+	if (infoCurrentSeason.value == 2){
+		document.getElementById("detailsSeasonTwo").style.display = "none";
+		document.getElementById("episodesSeasonTwo").style.display = "none";
+		document.getElementById("imagesSeasonTwo").style.display = "none";
+		document.getElementById("videosSeasonTwo").style.display = "block";
+	}
+	if (infoCurrentSeason.value == 3){
+		document.getElementById("detailsSeasonThree").style.display = "none";
+		document.getElementById("episodesSeasonThree").style.display = "none";
+		document.getElementById("imagesSeasonThree").style.display = "none";
+		document.getElementById("videosSeasonThree").style.display = "block";
+	}
 }
