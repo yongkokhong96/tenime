@@ -128,3 +128,5 @@ function showVideo(){
 		document.getElementById("videosSeasonThree").style.display = "block";
 	}
 }
+
+fetch("https://yongkokhong96.github.io/tenime/testData.json").then(respond=>{respond.json().then(info=>{console.log(info)})})
