@@ -151,3 +151,5 @@ function addCharacter(){
 		counter++
 	}
 }
+
+addCharacter();
