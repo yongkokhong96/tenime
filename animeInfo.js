@@ -134,6 +134,7 @@ fetch("https://yongkokhong96.github.io/tenime/testData.json").then(respond=>{res
 console.log(characterDetails);
 
 const noImage = "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+const infoSection = document.getElementById("seasonOneCharacters");
 var counter = 0
 
 function addCharacter(){
@@ -146,7 +147,7 @@ function addCharacter(){
 				<p class="character-name">${characterDetails[counter].name}</p>
 			</div>
 			`
-		dataSource.innerHTML += characterSlot;
+		infoSection.innerHTML += characterSlot;
 		counter++
 	}
 }
