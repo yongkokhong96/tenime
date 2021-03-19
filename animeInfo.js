@@ -142,6 +142,8 @@ const noImage = "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-pi
 const infoSection = document.getElementById("seasonOneCharacters");
 var counter = 0
 
+console.log(characterDetails);
+
 function addCharacter(){
 	while(counter < characterDetails.length){
 		var characterSlot = `
@@ -156,5 +158,6 @@ function addCharacter(){
 		counter++
 	}
 }
-
+console.log(characterDetails);
 addCharacter();
+console.log(characterDetails);
