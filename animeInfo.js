@@ -134,7 +134,7 @@ fetch("https://yongkokhong96.github.io/tenime/testData.json").then(respond=>{res
 console.log(characterDetails);
 
 let receivedData = new Promise((resolve,reject) =>{ 
-	resolve(console.log("TESTING"));
+	resolve(console.log(characterDetails));
 	});
 	
 
