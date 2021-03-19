@@ -129,4 +129,6 @@ function showVideo(){
 	}
 }
 
-fetch("https://yongkokhong96.github.io/tenime/testData.json").then(respond=>{respond.json().then(info=>{console.log(info)})})
+var characterDetails;
+fetch("https://yongkokhong96.github.io/tenime/testData.json").then(respond=>{respond.json().then(info=>{characterDetails = info})});
+console.log(characterDetails);
