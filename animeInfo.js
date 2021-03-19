@@ -131,10 +131,10 @@ function showVideo(){
 
 var characterDetails;
 fetch("https://yongkokhong96.github.io/tenime/testData.json").then(respond=>{respond.json().then(info=>{characterDetails = info})});
-console.log(characterDetails);
+console.log(characterDetails.length);
 
 let receivedData = new Promise((resolve,reject) =>{ 
-	resolve(console.log(characterDetails));
+	resolve(console.log(characterDetails.length));
 	});
 	
 
@@ -142,7 +142,7 @@ const noImage = "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-pi
 const infoSection = document.getElementById("seasonOneCharacters");
 var counter = 0
 
-console.log(characterDetails);
+console.log(characterDetails.length);
 
 function addCharacter(){
 	while(counter < characterDetails.length){
@@ -158,6 +158,6 @@ function addCharacter(){
 		counter++
 	}
 }
-console.log(characterDetails);
+console.log(characterDetails.length);
 addCharacter();
-console.log(characterDetails);
+console.log(characterDetails.length);
