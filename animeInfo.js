@@ -130,20 +130,28 @@ function showVideo(){
 }
 
 var characterDetails;
-fetch("https://yongkokhong96.github.io/tenime/testData.json").then(respond=>{respond.json().then(info=>{characterDetails = info})});
-console.log(characterDetails.length);
+//fetch("https://yongkokhong96.github.io/tenime/testData.json").then(respond=>respond.json()).then(info=>(characterDetails = info)).then(()=>console.log(characterDetails));
+async function loadData() {
+	const reply = await fetch("https://yongkokhong96.github.io/tenime/testData.json");
+	const data = await reply.json();
+	console.log("here")
+	console.log(data);
+	return data;
+}
+console.log(characterDetails);
+characterDetails = loadData();
 
+console.log(characterDetails +  "afterFetch");
+
+/*
 let receivedData = new Promise((resolve,reject) =>{ 
 	resolve(console.log(characterDetails.length));
 	});
-	
-
+*/	
 const noImage = "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
 const infoSection = document.getElementById("seasonOneCharacters");
 var counter = 0
-
 console.log(characterDetails.length);
-
 function addCharacter(){
 	while(counter < characterDetails.length){
 		var characterSlot = `
@@ -155,9 +163,10 @@ function addCharacter(){
 			</div>
 			`
 		infoSection.innerHTML += characterSlot;
+		console.log("before");
 		counter++
 	}
 }
-console.log(characterDetails.length);
 addCharacter();
-console.log(characterDetails.length);
+
+console.log(characterDetails + "at end")
