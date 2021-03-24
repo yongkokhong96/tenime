@@ -129,37 +129,25 @@ function showVideo(){
 	}
 }
 
+//Generate characters
+
 var characterDetails;
-//fetch("https://yongkokhong96.github.io/tenime/testData.json").then(respond=>respond.json()).then(info=>(characterDetails = info)).then(()=>console.log(characterDetails));
-async function loadData() {
-	const reply = await fetch("https://yongkokhong96.github.io/tenime/testData.json");
-	const data = await reply.json();
-	console.log("here")
-	console.log(data);
-	return data;
-}
-console.log(characterDetails);
-characterDetails = loadData();
+fetch("https://yongkokhong96.github.io/tenime/testData.json").then(respond=>respond.json())
+.then(info=>(characterDetails = info))
+.then(()=>addCharacters(characterDetails));
 
-console.log(characterDetails +  "afterFetch");
-
-/*
-let receivedData = new Promise((resolve,reject) =>{ 
-	resolve(console.log(characterDetails.length));
-	});
-*/	
 const noImage = "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
 const infoSection = document.getElementById("seasonOneCharacters");
 var counter = 0
-console.log(characterDetails.length);
-function addCharacter(){
-	while(counter < characterDetails.length){
+
+function addCharacters(data){
+	while(counter < data.length){
 		var characterSlot = `
 			<div>
 				<div class="character-slot">
-					<img class=character-img src=${characterDetails[counter].src}>
+					<img class=character-img src=${data[counter].src}>
 				</div>
-				<p class="character-name">${characterDetails[counter].name}</p>
+				<p class="character-name">${data[counter].name}</p>
 			</div>
 			`
 		infoSection.innerHTML += characterSlot;
@@ -167,6 +155,3 @@ function addCharacter(){
 		counter++
 	}
 }
-addCharacter();
-console.log("Where")
-console.log(characterDetails + "at end")
