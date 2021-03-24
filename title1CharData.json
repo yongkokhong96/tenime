@@ -1,49 +1,120 @@
 [{
-	"Sora": {
 		"name": "Tokino Sora",
 		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/4/4b/Tokino_Sora_2020_Portrait.png"
 	},
-	"Suisei": {
+	{
 		"name": "Hoshimachi Suisei",
 		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/8/8b/Hoshimachi_Suisei_2019_Portrait.png"
 	},
-	"Miko": {
+	{
 		"name": "Sakura Miko",
 		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/c/c9/Sakura_Miko_2019_Portrait.jpg"
 	},
-	"Roboco": {
+	{
 		"name": "Roboco",
 		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/8/8e/Roboco_-_Profile_Picture.jpg"
 	},
-	"Mel": {
+	{
 		"name": "Yozora Mel",
 		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/c/cf/Yozora_Mel_Portrait.png"
 	},
-	"Fubuki": {
+	{
 		"name": "Shirakami Fubuki",
 		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/e/e8/Shirakami_Fubuki_Portrait.jpg"
 	},
-	"Matsuri": {
+	{
 		"name": "Natsuiro Matsuri",
 		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/f/f7/Natsuiro_Matsuri_Portrait.png"
 	},
-	"Aki": {
+	{
 		"name": "Aki Rosenthal",
 		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/5/59/Aki_Rosenthal_Portrait.png"
 	},
-	"Haato": {
+	{
 		"name": "Akai Haato",
 		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/7/77/Akai_Haato_Portrait.png"
 	},
-	"Choco": {
+	{
 		"name": "Yuzuki Choco",
 		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/a/a8/Yuzuki_Choco_Portrait.png"
 	},
-	"Subaru": {
+	{
 		"name": "Oozora Subaru",
 		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/4/49/Oozora_Subaru_Portrait.png"
 	},
-	"Ayame": {
+	{
+		"name": "Nakiri Ayame",
+		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/0/09/Nakiri_Ayame_Portrait.png"
+	},
+	{
+		"name": "Murasaki Shion",
+		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/3/3f/Murasaki_Shion_Portrait.png"
+	},
+	{
+		"name": "Minato Aqua",
+		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/8/8b/Minato_Aqua_Portrait.png"
+	},
+	{
+		"name": "Ookami Mio",
+		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/1/18/Ookami_Mio_Portrait.png"
+	},
+	{
+		"name": "Nekomata Okayu",
+		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/3/35/Nekomata_Okayu_img.png"
+	},
+	{
+		"name": "Inugami Korone",
+		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/c/c6/Inugami_Korone_Portrait.png"
+	},
+	{
+		"name": "Usada Pekora",
+		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/9/95/Usada_Pekora_-_Portrait.png"
+	},
+	{
+		"name": "Uruha Rushia",
+		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/a/a2/Uruha_Rushia_-_Portrait.png"
+	},
+	{
+		"name": "Shiranui Flare",
+		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/8/82/Shiranui_Flare_-_Portrait_02.png"
+	},
+	{
+		"name": "Shirogane Noel",
+		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/0/03/Shirogane_Noel_-_Portrait.png"
+	},
+	{
+		"name": "Houshou Marine",
+		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/4/4e/Houshou_Marine_-_Portrait.png"
+	},
+	{
+		"name": "Himemori Luna",
+		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/2/22/Himemori_Luna_-_Portrait.png"
+	},
+	{
+		"name": "Tokoyami Towa",
+		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/3/35/Tokoyami_Towa_-_Portrait.png"
+	},
+	{
+		"name": "Tsunomaki Watame",
+		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/c/c6/Tsunomaki_Watame_-_Portrait.png"
+	},
+	{
+		"name": "Kiryu Coco",
+		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/0/09/Kiryu_Coco_-_Portrait.png"
+	},
+	{
+		"name": "Amane Kanata",
+		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/6/6c/Amane_Kanata_-_Portrait.png"
+	},
+	{
+		"name": "Yukihana Lamy",
+		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/e/ee/Yukihana_Lamy_Portrait.png"
+	},
+	{
+		"name": "Omaru Polka",
+		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/3/33/Omaru_Polka_Portrait.png"
+	}
+]
 		"name": "Nakiri Ayame",
 		"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/0/09/Nakiri_Ayame_Portrait.png"
 	},
