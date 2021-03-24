@@ -129,7 +129,7 @@ function showVideo(){
 	}
 }
 
-//Generate characters
+//Generate characters for each season
 
 var characterDetails;
 fetch("https://yongkokhong96.github.io/tenime/testData.json").then(respond=>respond.json())
