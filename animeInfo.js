@@ -2,7 +2,10 @@
 
 document.getElementById("seasonSelector").value = 1;
 var infoCurrentSeason = document.getElementById("seasonSelector")
-infoCurrentSeason.addEventListener("change", changeSeason);
+infoCurrentSeason.addEventListener("change", () => {
+	changeSeason();
+	generateCharacters();
+});
 
 function changeSeason(){
 	console.log(infoCurrentSeason.value);
@@ -130,28 +133,50 @@ function showVideo(){
 }
 
 //Generate characters for each season
+//S1: 8 S2:6  S3:12
 
-var characterDetails;
-fetch("https://yongkokhong96.github.io/tenime/testData.json").then(respond=>respond.json())
-.then(info=>(characterDetails = info))
-.then(()=>addCharacters(characterDetails));
+function generateCharacters(){
+	var seasonDetails;
+	fetch("https://yongkokhong96.github.io/tenime/title2charData.json").then(respond => respond.json())
+	.then(info => seasonDetails = info)
+	.then(() => addCharacters(seasonDetails));
+}
 
 const noImage = "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
 const infoSection = document.getElementById("seasonOneCharacters");
 var counter = 0
 
 function addCharacters(data){
-	while(counter < data.length){
+	counter = 0;
+	
+	var season = infoCurrentSeason.value
+	if (season == 1){
+		infoSection = document.getElementById("seasonOneCharacters");
+		season = "One"
+		console.log(season)
+	}
+	if (season == 2){
+		infoSection = document.getElementById("seasonTwoCharacters");
+		season = "Two"
+		console.log(season)
+	}
+	if (season == 3){
+		infoSection = document.getElementById("seasonThreeCharacters");
+		season = "Three"
+		console.log(season)
+	}
+	infoSection.innerHTML = "";
+	while(counter < data[season].length){
+		
 		var characterSlot = `
 			<div>
 				<div class="character-slot">
-					<img class=character-img src=${data[counter].src}>
+					<img class=character-img src=${data[season][counter].src}>
 				</div>
-				<p class="character-name">${data[counter].name}</p>
+				<p class="character-name">${data[season][counter].name}</p>
 			</div>
 			`
 		infoSection.innerHTML += characterSlot;
-		console.log("before");
 		counter++
 	}
 }
