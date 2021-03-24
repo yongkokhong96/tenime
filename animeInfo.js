@@ -168,5 +168,5 @@ function addCharacter(){
 	}
 }
 addCharacter();
-
+console.log("Where")
 console.log(characterDetails + "at end")
