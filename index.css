@@ -148,7 +148,7 @@
 	flex-wrap: wrap;
 }
 
-.poster-portrait, .poster-landscape{
+.poster-image{
 	max-width: 300px;
 	transition: transform 250ms ease-out;
 	margin-bottom: 150px;
@@ -156,11 +156,7 @@
 	align-self: center;
 }
 
-.poster-landscape{
-	max-width: 300px;
-	
-}
-.poster-landscape:hover, .poster-portrait:hover{
+.poster-image:hover{
 	transform: scale(1.5);
 }
 /*
