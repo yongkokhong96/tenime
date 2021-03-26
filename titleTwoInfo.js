@@ -180,3 +180,45 @@ function addCharacters(data){
 		counter++
 	}
 }
+
+//Generate images for poster section
+//2 portrait | 2 landscape | 1 portrait, 1 landscape
+
+function generateImages(){
+	var imageDetails;
+	fetch("https://yongkokhong96.github.io/tenime/title2ImgData.json").then(respond => respond.json())
+	.then(info => imageDetails = info)
+	.then(() => addImages(imageDetails))
+	.then(console.log(imageDetails));
+}
+var imgSection = document.getElementById("seasonOneImages");
+var counter = 0
+
+function addImages(data){
+	counter = 0;
+	var season = infoCurrentSeason.value
+	if (season == 1){
+		imgSection = document.getElementById("seasonOneImages");
+		season = "One"
+		console.log(season)
+	}
+	if (season == 2){
+		imgSection = document.getElementById("seasonTwoImages");
+		season = "Two"
+		console.log(season)
+	}
+	if (season == 3){
+		imgSection = document.getElementById("seasonThreeImages");
+		season = "Three"
+		console.log(season)
+	}
+	imgSection.innerHTML = "";
+	while(counter < data[season].length){
+		
+		var characterSlot = `
+			<img class= "poster-image" src="${data[season][counter].src}">
+			`
+		imgSection.innerHTML += characterSlot;
+		counter++
+	}
+}
