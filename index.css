@@ -173,5 +173,23 @@
 }
 
 /*
+	elements in character details page
+*/
+
+.char-info-container{
+	display: grid;
+	grid-template-columns: auto 90%;
+}
+.character-info-image{
+	height: 380px;
+	padding-right: 30px;
+}
+
+.small-header{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/*
 	elements in suggest anime page
 */
