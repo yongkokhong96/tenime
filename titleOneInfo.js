@@ -119,6 +119,7 @@ function charInfo(test){
 	.then(info => charDetails = info)
 	.then(()=>console.log(charDetails[0].Name))
 	.then(()=>outsider(charDetails, test))
+	.then(()=>modalAssign())
 }
 
 function outsider(incomingData, targetName){
@@ -135,8 +136,15 @@ function outsider(incomingData, targetName){
 			while (counterTwo != infoContain.length){
 				if (counterTwo == 0){
 					var charImageLine = `
-					<img src =${infoContain[1][1]} class="character-info-image">
-					<div id="characterInfoBox"></div>
+					<div id="myModal" class="modal">
+					<div class="modal-content">
+						<span id="modalClose" class="close">close</span>
+						<img src =${infoContain[1][1]} class="character-info-image">
+						<div id="characterInfoBox">
+							<p class="character-info-name">${infoContain[counterTwo][1]}</p>
+						</div>
+					</div>
+					</div>
 					`
 					var targetContainer = document.getElementById("charInfoContainer")
 					targetContainer.innerHTML=""
@@ -158,4 +166,19 @@ function outsider(incomingData, targetName){
 		}
 		counter++;
 	}
+}
+
+function modalAssign(){
+	console.log("modalAssign")
+	var changeThis = document.getElementById(id="modalClose");
+	//changeThis.setAttribute("onclick",closeModal);
+	changeThis.onclick = closeModal;
+	
+}
+
+function closeModal(){
+	console.log("closeModal")
+	var targetModal = document.getElementById(id="myModal")
+	targetModal.style.display = "none"
+	console.log("closed")
 }
