@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Holo no graffiti - Tenime</title>
+	<link rel="stylesheet" type="text/css" href="index.css"></link>
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+			<p class="navbar-item"><a href="index.html">Anime List</a></p>
+			<p class="navbar-item">Genres</p>
+			<p class="navbar-item">Studios</p>
+			<p class="navbar-item">Anime by year</p>
+			<p class="navbar-item"><a href="suggest.html">Suggest an Anime</a></p>
+		</div>
+
+		<p class="header">Holo no graffiti</p>
+		<img class="cover-img" src="https://cdn.myanimelist.net/images/anime/1259/110227l.webp">
+		
+		<section class="list-control-container">
+			<p>Season</p>
+			<select id="seasonSelector">
+					<option>1</option>
+			</select>
+		</section>
+		<section class="navbar">
+			<p id="titleInfo" class="navbar-item">Info</p>
+			<p id="titleEpisode" class="navbar-item">Episodes</p>
+			<p id="titleImage" class="navbar-item">Images</p>
+			<p id="titleVideo" class="navbar-item">Videos</p>
+		</section>
+
+		<div id="infoDisplay">
+			<div id="info-s1">
+				<div id="detailsSeasonOne">
+					<p class="header-small">Synopsis</p>
+					<p class="textbox spacing-bottom-50">From unraveling the secrets of opening and closing doors to defusing surprise packages more commonly known as bombs, there is never a dull day at the Hololive Production office! Holo no Graffiti follows an eccentric cast of Virtual YouTubers, also known as "VTubers," going about their absurd yet hilarious daily lives, detailing all their cute moments and mishaps.
+					</p>
+					<p class="header-small">Characters</p>
+					<div id= "seasonOneCharacters" class="character-container">
+						
+					</div>
+					<section id ="charInfoContainer" class="char-info-container">
+					</section>
+				</div>
+			</div>
+		</div>
+		<div id="episodesSeasonOne" class="episode-all seasonHidden"><p>Episode 1</p></div>
+		<div id="imagesSeasonOne" class="image-all seasonHidden"><p>Image 1</p></div>
+		<div id="videosSeasonOne" class="video-all seasonHidden"><p>Video 1</p></div>
+	</div>
+</body>
+<script src="titleOneInfo.js"></script>
+</html>

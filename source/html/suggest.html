@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tenime</title>
+	<link rel="stylesheet" type="text/css" href="index.css"></link>
+</head>
+<body>
+	<div class="container">
+		<section class="navbar">
+			<p class="navbar-item"><a href="index.html">Anime List</a></p>
+			<p class="navbar-item">Genres</p>
+			<p class="navbar-item">Studios</p>
+			<p class="navbar-item">Anime by year</p>
+			<p class="navbar-item"><a href="suggest.html">Suggest an Anime</a></p>
+		</section>
+		<p>
+			Know a series that we don't? Feel free to share with us here.
+		</p>
+		<form>
+			<section>
+				<p>Title*</p>
+				<input type="text" name="title">
+			</section>
+
+			<section>
+				<p>Status*</p>
+				<label for="status">Completed</label>
+				<input type="radio" name="status">
+				<label for="status">Ongoing</label>
+				<input type="radio" name="status">
+				<label for="status">Not yet aired</label>
+				<input type="radio" name="status">
+			</section>
+
+			<section>
+				<p>Description</p>
+				<input type="text" name="description">
+			</section>
+
+			<section>
+				<p>Genres</p>
+				<input type="text" name="genre">
+			</section>
+
+			<input type="submit" value="Submit">
+		</form>
+	</div> 
+</body>
+</html>
