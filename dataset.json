@@ -288,145 +288,146 @@
 			"Height": "153cm",
 			"Fanbase name": "Omaruza",
 			"Description": " Japanese Virtual YouTuber associated with hololive, as part of its fifth generation of VTubers. A circus performer who joined hololive in hopes of becoming the ringmaster of the VTuber world. She enjoys wowing audiences with acrobatics, and lives by the words, 'When the going gets tough, the tough get going.' If you ask her, her occasional mess ups are also part of her charm."
-		}, {
-			"One": [{
-					"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
-				},
-				{
-					"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
-				},
-				{
-					"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
-				},
-				{
-					"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
-				},
-				{
-					"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
-				},
-				{
-					"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
-				}
-			],
+		}, 
+		{
+	"One": [
+		{
+			"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
+		},
+		{
+			"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
+		},
+		{
+			"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
+		},
+		{
+			"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
+		},
+		{
+			"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
+		},
+		{
+			"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
+		}
+		],
 
-			"Two": [{
-					"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
-				},
-				{
-					"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
-				},
-				{
-					"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
-				},
-				{
-					"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
-				},
-				{
-					"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
-				},
-				{
-					"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
-				}
-			],
+	"Two": [{
+			"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
+		},
+		{
+			"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
+		},
+		{
+			"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
+		},
+		{
+			"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
+		},
+		{
+			"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
+		},
+		{
+			"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
+		}
+		],
 
-			"Three": [{
-					"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
-				},
-				{
-					"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
-				},
-				{
-					"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
-				},
-				{
-					"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
-				},
-				{
-					"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
-				},
-				{
-					"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
-				}, {
+	"Three": [{
+			"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
+		},
+		{
+			"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
+		},
+		
+			"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
+		},
+		{
+			"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
+		},
+		{
+			"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
+		},
+		{
+			"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
+		}, 
+		{
+	"One": [{
+			"name": "Char 1",
+			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+		},
+		{
+			"name": "Char 2",
+			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+		},
+		{
+			"name": "Char 3",
+			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+		},
+		{
+			"name": "Char 4",
+			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+		},
+		{
+			"name": "Char 5",
+			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+		},
+		{
+			"name": "Char 6",
+			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+		},
+		{
+			"name": "Char 7",
+			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+		},
+		{
+			"name": "Char 8",
+			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+		}
+		],
+	"Two": [{
+			"name": "Char 1",
+			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+		},
+		{
+			"name": "Char 2",
+			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+		},
+		{
+			"name": "Char 3",
+			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+		},
+		{
+			"name": "Char 4",
+			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+		},
+		{
+			"name": "Char 5",
+			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+		},
+		{
+			"name": "Char 6",
+			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+		}
+		],
 
-					"One": [{
-							"name": "Char 1",
-							"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-						},
-						{
-							"name": "Char 2",
-							"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-						},
-						{
-							"name": "Char 3",
-							"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-						},
-						{
-							"name": "Char 4",
-							"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-						},
-						{
-							"name": "Char 5",
-							"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-						},
-						{
-							"name": "Char 6",
-							"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-						},
-						{
-							"name": "Char 7",
-							"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-						},
-						{
-							"name": "Char 8",
-							"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-						}
-					],
-
-					"Two": [{
-							"name": "Char 1",
-							"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-						},
-						{
-							"name": "Char 2",
-							"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-						},
-						{
-							"name": "Char 3",
-							"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-						},
-						{
-							"name": "Char 4",
-							"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-						},
-						{
-							"name": "Char 5",
-							"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-						},
-						{
-							"name": "Char 6",
-							"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-						}
-					],
-
-					"Three": [{
-							"name": "Char 1",
-							"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-						},
-						{
-							"name": "Char 2",
-							"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-						},
-						{
-							"name": "Char 3",
-							"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-						},
-						{
-							"name": "Char 4",
-							"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-						},
-						{
-							"name": "Char 5",
-							"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+	"Three": [{
+			"name": "Char 1",
+			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+		},
+		{
+			"name": "Char 2",
+			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+		},
+		{
+			"name": "Char 3",
+			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+		},
+		{
+			"name": "Char 4",
+			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+		},
+		{
+			"name": "Char 5",
+			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
 						},
 						{
 							"name": "Char 6",
