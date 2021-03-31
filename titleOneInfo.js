@@ -66,7 +66,8 @@ function generateCharacters(){
 	var seasonDetails;
 	fetch("https://yongkokhong96.github.io/tenime/title1CharData.json").then(respond => respond.json())
 	.then(info => seasonDetails = info)
-	.then(() => addCharacters(seasonDetails));
+	.then(() => addCharacters(seasonDetails))
+	.then(() => linkAdder(seasonDetails));
 }
 
 const noImage = "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
@@ -80,15 +81,78 @@ function addCharacters(data){
 	infoSection.innerHTML = "";
 	while(counter < data.length){
 		console.log("Okay")
+		var idGen = data[counter].name
 		var characterSlot = `
 			<div>
 				<div class="character-slot">
 					<img class=character-img src=${data[counter].src}>
 				</div>
-				<p class="character-name">${data[counter].name}</p>
+				<button  class="character-name" id ="${idGen}">${data[counter].name}</button>
 			</div>
 			`
 		infoSection.innerHTML += characterSlot;
 		counter++
+	}
+}
+
+function linkAdder(data){
+	var characterElement = document.querySelectorAll(".character-name")
+	var numberOfCharacters = characterElement.length
+	var counter = 0;
+	while (counter != numberOfCharacters){
+		var modifyThis = document.getElementById(characterElement[counter].id);
+		modifyThis.setAttribute("onclick", `charInfo("${characterElement[counter].id}")`);
+		console.log(modifyThis.id);
+		//characterElement.addEventListener("click",charClick);
+		counter++;
+	}
+	console.log("Characters: " + numberOfCharacters)
+}
+
+function charInfo(test){
+	var charDetails
+	console.log(test + " Clicked")
+	fetch("https://yongkokhong96.github.io/tenime/title1CharData.json").then(respond => respond.json())
+	.then(info => charDetails = info)
+	.then(()=>console.log(charDetails[0].name))
+	.then(()=>outsider(charDetails, test))
+}
+
+function outsider(incomingData, targetName){
+	console.log(incomingData)
+	console.log(targetName)
+	var counter = 0;
+	while (counter != incomingData.length){
+		//console.log(incomingData[counter].name)
+		if (incomingData[counter].name == targetName){
+			console.log("Found " + targetName)
+			var infoContain = Object.entries(incomingData[counter])
+			console.log(infoContain.length)
+			var counterTwo = 0
+			while (counterTwo != infoContain.length){
+				if (counterTwo == 0){
+					var charImageLine = `
+					<img src =${infoContain[1][1]} class="character-info-image">
+					<div id="characterInfoBox"></div>
+					`
+					var targetContainer = document.getElementById("charInfoContainer")
+					targetContainer.innerHTML=""
+					targetContainer.innerHTML+= charImageLine
+				}
+				else if (counterTwo != 1){
+					console.log(infoContain[counterTwo][0] + ": " + infoContain[counterTwo][1])
+					var charInfoLine = `
+					<p>${infoContain[counterTwo][0]}: ${infoContain[counterTwo][1]}</p>
+					`
+					var targetContainer = document.getElementById("characterInfoBox")
+					//var targetContainer = document.body
+					targetContainer.innerHTML+= charInfoLine
+				}
+				counterTwo++;
+			}
+			var testSplit= infoContain[1]
+			console.log(testSplit[0])
+		}
+		counter++;
 	}
 }
