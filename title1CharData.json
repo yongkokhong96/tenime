@@ -1,10 +1,10 @@
 [
 {
-	"name": "Tokino Sora",
+	"Name": "Tokino Sora",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/4/4b/Tokino_Sora_2020_Portrait.png"
 },
 {
-	"name": "Hoshimachi Suisei",
+	"Name": "Hoshimachi Suisei",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/8/8b/Hoshimachi_Suisei_2019_Portrait.png",
 	"Debut date": "March 22 2018",
 	"Birthday": "March 22nd",
@@ -14,7 +14,7 @@
 	"Description":"A cheerful shining Idol and Vtuber from Hololive 0th Generation. She is a forever 18, multitalented girl who deeply loves singing and idols, with the dream of one day holding a live concert in Tokyo Budokan. She started out as an independent Vtuber and later joined Inonaka Music, a music label under Hololive, before moving officially to Hololive main branch."
 },
 {
-	"name": "Sakura Miko",
+	"Name": "Sakura Miko",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/c/c9/Sakura_Miko_2019_Portrait.jpg",
 	"Debut date": "August 1, 2018",
 	"Birthday": "March 5th",
@@ -24,7 +24,7 @@
 	"Description": "She has been working on religious services really hard as a miko in the computer world. With the revelation of the gods, she is now visiting Japan. While performing her errand, she has now decided to become and work hard as a virtual miko idol."
 },
 {
-	"name": "Roboco",
+	"Name": "Roboco",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/8/8e/Roboco_-_Profile_Picture.jpg",
 	"Debut date": "March 4, 2018",
 	"Birthday": "May 23rd",
@@ -34,7 +34,7 @@
 	"Description": "A lonely, wimpy robot from a random wasteland. She is now hoping to contact and live with lots of people as a Virtual Liver."
 },
 {
-	"name": "Yozora Mel",
+	"Name": "Yozora Mel",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/c/cf/Yozora_Mel_Portrait.png",
 	"Debut date": "May 13, 2018",
 	"Birthday": "October 31st",
@@ -44,7 +44,7 @@
 	"Description": "A vampire girl. Even though she is a vampire, she is not into blood. She loves acerola juice quite a lot."
 },
 {
-	"name": "Shirakami Fubuki",
+	"Name": "Shirakami Fubuki",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/e/e8/Shirakami_Fubuki_Portrait.jpg",
 	"Debut date": "June 1, 2018",
 	"Birthday": "October 5th",
@@ -54,7 +54,7 @@
 	"Description": "A white haired kemomimi highschool student. Although she is shy and mostly calm, she likes to talk to people. She would be very happy if you pay attention to her."
 },
 {
-	"name": "Natsuiro Matsuri",
+	"Name": "Natsuiro Matsuri",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/f/f7/Natsuiro_Matsuri_Portrait.png",
 	"Debut date": "June 1 2018",
 	"Birthday": "July 22nd",
@@ -64,7 +64,7 @@
 	"Description": "A rookie on the Cheerleading Team. Cheerful and affectionate, her pleasant attitude means she gets along with everyone. She has a lot of friends, and loves festivals and events."
 },
 {
-	"name": "Aki Rosenthal",
+	"Name": "Aki Rosenthal",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/5/59/Aki_Rosenthal_Portrait.png",
 	"Debut date": "June 1 2018",
 	"Birthday": "February 17",
@@ -74,7 +74,7 @@
 	"Description": " A girl who traveled from a different universe. She has hyper curiosity and manages to reach out to all sorts of things. Her trademark pigtails float due to some sort of supernatural power."
 },
 {
-	"name": "Akai Haato",
+	"Name": "Akai Haato",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/7/77/Akai_Haato_Portrait.png",
 	"Debut date": "June 2 2018",
 	"Birthday": "August 10",
@@ -85,7 +85,7 @@
 	"Description":"A sassy kouhai. She is often prickly, however she manages to demand lots of attention from those with whom she has been getting along well. She loves red ribbons and heart shapes."
 },
 {
-	"name": "Yuzuki Choco",
+	"Name": "Yuzuki Choco",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/a/a8/Yuzuki_Choco_Portrait.png",
 	"Debut date": "September 4 2018",
 	"Birthday": "February 14th",
@@ -95,7 +95,7 @@
 	"Description": "A health doctor from the Demonic-Realm Academy. Has a high reputation around the school. It was told that the line of male students never ends. She loves snacks quite a lot, although one time her desk was caked with food wrappers, and she was then scolded badly."
 },
 {
-	"name": "Oozora Subaru",
+	"Name": "Oozora Subaru",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/4/49/Oozora_Subaru_Portrait.png",
 	"Debut date": "September 16 2018",
 	"Birthday": "July 2nd",
@@ -105,7 +105,7 @@
 	"Description": "The manager of an MMA club and an E-sports club. A supremely spirited, cheerful, lively girl who can talk to anyone without breaking a sweat. She’s currently practicing her pro-gamer skills."
 },
 {
-	"name": "Nakiri Ayame",
+	"Name": "Nakiri Ayame",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/0/09/Nakiri_Ayame_Portrait.png",
 	"Debut date": "September 3 2018",
 	"Birthday": "December 13th",
@@ -115,7 +115,7 @@
 	"Description": "A kimono-clad Oni girl from the Demonic-Realm Academy. As she loves to prank people, she always uses will-o’-the-wisp on them just to have fun. Many may not realize it, but she is actually the president of the student council."
 },
 {
-	"name": "Murasaki Shion",
+	"Name": "Murasaki Shion",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/3/3f/Murasaki_Shion_Portrait.png",
 	"Debut date": "August 17 2018",
 	"Birthday": "December 8th",
@@ -125,7 +125,7 @@
 	"Description": "A random self-proclaimed child who appears around the Demonic-Realm Academy. She calls herself a highborne black magician."
 },
 {
-	"name": "Minato Aqua",
+	"Name": "Minato Aqua",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/8/8b/Minato_Aqua_Portrait.png",
 	"Debut date": "August 8 2018",
 	"Birthday": "December 1st",
@@ -135,7 +135,7 @@
 	"Description": "A marine maid-styled virtual maid. She is trying her very best, yet is still sometimes awkward and clumsy."
 },
 {
-	"name": "Ookami Mio",
+	"Name": "Ookami Mio",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/1/18/Ookami_Mio_Portrait.png",
 	"Debut date": "December 7 2018",
 	"Birthday": "August 20th",
@@ -145,7 +145,7 @@
 	"Description": " A black haired kemomimi girl who appeared on our radar randomly. She often shows up around shrines. She likes gaming."
 },
 {
-	"name": "Nekomata Okayu",
+	"Name": "Nekomata Okayu",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/3/35/Nekomata_Okayu_img.png",
 	"Debut date": "April 6 2019",
 	"Birthday": "February 22nd",
@@ -155,7 +155,7 @@
 	"Description": " A cat raised by a old woman from the onigiri store. She streams just because there is a PC in the old woman’s room."
 },
 {
-	"name": "Inugami Korone",
+	"Name": "Inugami Korone",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/c/c6/Inugami_Korone_Portrait.png",
 	"Debut date": "October 1 2019",
 	"Birthday": "October 1st",
@@ -165,7 +165,7 @@
 	"Description": "The dog from a random bakery. She likes to play games when she has free time while watchdogging."
 },
 {
-	"name": "Usada Pekora",
+	"Name": "Usada Pekora",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/9/95/Usada_Pekora_-_Portrait.png",
 	"Debut date": "July 17 2019",
 	"Birthday": "January 12th",
@@ -175,7 +175,7 @@
 	"Description": " A lonely rabbit-eared girl who loves carrots. She loves them so much that she always brings a few anywhere she goes."
 },
 {
-	"name": "Uruha Rushia",
+	"Name": "Uruha Rushia",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/a/a2/Uruha_Rushia_-_Portrait.png",
 	"Debut date": "July 18 2019",
 	"Birthday": "January 22nd",
@@ -185,7 +185,7 @@
 	"Description": " A necromancer from the Demonic-Realm Academy who is not good at communicating with people. She does not want to be alone, however, which is why she talks to the spirits and the damned."
 },
 {
-	"name": "Shiranui Flare",
+	"Name": "Shiranui Flare",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/8/82/Shiranui_Flare_-_Portrait_02.png",
 	"Debut date": "August 7 2019",
 	"Birthday": "April 21st",
@@ -195,7 +195,7 @@
 	"Description": " A half-elf who seems sloppy and undependable, however when it is time, she becomes an extremely reliable big sis."
 },
 {
-	"name": "Shirogane Noel",
+	"Name": "Shirogane Noel",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/0/03/Shirogane_Noel_-_Portrait.png",
 	"Debut date": "August 8 2019",
 	"Birthday": "November 24th",
@@ -205,7 +205,7 @@
 	"Description": " While she is easy-going, she has a dangerous side where she attempts to solve all her problems with muscle power. As much as this fluffy, meatheaded knight hungers for power, she came to the world of VTubers where all the stronk people are, for training."
 },
 {
-	"name": "Houshou Marine",
+	"Name": "Houshou Marine",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/4/4e/Houshou_Marine_-_Portrait.png",
 	"Debut date": "August 11 2019",
 	"Birthday": "July 30th",
@@ -215,7 +215,7 @@
 	"Description": "Loves jewels, treasure, and money. Her dream is to become a pirate and go treasure hunting. In order to get a pirate ship, she is now stacking up money as a VTuber on the great lands, just like how the other land-lovers do"
 },
 {
-	"name": "Himemori Luna",
+	"Name": "Himemori Luna",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/2/22/Himemori_Luna_-_Portrait.png",
 	"Debut date": "January 4 2020",
 	"Birthday": "October 10th",
@@ -225,7 +225,7 @@
 	"Description":"The princess of sweets. She sticks around people, and is easily impressed. However, when her childishness overloads, she will get scolded by her butler. It was also told that those moonshapes are the symbols of her country."
 },
 {
-	"name": "Tokoyami Towa",
+	"Name": "Tokoyami Towa",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/3/35/Tokoyami_Towa_-_Portrait.png",
 	"Debut date": "January 3 2020",
 	"Birthday": "August 8th",
@@ -236,7 +236,7 @@
 	"Description": "Towa-sama is a devil that's terrible at being a devil."
 },
 {
-	"name": "Tsunomaki Watame",
+	"Name": "Tsunomaki Watame",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/c/c6/Tsunomaki_Watame_-_Portrait.png",
 	"Debut date": "December 29 2019",
 	"Birthday": "June 6th",
@@ -246,7 +246,7 @@
 	"Description": "A sheep bard that goes around everywhere. She loves singing and is fluffy! YES! FLUFFY! Being a herbivore, she loves potato chips."
 },
 {
-	"name": "Kiryu Coco",
+	"Name": "Kiryu Coco",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/0/09/Kiryu_Coco_-_Portrait.png",
 	"Debut date": "December 28 2019",
 	"Birthday": "June 17",
@@ -256,7 +256,7 @@
 	"Description": "Coco is a lively Yakuza dragon that loves crude humor. She's a strong, openhearted, and honest person who loves making friends with other members of hololive. Additionally, Coco is the host of her own satiric news show, Asacoco."
 },
 {
-	"name": "Amane Kanata",
+	"Name": "Amane Kanata",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/6/6c/Amane_Kanata_-_Portrait.png",
 	"Debut date": "December 27 2019",
 	"Birthday": "April 22nd",
@@ -266,7 +266,7 @@
 	"Description":"An angel from the Angelic-Realm Institution. She is now studying how to heal people.To hide her shyness, she pretends to be cool."
 },
 {
-	"name": "Yukihana Lamy",
+	"Name": "Yukihana Lamy",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/e/ee/Yukihana_Lamy_Portrait.png",
 	"Debut date": "August 12 2020",
 	"Birthday": "November 15th",
@@ -275,7 +275,7 @@
 	"Description": "A snow elf from a noble family renowned in the remote Land of Silver. She decided to leave her home, along with her companion Daifuku, after her heart was touched by the fun and colorful streams from hololive. Her serious personality belies her naive, sheltered nature."
 },
 {
-	"name": "Omaru Polka",
+	"Name": "Omaru Polka",
 	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/3/33/Omaru_Polka_Portrait.png",
 	"Debut": "August 16th 2020",
 	"Birthday": "January 30th",
