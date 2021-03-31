@@ -67,7 +67,7 @@ function generateCharacters(){
 	fetch("https://yongkokhong96.github.io/tenime/title1CharData.json").then(respond => respond.json())
 	.then(info => seasonDetails = info)
 	.then(() => addCharacters(seasonDetails))
-	.then(() => linkAdder(seasonDetails));
+	.then(() => linkAdder(seasonDetails))
 }
 
 const noImage = "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
@@ -80,14 +80,17 @@ function addCharacters(data){
 	var season = infoCurrentSeason.value
 	infoSection.innerHTML = "";
 	while(counter < data.length){
-		console.log("Okay")
-		var idGen = data[counter].name
+		console.log("Okay" + data)
+		console.log(data)
+		var idGen = data[counter].Name
+		//idGen = idGen.split(" ").join("")
+		//console.log(idGen)
 		var characterSlot = `
 			<div>
 				<div class="character-slot">
 					<img class=character-img src=${data[counter].src}>
 				</div>
-				<button  class="character-name" id ="${idGen}">${data[counter].name}</button>
+				<button  class="character-name" id ="${idGen}">${data[counter].Name}</button>
 			</div>
 			`
 		infoSection.innerHTML += characterSlot;
@@ -114,7 +117,7 @@ function charInfo(test){
 	console.log(test + " Clicked")
 	fetch("https://yongkokhong96.github.io/tenime/title1CharData.json").then(respond => respond.json())
 	.then(info => charDetails = info)
-	.then(()=>console.log(charDetails[0].name))
+	.then(()=>console.log(charDetails[0].Name))
 	.then(()=>outsider(charDetails, test))
 }
 
@@ -123,8 +126,8 @@ function outsider(incomingData, targetName){
 	console.log(targetName)
 	var counter = 0;
 	while (counter != incomingData.length){
-		//console.log(incomingData[counter].name)
-		if (incomingData[counter].name == targetName){
+		//console.log(incomingData[counter].Name)
+		if (incomingData[counter].Name == targetName){
 			console.log("Found " + targetName)
 			var infoContain = Object.entries(incomingData[counter])
 			console.log(infoContain.length)
