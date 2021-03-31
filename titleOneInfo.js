@@ -13,14 +13,14 @@ const infoEpisode = document.getElementById("titleEpisode")
 const infoImage = document.getElementById("titleImage")
 const infoVideo = document.getElementById("titleVideo")
 
-infoMain.addEventListener("click", showInfo) 
-infoEpisode.addEventListener("click", showEpisode) 
-infoImage.addEventListener("click", showImage) 
+infoMain.addEventListener("click", showInfo)
+infoEpisode.addEventListener("click", showEpisode)
+infoImage.addEventListener("click", showImage)
 infoVideo.addEventListener("click", showVideo)
 
-function showInfo(){
+function showInfo() {
 	console.log("1a");
-	if (infoCurrentSeason.value == 1){
+	if (infoCurrentSeason.value == 1) {
 		console.log("INFO ONE");
 		document.getElementById("detailsSeasonOne").style.display = "block";
 		document.getElementById("episodesSeasonOne").style.display = "none";
@@ -29,9 +29,9 @@ function showInfo(){
 	}
 }
 
-function showEpisode(){
+function showEpisode() {
 	console.log("2b");
-	if (infoCurrentSeason.value == 1){
+	if (infoCurrentSeason.value == 1) {
 		console.log("EPISODE ONE");
 		document.getElementById("detailsSeasonOne").style.display = "none";
 		document.getElementById("episodesSeasonOne").style.display = "block";
@@ -40,9 +40,9 @@ function showEpisode(){
 	}
 }
 
-function showImage(){
+function showImage() {
 	console.log("3c")
-	if (infoCurrentSeason.value == 1){
+	if (infoCurrentSeason.value == 1) {
 		document.getElementById("detailsSeasonOne").style.display = "none";
 		document.getElementById("episodesSeasonOne").style.display = "none";
 		document.getElementById("imagesSeasonOne").style.display = "block";
@@ -50,9 +50,9 @@ function showImage(){
 	}
 }
 
-function showVideo(){
+function showVideo() {
 	console.log("4d")
-	if (infoCurrentSeason.value == 1){
+	if (infoCurrentSeason.value == 1) {
 		document.getElementById("detailsSeasonOne").style.display = "none";
 		document.getElementById("episodesSeasonOne").style.display = "none";
 		document.getElementById("imagesSeasonOne").style.display = "none";
@@ -62,24 +62,24 @@ function showVideo(){
 
 //Generate characters for each season
 
-function generateCharacters(){
+function generateCharacters() {
 	var seasonDetails;
 	fetch("https://yongkokhong96.github.io/tenime/title1CharData.json").then(respond => respond.json())
-	.then(info => seasonDetails = info)
-	.then(() => addCharacters(seasonDetails))
-	.then(() => linkAdder(seasonDetails))
+		.then(info => seasonDetails = info)
+		.then(() => addCharacters(seasonDetails))
+		.then(() => linkAdder(seasonDetails))
 }
 
 const noImage = "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
 var infoSection = document.getElementById("seasonOneCharacters");
 var counter = 0
 
-function addCharacters(data){
+function addCharacters(data) {
 	counter = 0;
-	
+
 	var season = infoCurrentSeason.value
 	infoSection.innerHTML = "";
-	while(counter < data.length){
+	while (counter < data.length) {
 		console.log("Okay" + data)
 		console.log(data)
 		var idGen = data[counter].Name
@@ -98,11 +98,11 @@ function addCharacters(data){
 	}
 }
 
-function linkAdder(data){
+function linkAdder(data) {
 	var characterElement = document.querySelectorAll(".character-name")
 	var numberOfCharacters = characterElement.length
 	var counter = 0;
-	while (counter != numberOfCharacters){
+	while (counter != numberOfCharacters) {
 		var modifyThis = document.getElementById(characterElement[counter].id);
 		modifyThis.setAttribute("onclick", `charInfo("${characterElement[counter].id}")`);
 		console.log(modifyThis.id);
@@ -112,29 +112,29 @@ function linkAdder(data){
 	console.log("Characters: " + numberOfCharacters)
 }
 
-function charInfo(test){
+function charInfo(test) {
 	var charDetails
 	console.log(test + " Clicked")
 	fetch("https://yongkokhong96.github.io/tenime/title1CharData.json").then(respond => respond.json())
-	.then(info => charDetails = info)
-	.then(()=>console.log(charDetails[0].Name))
-	.then(()=>outsider(charDetails, test))
-	.then(()=>modalAssign())
+		.then(info => charDetails = info)
+		.then(() => console.log(charDetails[0].Name))
+		.then(() => outsider(charDetails, test))
+		.then(() => modalAssign())
 }
 
-function outsider(incomingData, targetName){
+function outsider(incomingData, targetName) {
 	console.log(incomingData)
 	console.log(targetName)
 	var counter = 0;
-	while (counter != incomingData.length){
+	while (counter != incomingData.length) {
 		//console.log(incomingData[counter].Name)
-		if (incomingData[counter].Name == targetName){
+		if (incomingData[counter].Name == targetName) {
 			console.log("Found " + targetName)
 			var infoContain = Object.entries(incomingData[counter])
 			console.log(infoContain.length)
 			var counterTwo = 0
-			while (counterTwo != infoContain.length){
-				if (counterTwo == 0){
+			while (counterTwo != infoContain.length) {
+				if (counterTwo == 0) {
 					var charImageLine = `
 					<div id="myModal" class="modal">
 					<div class="modal-content">
@@ -147,38 +147,38 @@ function outsider(incomingData, targetName){
 					</div>
 					`
 					var targetContainer = document.getElementById("charInfoContainer")
-					targetContainer.innerHTML=""
-					targetContainer.innerHTML+= charImageLine
+					targetContainer.innerHTML = ""
+					targetContainer.innerHTML += charImageLine
 				}
-				else if (counterTwo != 1){
+				else if (counterTwo != 1) {
 					console.log(infoContain[counterTwo][0] + ": " + infoContain[counterTwo][1])
 					var charInfoLine = `
 					<p>${infoContain[counterTwo][0]}: ${infoContain[counterTwo][1]}</p>
 					`
 					var targetContainer = document.getElementById("characterInfoBox")
 					//var targetContainer = document.body
-					targetContainer.innerHTML+= charInfoLine
+					targetContainer.innerHTML += charInfoLine
 				}
 				counterTwo++;
 			}
-			var testSplit= infoContain[1]
+			var testSplit = infoContain[1]
 			console.log(testSplit[0])
 		}
 		counter++;
 	}
 }
 
-function modalAssign(){
+function modalAssign() {
 	console.log("modalAssign")
-	var changeThis = document.getElementById(id="modalClose");
-	changeThis.setAttribute("onclick",closeModal);
+	var changeThis = document.getElementById(id = "modalClose");
+	changeThis.setAttribute("onclick", closeModal);
 	changeThis.onclick = closeModal;
-	
+
 }
 
-function closeModal(){
+function closeModal() {
 	console.log("closeModal")
-	var targetModal = document.getElementById(id="myModal")
+	var targetModal = document.getElementById(id = "myModal")
 	targetModal.style.display = "none"
 	console.log("closed")
 }
