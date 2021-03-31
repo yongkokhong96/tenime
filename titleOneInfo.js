@@ -171,7 +171,7 @@ function outsider(incomingData, targetName){
 function modalAssign(){
 	console.log("modalAssign")
 	var changeThis = document.getElementById(id="modalClose");
-	//changeThis.setAttribute("onclick",closeModal);
+	changeThis.setAttribute("onclick",closeModal);
 	changeThis.onclick = closeModal;
 	
 }
