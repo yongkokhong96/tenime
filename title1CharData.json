@@ -1,7 +1,13 @@
 [
 {
-	"Name": "Tokino Sora",
-	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/4/4b/Tokino_Sora_2020_Portrait.png"
+	"name": "Tokino Sora",
+	"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/4/4b/Tokino_Sora_2020_Portrait.png",
+	"Debut date": "September 7 2017",
+	"Birthday": "May 15th",
+	"Height": "160 cm",
+	"Fanbase name": "Soratomo",
+	"Illustrator": "ordan",
+	"Description": "She is an easy-going, happy, and comforting person whose personality has led many fans to call her 'Sora Mama' because of her motherly attitude. She also has a playful side to her, with an example being that she has put on a horse head while streaming a game. She is also a bit carefree as she does not mind revealing her age and weight on stream in contrast to other hololive members."
 },
 {
 	"Name": "Hoshimachi Suisei",
