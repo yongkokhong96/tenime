@@ -192,7 +192,7 @@ function addCharacters(data){
 
 function generateImages(){
 	var imageDetails;
-	fetch("https://yongkokhong96.github.io/tenime/title2ImgData.json").then(respond => respond.json())
+	fetch("https://yongkokhong96.github.io/tenime/source/js/dataset.json").then(respond => respond.json())
 	.then(info => imageDetails = info)
 	.then(() => addImages(imageDetails))
 	.then(console.log(imageDetails));
@@ -205,28 +205,23 @@ function addImages(data){
 	var season = infoCurrentSeason.value
 	if (season == 1){
 		imgSection = document.getElementById("seasonOneImages");
-		season = data["CharacterData"][29]["Placeholder Images T2S3"][6]["Placeholder Character Images T2S1"]
+		season = data["CharacterData"][29]["Placeholder Images T2S1"]
 		console.log(season)
 	}
 	if (season == 2){
 		imgSection = document.getElementById("seasonTwoImages");
-		season = data["CharacterData"][29]["Placeholder Images T2S3"][6]["Placeholder Character Images T2S2"]
+		season = data["CharacterData"][29]["Placeholder Images T2S2"]
 		console.log(season)
 	}
 	if (season == 3){
 		imgSection = document.getElementById("seasonThreeImages");
-		season = data["CharacterData"][29]["Placeholder Images T2S3"][6]["Placeholder Character Images T2S3"]
+		season = data["CharacterData"][29]["Placeholder Images T2S3"]
 		console.log(season)
 	}
 	imgSection.innerHTML = "";
 	while(counter < season.length){
 		var characterSlot = `
-			<div>
-				<div class="character-slot">
-					<img class=character-img src=${season[counter].src}>
-				</div>
-				<p class="character-name">${season[counter].name}</p>
-			</div>
+		<img class="ooster-image" src=${season[counter].src}>
 			`
 		imgSection.innerHTML += characterSlot;
 		counter++
