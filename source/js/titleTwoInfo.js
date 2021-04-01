@@ -221,7 +221,7 @@ function addImages(data){
 	imgSection.innerHTML = "";
 	while(counter < season.length){
 		var characterSlot = `
-		<img class="ooster-image" src=${season[counter].src}>
+		<img class="poster-image" src=${season[counter].src}>
 			`
 		imgSection.innerHTML += characterSlot;
 		counter++
