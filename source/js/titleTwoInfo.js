@@ -144,7 +144,7 @@ function showVideo(){
 
 function generateCharacters(){
 	var seasonDetails;
-	fetch("https://yongkokhong96.github.io/tenime/title2charData.json").then(respond => respond.json())
+	fetch("https://yongkokhong96.github.io/tenime/source/js/dataset.json").then(respond => respond.json())
 	.then(info => seasonDetails = info)
 	.then(() => addCharacters(seasonDetails));
 }
@@ -159,28 +159,27 @@ function addCharacters(data){
 	var season = infoCurrentSeason.value
 	if (season == 1){
 		infoSection = document.getElementById("seasonOneCharacters");
-		season = "One"
+		season = data["CharacterData"][29]["Placeholder Images T2S3"][6]["Placeholder Character Images T2S1"]
 		console.log(season)
 	}
 	if (season == 2){
 		infoSection = document.getElementById("seasonTwoCharacters");
-		season = "Two"
+		season = data["CharacterData"][29]["Placeholder Images T2S3"][6]["Placeholder Character Images T2S2"]
 		console.log(season)
 	}
 	if (season == 3){
 		infoSection = document.getElementById("seasonThreeCharacters");
-		season = "Three"
+		season = data["CharacterData"][29]["Placeholder Images T2S3"][6]["Placeholder Character Images T2S3"]
 		console.log(season)
 	}
 	infoSection.innerHTML = "";
-	while(counter < data[season].length){
-		
+	while(counter < season.length){
 		var characterSlot = `
 			<div>
 				<div class="character-slot">
-					<img class=character-img src=${data[season][counter].src}>
+					<img class=character-img src=${season[counter].src}>
 				</div>
-				<p class="character-name">${data[season][counter].name}</p>
+				<p class="character-name">${season[counter].name}</p>
 			</div>
 			`
 		infoSection.innerHTML += characterSlot;
@@ -221,7 +220,6 @@ function addImages(data){
 	}
 	imgSection.innerHTML = "";
 	while(counter < season.length){
-		
 		var characterSlot = `
 			<div>
 				<div class="character-slot">
