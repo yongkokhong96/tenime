@@ -206,24 +206,29 @@ function addImages(data){
 	var season = infoCurrentSeason.value
 	if (season == 1){
 		imgSection = document.getElementById("seasonOneImages");
-		season = "One"
+		season = data["CharacterData"][29]["Placeholder Images T2S3"][6]["Placeholder Character Images T2S1"]
 		console.log(season)
 	}
 	if (season == 2){
 		imgSection = document.getElementById("seasonTwoImages");
-		season = "Two"
+		season = data["CharacterData"][29]["Placeholder Images T2S3"][6]["Placeholder Character Images T2S2"]
 		console.log(season)
 	}
 	if (season == 3){
 		imgSection = document.getElementById("seasonThreeImages");
-		season = "Three"
+		season = data["CharacterData"][29]["Placeholder Images T2S3"][6]["Placeholder Character Images T2S3"]
 		console.log(season)
 	}
 	imgSection.innerHTML = "";
-	while(counter < data[season].length){
+	while(counter < season.length){
 		
 		var characterSlot = `
-			<img class= "poster-image" src="${data[season][counter].src}">
+			<div>
+				<div class="character-slot">
+					<img class=character-img src=${season[counter].src}>
+				</div>
+				<p class="character-name">${season[counter].name}</p>
+			</div>
 			`
 		imgSection.innerHTML += characterSlot;
 		counter++
