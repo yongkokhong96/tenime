@@ -1,7 +1,7 @@
 {
 	"CharacterData": [{
 			"Name": "Tokino Sora",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/4/4b/Tokino_Sora_2020_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/00sora.webp",
 			"Debut date": "September 7 2017",
 			"Birthday": "May 15th",
 			"Height": "160 cm",
@@ -11,7 +11,7 @@
 		},
 		{
 			"Name": "Hoshimachi Suisei",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/8/8b/Hoshimachi_Suisei_2019_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/01suisei.webp",
 			"Debut date": "March 22 2018",
 			"Birthday": "March 22nd",
 			"Height": "160 cm",
@@ -21,7 +21,7 @@
 		},
 		{
 			"Name": "Sakura Miko",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/c/c9/Sakura_Miko_2019_Portrait.jpg",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/02miko.webp",
 			"Debut date": "August 1, 2018",
 			"Birthday": "March 5th",
 			"Height": "152 cm",
@@ -31,7 +31,7 @@
 		},
 		{
 			"Name": "Roboco",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/8/8e/Roboco_-_Profile_Picture.jpg",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/03roboco.webp",
 			"Debut date": "March 4, 2018",
 			"Birthday": "May 23rd",
 			"Height": "154 cm",
@@ -41,7 +41,7 @@
 		},
 		{
 			"Name": "Yozora Mel",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/c/cf/Yozora_Mel_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/04mel.webp",
 			"Debut date": "May 13, 2018",
 			"Birthday": "October 31st",
 			"Height": "154 cm",
@@ -51,7 +51,7 @@
 		},
 		{
 			"Name": "Shirakami Fubuki",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/e/e8/Shirakami_Fubuki_Portrait.jpg",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/05fubuki.webp",
 			"Debut date": "June 1, 2018",
 			"Birthday": "October 5th",
 			"Height": "155 cm",
@@ -61,7 +61,7 @@
 		},
 		{
 			"Name": "Natsuiro Matsuri",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/f/f7/Natsuiro_Matsuri_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/06matsuri.webp",
 			"Debut date": "June 1 2018",
 			"Birthday": "July 22nd",
 			"Height": "152 cm",
@@ -71,7 +71,7 @@
 		},
 		{
 			"Name": "Aki Rosenthal",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/5/59/Aki_Rosenthal_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/07aki.webp",
 			"Debut date": "June 1 2018",
 			"Birthday": "February 17",
 			"Height": "162 cm",
@@ -81,7 +81,7 @@
 		},
 		{
 			"Name": "Akai Haato",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/7/77/Akai_Haato_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/08haato.webp",
 			"Debut date": "June 2 2018",
 			"Birthday": "August 10",
 			"Age": "19",
@@ -92,7 +92,7 @@
 		},
 		{
 			"Name": "Yuzuki Choco",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/a/a8/Yuzuki_Choco_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/09choco.webp",
 			"Debut date": "September 4 2018",
 			"Birthday": "February 14th",
 			"Height": "165 cm",
@@ -102,7 +102,7 @@
 		},
 		{
 			"Name": "Oozora Subaru",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/4/49/Oozora_Subaru_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/10subaru.webp",
 			"Debut date": "September 16 2018",
 			"Birthday": "July 2nd",
 			"Height": "154 cm",
@@ -112,7 +112,7 @@
 		},
 		{
 			"Name": "Nakiri Ayame",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/0/09/Nakiri_Ayame_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/11ayame.webp",
 			"Debut date": "September 3 2018",
 			"Birthday": "December 13th",
 			"Height": "152 cm",
@@ -122,7 +122,7 @@
 		},
 		{
 			"Name": "Murasaki Shion",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/3/3f/Murasaki_Shion_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/12shion.webp",
 			"Debut date": "August 17 2018",
 			"Birthday": "December 8th",
 			"Height": "145 cm",
@@ -132,7 +132,7 @@
 		},
 		{
 			"Name": "Minato Aqua",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/8/8b/Minato_Aqua_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/13aqua.webp",
 			"Debut date": "August 8 2018",
 			"Birthday": "December 1st",
 			"Height": "148 cm",
@@ -142,7 +142,7 @@
 		},
 		{
 			"Name": "Ookami Mio",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/1/18/Ookami_Mio_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/14mio.webp",
 			"Debut date": "December 7 2018",
 			"Birthday": "August 20th",
 			"Height": "165 cm",
@@ -152,7 +152,7 @@
 		},
 		{
 			"Name": "Nekomata Okayu",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/3/35/Nekomata_Okayu_img.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/15okayu.webp",
 			"Debut date": "April 6 2019",
 			"Birthday": "February 22nd",
 			"Height": "152 cm",
@@ -162,7 +162,7 @@
 		},
 		{
 			"Name": "Inugami Korone",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/c/c6/Inugami_Korone_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/16korone.webp",
 			"Debut date": "October 1 2019",
 			"Birthday": "October 1st",
 			"Height": "156 cm",
@@ -172,7 +172,7 @@
 		},
 		{
 			"Name": "Usada Pekora",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/9/95/Usada_Pekora_-_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/17pekora.webp",
 			"Debut date": "July 17 2019",
 			"Birthday": "January 12th",
 			"Height": "153 cm",
@@ -182,7 +182,7 @@
 		},
 		{
 			"Name": "Uruha Rushia",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/a/a2/Uruha_Rushia_-_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/18rushia.webp",
 			"Debut date": "July 18 2019",
 			"Birthday": "January 22nd",
 			"Height": "143 cm",
@@ -192,7 +192,7 @@
 		},
 		{
 			"Name": "Shiranui Flare",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/8/82/Shiranui_Flare_-_Portrait_02.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/19flare.webp",
 			"Debut date": "August 7 2019",
 			"Birthday": "April 21st",
 			"Height": "158 cm",
@@ -202,7 +202,7 @@
 		},
 		{
 			"Name": "Shirogane Noel",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/0/03/Shirogane_Noel_-_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/20noel.webp",
 			"Debut date": "August 8 2019",
 			"Birthday": "November 24th",
 			"Height": "158 cm",
@@ -212,7 +212,7 @@
 		},
 		{
 			"Name": "Houshou Marine",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/4/4e/Houshou_Marine_-_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/21marine.webp",
 			"Debut date": "August 11 2019",
 			"Birthday": "July 30th",
 			"Height": "150 cm",
@@ -222,7 +222,7 @@
 		},
 		{
 			"Name": "Himemori Luna",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/2/22/Himemori_Luna_-_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/22luna.webp",
 			"Debut date": "January 4 2020",
 			"Birthday": "October 10th",
 			"Height": "150 cm",
@@ -232,7 +232,7 @@
 		},
 		{
 			"Name": "Tokoyami Towa",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/3/35/Tokoyami_Towa_-_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/23towa.webp",
 			"Debut date": "January 3 2020",
 			"Birthday": "August 8th",
 			"Age": "17",
@@ -243,7 +243,7 @@
 		},
 		{
 			"Name": "Tsunomaki Watame",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/c/c6/Tsunomaki_Watame_-_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/24watame.webp",
 			"Debut date": "December 29 2019",
 			"Birthday": "June 6th",
 			"Height": "151 cm",
@@ -253,7 +253,7 @@
 		},
 		{
 			"Name": "Kiryu Coco",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/0/09/Kiryu_Coco_-_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/25coco.webp",
 			"Debut date": "December 28 2019",
 			"Birthday": "June 17",
 			"Age": "3501",
@@ -263,7 +263,7 @@
 		},
 		{
 			"Name": "Amane Kanata",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/6/6c/Amane_Kanata_-_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/26kanata.webp",
 			"Debut date": "December 27 2019",
 			"Birthday": "April 22nd",
 			"Height": "149 cm",
@@ -273,7 +273,7 @@
 		},
 		{
 			"Name": "Yukihana Lamy",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/e/ee/Yukihana_Lamy_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/27lamy.webp",
 			"Debut date": "August 12 2020",
 			"Birthday": "November 15th",
 			"Height": "158 cm",
@@ -282,7 +282,7 @@
 		},
 		{
 			"Name": "Omaru Polka",
-			"src": "https://static.wikia.nocookie.net/virtualyoutuber/images/3/33/Omaru_Polka_Portrait.png",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/28polka.webp",
 			"Debut": "August 16th 2020",
 			"Birthday": "January 30th",
 			"Height": "153cm",
