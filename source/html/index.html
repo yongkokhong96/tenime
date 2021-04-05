@@ -17,16 +17,18 @@
 		<p class="header spacing-bottom-50">Anime list</p>
 		<section class="list-control-container">
 			<p>Sort by:<p>
-			<select>
-				<option>Date</option>
-				<option>Name</option>
+			<select id="sortType">
+				<option value="rating">Rating</option>
+				<option value="status">Status</option>
+				<option value="name">Name</option>
 			</select>
-			<select class="order">
-				<option>Ascending order</option>
-				<option>Desecnding order</option>
+			<select id="orderType" class="order">
+				<option value="up">Ascending order</option>
+				<option value="down">Descending order</option>
 			</select>
 		</section>
 		<section id="animeList" class="anime-list">
+			
 		</section>
 	</div> 
 </body>
