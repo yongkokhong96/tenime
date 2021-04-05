@@ -5,90 +5,80 @@
 			"Seasons": "1",
 			"Episodes": "50/?",
 			"Status":"Ongoing",
-			"Rating":"5.6",
-			"Link":"title1.html",
-			"DefaultNumberInList":"1"
+			"Rating":"5",
+			"Link":"title1.html"
 		},
 		{
-			"Title":"Title 2",
+			"Title":"FE Title 2",
 			"Seasons": "3",
 			"Episodes": "52",
 			"Status":"Completed",
-			"Rating":"3.2",
-			"Link":"title2.html",
-			"DefaultNumberInList":"2"
+			"Rating":"8",
+			"Link":"title2.html"
 		},
 		{
-			"Title":"Title 3",
+			"Title":"GZ Title 3",
 			"Seasons": "3",
 			"Episodes": "52",
 			"Status":"Completed",
-			"Rating":"3.2",
-			"Link":"title1.html",
-			"DefaultNumberInList":"3"
+			"Rating":"7",
+			"Link":"title1.html"
 		},
 		{
-			"Title":"Title 4",
+			"Title":"GA Title 4",
+			"Seasons": "3",
+			"Episodes": "52",
+			"Status":"Ongoing",
+			"Rating":"7",
+			"Link":"title1.html"
+		},
+		{
+			"Title":"YE Title 5",
 			"Seasons": "3",
 			"Episodes": "52",
 			"Status":"Completed",
-			"Rating":"3.2",
-			"Link":"title1.html",
-			"DefaultNumberInList":"4"
+			"Rating":"3",
+			"Link":"title1.html"
 		},
 		{
-			"Title":"Title 5",
+			"Title":"HO Title 6",
 			"Seasons": "3",
 			"Episodes": "52",
 			"Status":"Completed",
-			"Rating":"3.2",
-			"Link":"title1.html",
-			"DefaultNumberInList":"5"
+			"Rating":"2",
+			"Link":"title1.html"
 		},
 		{
-			"Title":"Title 6",
+			"Title":"AH Title 7",
+			"Seasons": "3",
+			"Episodes": "52",
+			"Status":"Ongoing",
+			"Rating":"8",
+			"Link":"title1.html"
+		},
+		{
+			"Title":"SU Title 8",
 			"Seasons": "3",
 			"Episodes": "52",
 			"Status":"Completed",
-			"Rating":"3.2",
-			"Link":"title1.html",
-			"DefaultNumberInList":"6"
+			"Rating":"6",
+			"Link":"title1.html"
 		},
 		{
-			"Title":"Title 7",
+			"Title":"TE Title 9",
 			"Seasons": "3",
 			"Episodes": "52",
 			"Status":"Completed",
-			"Rating":"3.2",
-			"Link":"title1.html",
-			"DefaultNumberInList":"7"
+			"Rating":"3",
+			"Link":"title1.html"
 		},
 		{
-			"Title":"Title 8",
+			"Title":"PS Title 10",
 			"Seasons": "3",
 			"Episodes": "52",
 			"Status":"Completed",
-			"Rating":"3.2",
-			"Link":"title1.html",
-			"DefaultNumberInList":"8"
-		},
-		{
-			"Title":"Title 9",
-			"Seasons": "3",
-			"Episodes": "52",
-			"Status":"Completed",
-			"Rating":"3.2",
-			"Link":"title1.html",
-			"DefaultNumberInList":"9"
-		},
-		{
-			"Title":"Title 10",
-			"Seasons": "3",
-			"Episodes": "52",
-			"Status":"Completed",
-			"Rating":"3.2",
-			"Link":"title1.html",
-			"DefaultNumberInList":"10"
+			"Rating":"6",
+			"Link":"title1.html"
 		}
 		],
 	"TitleOneCharacterData": [
