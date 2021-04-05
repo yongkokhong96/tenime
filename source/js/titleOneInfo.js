@@ -66,7 +66,7 @@ function generateCharacters(){
 	var seasonDetails;
 	fetch("https://yongkokhong96.github.io/tenime/source/js/dataset.json").then(respond => respond.json())
 	.then(info => seasonDetails = info)
-	.then(() => addCharacters(seasonDetails["CharacterData"]))
+	.then(() => addCharacters(seasonDetails["TitleOneCharacterData"]))
 	.then(() => linkAdder(seasonDetails))
 }
 
@@ -93,9 +93,7 @@ function addCharacters(data){
 				<button data-toggle="modal" data-target="#myModal" class="character-name" id ="${idGen}">${data[counter].Name}</button>
 			</div>
 			`
-		if (counter < 29){
-			infoSection.innerHTML += characterSlot;
-		}
+		infoSection.innerHTML += characterSlot;
 		counter++
 	}
 }
@@ -119,7 +117,7 @@ function charInfo(test){
 	console.log(test + " Clicked")
 	fetch("https://yongkokhong96.github.io/tenime/source/js/dataset.json").then(respond => respond.json())
 	.then(info => charDetails = info)
-	.then(()=>characterInfoGet(charDetails["CharacterData"], test))
+	.then(()=>characterInfoGet(charDetails["TitleOneCharacterData"], test))
 	.then(()=>modalAssign())
 }
 
