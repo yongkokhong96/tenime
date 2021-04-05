@@ -159,17 +159,17 @@ function addCharacters(data){
 	var season = infoCurrentSeason.value
 	if (season == 1){
 		infoSection = document.getElementById("seasonOneCharacters");
-		season = data["CharacterData"][29]["Placeholder Images T2S3"][6]["Placeholder Character Images T2S1"]
+		season = data["Placeholder Character Images T2S1"]
 		console.log(season)
 	}
 	if (season == 2){
 		infoSection = document.getElementById("seasonTwoCharacters");
-		season = data["CharacterData"][29]["Placeholder Images T2S3"][6]["Placeholder Character Images T2S2"]
+		season = data["Placeholder Character Images T2S2"]
 		console.log(season)
 	}
 	if (season == 3){
 		infoSection = document.getElementById("seasonThreeCharacters");
-		season = data["CharacterData"][29]["Placeholder Images T2S3"][6]["Placeholder Character Images T2S3"]
+		season = data["Placeholder Character Images T2S3"]
 		console.log(season)
 	}
 	infoSection.innerHTML = "";
@@ -205,17 +205,17 @@ function addImages(data){
 	var season = infoCurrentSeason.value
 	if (season == 1){
 		imgSection = document.getElementById("seasonOneImages");
-		season = data["CharacterData"][29]["Placeholder Images T2S1"]
+		season = data["Placeholder Images T2S1"]
 		console.log(season)
 	}
 	if (season == 2){
 		imgSection = document.getElementById("seasonTwoImages");
-		season = data["CharacterData"][29]["Placeholder Images T2S2"]
+		season = data["Placeholder Images T2S2"]
 		console.log(season)
 	}
 	if (season == 3){
 		imgSection = document.getElementById("seasonThreeImages");
-		season = data["CharacterData"][29]["Placeholder Images T2S3"]
+		season = data["Placeholder Images T2S3"]
 		console.log(season)
 	}
 	imgSection.innerHTML = "";
