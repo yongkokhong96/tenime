@@ -29,7 +29,7 @@
 			"Seasons": "3",
 			"Episodes": "52",
 			"Status":"Ongoing",
-			"Rating":"7",
+			"Rating":"6",
 			"Link":"title1.html"
 		},
 		{
@@ -37,7 +37,7 @@
 			"Seasons": "3",
 			"Episodes": "52",
 			"Status":"Completed",
-			"Rating":"3",
+			"Rating":"5",
 			"Link":"title1.html"
 		},
 		{
@@ -45,7 +45,7 @@
 			"Seasons": "3",
 			"Episodes": "52",
 			"Status":"Completed",
-			"Rating":"2",
+			"Rating":"4",
 			"Link":"title1.html"
 		},
 		{
@@ -53,7 +53,7 @@
 			"Seasons": "3",
 			"Episodes": "52",
 			"Status":"Ongoing",
-			"Rating":"8",
+			"Rating":"3",
 			"Link":"title1.html"
 		},
 		{
@@ -61,7 +61,7 @@
 			"Seasons": "3",
 			"Episodes": "52",
 			"Status":"Completed",
-			"Rating":"6",
+			"Rating":"2",
 			"Link":"title1.html"
 		},
 		{
@@ -69,7 +69,7 @@
 			"Seasons": "3",
 			"Episodes": "52",
 			"Status":"Completed",
-			"Rating":"3",
+			"Rating":"1",
 			"Link":"title1.html"
 		},
 		{
@@ -77,14 +77,14 @@
 			"Seasons": "3",
 			"Episodes": "52",
 			"Status":"Completed",
-			"Rating":"6",
+			"Rating":"0",
 			"Link":"title1.html"
 		}
-		],
+	],
 	"TitleOneCharacterData": [
 		{
 			"Name": "Tokino Sora",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/00sora.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/00sora.webp",
 			"Debut date": "September 7 2017",
 			"Birthday": "May 15th",
 			"Height": "160 cm",
@@ -94,7 +94,7 @@
 		},
 		{
 			"Name": "Hoshimachi Suisei",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/01suisei.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/01suisei.webp",
 			"Debut date": "March 22 2018",
 			"Birthday": "March 22nd",
 			"Height": "160 cm",
@@ -104,7 +104,7 @@
 		},
 		{
 			"Name": "Sakura Miko",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/02miko.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/02miko.webp",
 			"Debut date": "August 1, 2018",
 			"Birthday": "March 5th",
 			"Height": "152 cm",
@@ -114,7 +114,7 @@
 		},
 		{
 			"Name": "Roboco",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/03roboco.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/03roboco.webp",
 			"Debut date": "March 4, 2018",
 			"Birthday": "May 23rd",
 			"Height": "154 cm",
@@ -124,7 +124,7 @@
 		},
 		{
 			"Name": "Yozora Mel",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/04mel.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/04mel.webp",
 			"Debut date": "May 13, 2018",
 			"Birthday": "October 31st",
 			"Height": "154 cm",
@@ -134,7 +134,7 @@
 		},
 		{
 			"Name": "Shirakami Fubuki",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/05fubuki.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/05fubuki.webp",
 			"Debut date": "June 1, 2018",
 			"Birthday": "October 5th",
 			"Height": "155 cm",
@@ -144,7 +144,7 @@
 		},
 		{
 			"Name": "Natsuiro Matsuri",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/06matsuri.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/06matsuri.webp",
 			"Debut date": "June 1 2018",
 			"Birthday": "July 22nd",
 			"Height": "152 cm",
@@ -154,7 +154,7 @@
 		},
 		{
 			"Name": "Aki Rosenthal",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/07aki.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/07aki.webp",
 			"Debut date": "June 1 2018",
 			"Birthday": "February 17",
 			"Height": "162 cm",
@@ -164,7 +164,7 @@
 		},
 		{
 			"Name": "Akai Haato",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/08haato.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/08haato.webp",
 			"Debut date": "June 2 2018",
 			"Birthday": "August 10",
 			"Age": "19",
@@ -175,7 +175,7 @@
 		},
 		{
 			"Name": "Yuzuki Choco",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/09choco.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/09choco.webp",
 			"Debut date": "September 4 2018",
 			"Birthday": "February 14th",
 			"Height": "165 cm",
@@ -185,7 +185,7 @@
 		},
 		{
 			"Name": "Oozora Subaru",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/10subaru.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/10subaru.webp",
 			"Debut date": "September 16 2018",
 			"Birthday": "July 2nd",
 			"Height": "154 cm",
@@ -195,7 +195,7 @@
 		},
 		{
 			"Name": "Nakiri Ayame",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/11ayame.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/11ayame.webp",
 			"Debut date": "September 3 2018",
 			"Birthday": "December 13th",
 			"Height": "152 cm",
@@ -205,7 +205,7 @@
 		},
 		{
 			"Name": "Murasaki Shion",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/12shion.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/12shion.webp",
 			"Debut date": "August 17 2018",
 			"Birthday": "December 8th",
 			"Height": "145 cm",
@@ -215,7 +215,7 @@
 		},
 		{
 			"Name": "Minato Aqua",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/13aqua.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/13aqua.webp",
 			"Debut date": "August 8 2018",
 			"Birthday": "December 1st",
 			"Height": "148 cm",
@@ -225,7 +225,7 @@
 		},
 		{
 			"Name": "Ookami Mio",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/14mio.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/14mio.webp",
 			"Debut date": "December 7 2018",
 			"Birthday": "August 20th",
 			"Height": "165 cm",
@@ -235,7 +235,7 @@
 		},
 		{
 			"Name": "Nekomata Okayu",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/15okayu.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/15okayu.webp",
 			"Debut date": "April 6 2019",
 			"Birthday": "February 22nd",
 			"Height": "152 cm",
@@ -245,7 +245,7 @@
 		},
 		{
 			"Name": "Inugami Korone",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/16korone.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/16korone.webp",
 			"Debut date": "October 1 2019",
 			"Birthday": "October 1st",
 			"Height": "156 cm",
@@ -255,7 +255,7 @@
 		},
 		{
 			"Name": "Usada Pekora",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/17pekora.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/17pekora.webp",
 			"Debut date": "July 17 2019",
 			"Birthday": "January 12th",
 			"Height": "153 cm",
@@ -265,7 +265,7 @@
 		},
 		{
 			"Name": "Uruha Rushia",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/18rushia.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/18rushia.webp",
 			"Debut date": "July 18 2019",
 			"Birthday": "January 22nd",
 			"Height": "143 cm",
@@ -275,7 +275,7 @@
 		},
 		{
 			"Name": "Shiranui Flare",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/19flare.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/19flare.webp",
 			"Debut date": "August 7 2019",
 			"Birthday": "April 21st",
 			"Height": "158 cm",
@@ -285,7 +285,7 @@
 		},
 		{
 			"Name": "Shirogane Noel",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/20noel.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/20noel.webp",
 			"Debut date": "August 8 2019",
 			"Birthday": "November 24th",
 			"Height": "158 cm",
@@ -295,7 +295,7 @@
 		},
 		{
 			"Name": "Houshou Marine",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/21marine.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/21marine.webp",
 			"Debut date": "August 11 2019",
 			"Birthday": "July 30th",
 			"Height": "150 cm",
@@ -305,7 +305,7 @@
 		},
 		{
 			"Name": "Himemori Luna",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/22luna.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/22luna.webp",
 			"Debut date": "January 4 2020",
 			"Birthday": "October 10th",
 			"Height": "150 cm",
@@ -315,7 +315,7 @@
 		},
 		{
 			"Name": "Tokoyami Towa",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/23towa.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/23towa.webp",
 			"Debut date": "January 3 2020",
 			"Birthday": "August 8th",
 			"Age": "17",
@@ -326,7 +326,7 @@
 		},
 		{
 			"Name": "Tsunomaki Watame",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/24watame.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/24watame.webp",
 			"Debut date": "December 29 2019",
 			"Birthday": "June 6th",
 			"Height": "151 cm",
@@ -336,7 +336,7 @@
 		},
 		{
 			"Name": "Kiryu Coco",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/25coco.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/25coco.webp",
 			"Debut date": "December 28 2019",
 			"Birthday": "June 17",
 			"Age": "3501",
@@ -346,7 +346,7 @@
 		},
 		{
 			"Name": "Amane Kanata",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/26kanata.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/26kanata.webp",
 			"Debut date": "December 27 2019",
 			"Birthday": "April 22nd",
 			"Height": "149 cm",
@@ -356,7 +356,7 @@
 		},
 		{
 			"Name": "Yukihana Lamy",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/27lamy.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/27lamy.webp",
 			"Debut date": "August 12 2020",
 			"Birthday": "November 15th",
 			"Height": "158 cm",
@@ -365,13 +365,407 @@
 		},
 		{
 			"Name": "Omaru Polka",
-			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/28polka.webp",
+			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/28polka.webp",
 			"Debut": "August 16th 2020",
 			"Birthday": "January 30th",
 			"Height": "153cm",
 			"Fanbase name": "Omaruza",
 			"Description": " Japanese Virtual YouTuber associated with hololive, as part of its fifth generation of VTubers. A circus performer who joined hololive in hopes of becoming the ringmaster of the VTuber world. She enjoys wowing audiences with acrobatics, and lives by the words, 'When the going gets tough, the tough get going.' If you ask her, her occasional mess ups are also part of her charm."
-		}], 
+		}
+	], 
+	"TitleOneEpisodeData":[
+		{
+			"Number":"1",
+			"Name":"Last Time, on Love Live!",
+			"Link":"https://www.youtube.com/watch?v=UVncAW3h45E"
+		},
+		{
+			"Number":"2",
+			"Name":"In VR, ARM Waves YOU",
+			"Link":"https://www.youtube.com/watch?v=wj9GO6F0pOM"
+		},
+		{
+			"Number":"3",
+			"Name":"Production Office Packing HEAT",
+			"Link":"https://www.youtube.com/watch?v=xHWN_nIHbU"
+		},
+		{
+			"Number":"3",
+			"Name":"Dying for Hiko-boshi",
+			"Link":"https://www.youtube.com/watch?v=fzIeI3YjWAI"
+		},
+		{
+			"Number":"4",
+			"Name":"Surrounded by Bewbs",
+			"Link":"https://www.youtube.com/watch?v=4nE1Q_lawyw"
+		},
+		{
+			"Number":"5",
+			"Name":"Faster than a Speeding Bullet【Gets Ticket】",
+			"Link":"https://www.youtube.com/watch?v=Yprgi11h0sk"
+		},
+		{
+			"Number":"6",
+			"Name":"Sharpedo VS Hololive",
+			"Link":"https://www.youtube.com/watch?v=ycxDOZOgnTY"
+		},
+		{
+			"Number":"7",
+			"Name":"BEETing a Beetle",
+			"Link":"https://www.youtube.com/watch?v=a7HTAa-iR9k"
+		},
+		{
+			"Number":"8",
+			"Name":"And Then There Were None 【Horror】",
+			"Link":"https://www.youtube.com/watch?v=v8siufikYPg"
+		},
+		{
+			"Number":"9",
+			"Name":"The Twin-tail Heist",
+			"Link":"https://www.youtube.com/watch?v=4l1jdGILjPw"
+		},
+		{
+			"Number":"10",
+			"Name":"The Three Musketeers of Dogs are here",
+			"Link":"https://www.youtube.com/watch?v=7v1rw3kL89M"
+		},
+		{
+			"Number":"11",
+			"Name":"Big Brawl with High Potion and Tentacles",
+			"Link":"https://www.youtube.com/watch?v=jnruFkwWZDU"
+		},
+		{
+			"Number":"12",
+			"Name":"Chaos. Lots of Chaos.",
+			"Link":"https://www.youtube.com/watch?v=KjARsYeUq1Q"
+		},
+		{
+			"Number":"13",
+			"Name":"Down the Doughnut Hole",
+			"Link":"https://www.youtube.com/watch?v=XIli-chomNk"
+		},
+		{
+			"Number":"14",
+			"Name":"Extraordinary behavior of the two",
+			"Link":"https://www.youtube.com/watch?v=fUdHLOxz3GM"
+		},
+		{
+			"Number":"15",
+			"Name":"The Snap!",
+			"Link":"https://www.youtube.com/watch?v=eA268DT2BvY"
+		},
+		{
+			"Number":"16",
+			"Name":"When Cooking gets Fishy",
+			"Link":"https://www.youtube.com/watch?v=GiCzxT2j7yk"
+		},
+		{
+			"Number":"17",
+			"Name":"Buried in Wall. Send Help",
+			"Link":"https://www.youtube.com/watch?v=MuliaE83B_I"
+		},
+		{
+			"Number":"18",
+			"Name":"Death Should Not Have Taken Thee!",
+			"Link":"https://www.youtube.com/watch?v=kUxl0rkmD08"
+		},
+		{
+			"Number":"19",
+			"Name":"Of Broken Dreams",
+			"Link":"https://www.youtube.com/watch?v=ebyp__4vy10"
+		},
+		{
+			"Number":"20",
+			"Name":"What happens when Hololive participates in the Olympics",
+			"Link":"https://www.youtube.com/watch?v=MVBGIioPGBg"
+		},
+		{
+			"Number":"21",
+			"Name":"The Tragedy of Modern Society",
+			"Link":"https://www.youtube.com/watch?v=3dG5xMBXdwI"
+		},
+		{
+			"Number":"22",
+			"Name":"Prank goes Nonstop",
+			"Link":"https://www.youtube.com/watch?v=tMqcIXNtdh8"
+		},
+		{
+			"Number":"23",
+			"Name":"What If You Were King?",
+			"Link":"https://www.youtube.com/watch?v=vPgie-tpVHU"
+		},
+		{
+			"Number":"24",
+			"Name":"Fishing Championship",
+			"Link":"https://www.youtube.com/watch?v=saPtg9fdWYg"
+		},
+		{
+			"Number":"25",
+			"Name":"Cosplay Girl vs Green Thingie",
+			"Link":"https://www.youtube.com/watch?v=9-cmxJQG4t4"
+		},
+		{
+			"Number":"26",
+			"Name":"The Secret Route to the hololive Office",
+			"Link":"https://www.youtube.com/watch?v=vT19X_tTM2U"
+		},
+		{
+			"Number":"27",
+			"Name":"Ever Heard of Human Tetris?",
+			"Link":"https://www.youtube.com/watch?v=_B-Q10J9KSg"
+		},
+		{
+			"Number":"28",
+			"Name":"Hansel and Gretel in 60 Seconds",
+			"Link":"https://www.youtube.com/watch?v=Cgf-qkaDZAU"
+		},
+		{
+			"Number":"29",
+			"Name":"The Greetings Championship!",
+			"Link":"https://www.youtube.com/watch?v=iGNBjxe7_2g"
+		},
+		{
+			"Number":"30",
+			"Name":"Remote Workouts in 60 Seconds!",
+			"Link":"https://www.youtube.com/watch?v=PJf3XZ636-0"
+		},
+		{
+			"Number":"31",
+			"Name":"Get Into Tokyu U!",
+			"Link":"https://www.youtube.com/watch?v=hnAGiLD8hEY"
+		},
+		{
+			"Number":"32",
+			"Name":"We Tried Kusaya",
+			"Link":"https://www.youtube.com/watch?v=hUCoGATqHNU"
+		},
+		{
+			"Number":"33",
+			"Name":"Chase Like You Mean It!",
+			"Link":"https://www.youtube.com/watch?v=q-MzByHv7GY"
+		},
+		{
+			"Number":"34",
+			"Name":"Who Landed the Fatal Blow? Passing the Buck!",
+			"Link":"https://www.youtube.com/watch?v=MBbOFD2lOoo"
+		},
+		{
+			"Number":"35",
+			"Name":"Annihilate 'em All!",
+			"Link":"https://www.youtube.com/watch?v=NU4RAfwXL8Q"
+		},
+		{
+			"Number":"36",
+			"Name":"Frozen Out in the Bomb Disposal Squad",
+			"Link":"https://www.youtube.com/watch?v=d2EAL9seVK4"
+		},
+		{
+			"Number":"37",
+			"Name":"My First Errand",
+			"Link":"https://www.youtube.com/watch?v=3IuYMr-41bM"
+		},
+		{
+			"Number":"38",
+			"Name":"How to Make Takoyaki",
+			"Link":"https://www.youtube.com/watch?v=o3tp4kQ081E"
+		},
+		{
+			"Number":"39",
+			"Name":"You've Been Prank'd",
+			"Link":"https://www.youtube.com/watch?v=dMAyQAiv8MQ"
+		},
+		{
+			"Number":"40",
+			"Name":"Grant My Wish",
+			"Link":"https://www.youtube.com/watch?v=KSgTX0YF5NY"
+		},
+		{
+			"Number":"41",
+			"Name":"Movie Appreciation Night",
+			"Link":"https://www.youtube.com/watch?v=_GlqT6O0UVo"
+		},
+		{
+			"Number":"42",
+			"Name":"The Idiots' Guide to Making People Mad",
+			"Link":"https://www.youtube.com/watch?v=8GLSHHLP91s"
+		},
+		{
+			"Number":"43",
+			"Name":"Wash Everything Anew! Nagashi Somen Battle!",
+			"Link":"https://www.youtube.com/watch?v=4MJQxT5-Zhc"
+		},
+		{
+			"Number":"44",
+			"Name":"Sneak Peak",
+			"Link":"https://www.youtube.com/watch?v=vVDcEsz5k_Q"
+		},
+		{
+			"Number":"45",
+			"Name":"Supersized Me",
+			"Link":"https://www.youtube.com/watch?v=TlH0in-TEFI"
+		},
+		{
+			"Number":"46",
+			"Name":"Go Beyond the Suffering! Endurance Contest!",
+			"Link":"https://www.youtube.com/watch?v=Pa10pmlbXB4"
+		},
+		{
+			"Number":"47",
+			"Name":"Take Over the Animal Kingdom",
+			"Link":"https://www.youtube.com/watch?v=YpTAqjljvzg"
+		},
+		{
+			"Number":"48",
+			"Name":"Let's Form a Band!",
+			"Link":"https://www.youtube.com/watch?v=IB-41BrvMfI"
+		},
+		{
+			"Number":"49",
+			"Name":"Curry Meshi VS Hololive",
+			"Link":"https://www.youtube.com/watch?v=p554IIGY8Dw"
+		},
+		{
+			"Number":"50",
+			"Name":"How to Raise a Chick",
+			"Link":"https://www.youtube.com/watch?v=zzoZr-dNlks"
+		},
+		{
+			"Number":"51",
+			"Name":"A Smart Way to Use Pigtails",
+			"Link":"https://www.youtube.com/watch?v=ob_atuYtldQ"
+		},
+		{
+			"Number":"52",
+			"Name":"Gotta Break It Down!",
+			"Link":"https://www.youtube.com/watch?v=7FDwTV2AanI"
+		},
+		{
+			"Number":"53",
+			"Name":"What Is Wrong With You?",
+			"Link":"https://www.youtube.com/watch?v=Mbf2qj8Amxg"
+		},
+		{
+			"Number":"54",
+			"Name":"Ramen Stall in an Awful Location",
+			"Link":"https://www.youtube.com/watch?v=-IYGrFsXguc"
+		},
+		{
+			"Number":"55",
+			"Name":"Help! I'll be Burned!",
+			"Link":"https://www.youtube.com/watch?v=hlH6iNcEvq8"
+		},
+		{
+			"Number":"56",
+			"Name":"Survival of the Fittest",
+			"Link":"https://www.youtube.com/watch?v=y0yB6bXuf1E"
+		},
+		{
+			"Number":"57",
+			"Name":"How to Invoke a Kaiju",
+			"Link":"https://www.youtube.com/watch?v=ljZwKRVrMps"
+		},
+		{
+			"Number":"58",
+			"Name":"Help! I'm stuck!",
+			"Link":"https://www.youtube.com/watch?v=a8CK7s_VZvo"
+		},
+		{
+			"Number":"59",
+			"Name":"Halloween Hangover",
+			"Link":"https://www.youtube.com/watch?v=UFzZbd-O1MQ"
+		},
+		{
+			"Number":"60",
+			"Name":"This Is hololive's Year-End! ",
+			"Link":"https://www.youtube.com/watch?v=NL-WJy8THpA"
+		},
+		{
+			"Number":"61",
+			"Name":"I've Solved the Mystery of the Idol Agency!",
+			"Link":"https://www.youtube.com/watch?v=i_9xsmRez4Y"
+		},
+		{
+			"Number":"62",
+			"Name":"What Happens When You Cater to Whims",
+			"Link":"https://www.youtube.com/watch?v=sif0cB8BnS8"
+		},
+		{
+			"Number":"63",
+			"Name":"The Difference Between Coffee and Mud",
+			"Link":"https://www.youtube.com/watch?v=KAbjx24XbCs"
+		},
+		{
+			"Number":"64",
+			"Name":"How to Become a Cat",
+			"Link":"https://www.youtube.com/watch?v=uhbGec_6mfQ"
+		},
+		{
+			"Number":"65",
+			"Name":"Polar Bear vs. Noble Girl",
+			"Link":"https://www.youtube.com/watch?v=lz08zMLUtEc"
+		},
+		{
+			"Number":"66",
+			"Name":"Grown-Ups on Tricycles",
+			"Link":"https://www.youtube.com/watch?v=Acw8qh9lOGU"
+		},
+		{
+			"Number":"67",
+			"Name":"Help! We'll be Fired!",
+			"Link":"https://www.youtube.com/watch?v=2wOBwf_vsTw"
+		},
+		{
+			"Number":"68",
+			"Name":"Maidealism",
+			"Link":"https://www.youtube.com/watch?v=6NSdYeW4cRc"
+		},
+		{
+			"Number":"69",
+			"Name":"Going Wild In a Shopping Mall",
+			"Link":"https://www.youtube.com/watch?v=CGUIL02BtQs"
+		},
+		{
+			"Number":"70",
+			"Name":"Sitting Duck",
+			"Link":"https://www.youtube.com/watch?v=u-Fvkyp8I4c"
+		},
+		{
+			"Number":"71",
+			"Name":"The Perfect Cover-Up",
+			"Link":"https://www.youtube.com/watch?v=ChEu7qkztNg"
+		},
+		{
+			"Number":"72",
+			"Name":"Speak of the Devil",
+			"Link":"https://www.youtube.com/watch?v=4zlFqLoErkk"
+		},
+		{
+			"Number":"73",
+			"Name":"I Refuse to Lose to You",
+			"Link":"https://www.youtube.com/watch?v=VopFRgAJo_I"
+		},
+		{
+			"Number":"74",
+			"Name":"Really Wanna Eat You-Know-What! ",
+			"Link":"https://www.youtube.com/watch?v=Hs5wAN_AeBo"
+		}
+	],
+	"TitleOneImageData":[
+		{
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/holo-cover.png"
+		},
+		{
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/holo-logo.png"
+		}
+	],
+	"TitleOneVideoData":[
+		{
+			"fullEmbed":"<iframe class= \"info-video\" src=\"https://www.youtube-nocookie.com/embed/Jnu8xZpHj00\" title=\"YouTube video player\" frameborder=\"0\" allowfullscreen></iframe>"
+		},
+		{
+			"fullEmbed":"<iframe class= \"info-video\" src=\"https://www.youtube-nocookie.com/embed/lYDuTqyD2ps\" title=\"YouTube video player\" frameborder=\"0\" allowfullscreen></iframe>"
+		}
+	],
 	"Placeholder Images T2S1": [
 		{
 			"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
