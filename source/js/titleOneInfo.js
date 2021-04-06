@@ -1,10 +1,11 @@
 //Functions for changing the info displayed based on season 
 
-window.addEventListener("load", generateCharacters)
+window.addEventListener("load", loadAll)
 document.getElementById("seasonSelector").value = 1;
-var infoCurrentSeason = document.getElementById("seasonSelector")
-infoCurrentSeason.addEventListener("change", generateCharacters)
 
+//The 2 lines of code below only works on anime with 2 or more seasons
+var infoCurrentSeason = document.getElementById("seasonSelector")
+infoCurrentSeason.addEventListener("change", loadAll)
 
 //Functions for switching between infomation pages
 
@@ -20,6 +21,7 @@ infoVideo.addEventListener("click", showVideo)
 
 function showInfo(){
 	console.log("1a");
+	videoRemove()
 	if (infoCurrentSeason.value == 1){
 		console.log("INFO ONE");
 		document.getElementById("detailsSeasonOne").style.display = "block";
@@ -31,6 +33,7 @@ function showInfo(){
 
 function showEpisode(){
 	console.log("2b");
+	videoRemove()
 	if (infoCurrentSeason.value == 1){
 		console.log("EPISODE ONE");
 		document.getElementById("detailsSeasonOne").style.display = "none";
@@ -42,6 +45,7 @@ function showEpisode(){
 
 function showImage(){
 	console.log("3c")
+	videoRemove()
 	if (infoCurrentSeason.value == 1){
 		document.getElementById("detailsSeasonOne").style.display = "none";
 		document.getElementById("episodesSeasonOne").style.display = "none";
@@ -52,6 +56,8 @@ function showImage(){
 
 function showVideo(){
 	console.log("4d")
+	videoRemove()
+	getVideoData()
 	if (infoCurrentSeason.value == 1){
 		document.getElementById("detailsSeasonOne").style.display = "none";
 		document.getElementById("episodesSeasonOne").style.display = "none";
@@ -62,54 +68,45 @@ function showVideo(){
 
 //Generate characters for each season
 
-function generateCharacters(){
+function getCharacterData(){
 	var seasonDetails;
 	fetch("https://yongkokhong96.github.io/tenime/source/js/dataset.json").then(respond => respond.json())
 	.then(info => seasonDetails = info)
 	.then(() => addCharacters(seasonDetails["TitleOneCharacterData"]))
 	.then(() => linkAdder(seasonDetails))
+	//.then(() => console.log(seasonDetails["CharacterData"]))
 }
 
-const noImage = "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-var infoSection = document.getElementById("seasonOneCharacters");
-var counter = 0
-
 function addCharacters(data){
-	counter = 0;
-	
-	var season = infoCurrentSeason.value
+	var infoSection = document.getElementById("seasonOneCharacters");
+	//var season = infoCurrentSeason.value
 	infoSection.innerHTML = "";
-	while(counter < data.length){
-		console.log("Okay" + data)
-		console.log(data)
-		var idGen = data[counter].Name
+	for(i in data){
+		//console.log("Okay" + data)
+		//console.log(data)
+		var idGen = data[i].Name
 		//idGen = idGen.split(" ").join("")
 		//console.log(idGen)
 		var characterSlot = `
 			<div>
 				<div class="character-slot">
-					<img class=character-img src=${data[counter].src}>
+					<img class=character-img src=${data[i].src}>
 				</div>
-				<button data-toggle="modal" data-target="#myModal" class="character-name" id ="${idGen}">${data[counter].Name}</button>
+				<button data-toggle="modal" data-target="#myModal" class="character-name" id ="${idGen}">${data[i].Name}</button>
 			</div>
 			`
 		infoSection.innerHTML += characterSlot;
-		counter++
 	}
 }
 
 function linkAdder(data){
 	var characterElement = document.querySelectorAll(".character-name")
-	var numberOfCharacters = characterElement.length
-	var counter = 0;
-	while (counter != numberOfCharacters){
-		var modifyThis = document.getElementById(characterElement[counter].id);
-		modifyThis.setAttribute("onclick", `charInfo("${characterElement[counter].id}")`);
-		console.log(modifyThis.id);
+	for (i in characterElement){
+		var modifyThis = document.getElementById(characterElement[i].id);
+		modifyThis.setAttribute("onclick", `charInfo("${characterElement[i].id}")`);
+		//console.log(modifyThis.id);
 		//characterElement.addEventListener("click",charClick);
-		counter++;
 	}
-	console.log("Characters: " + numberOfCharacters)
 }
 
 function charInfo(test){
@@ -121,6 +118,7 @@ function charInfo(test){
 	.then(()=>modalAssign())
 }
 
+//Info for character detail boxes
 function characterInfoGet(incomingData, targetName){
 	console.log(incomingData)
 	console.log(targetName)
@@ -156,6 +154,7 @@ function characterInfoGet(incomingData, targetName){
 					`
 					var targetContainer = document.getElementById("characterInfoBox")
 					//var targetContainer = document.body
+					console.log("HERE")
 					targetContainer.innerHTML+= charInfoLine
 				}
 				counterTwo++;
@@ -166,6 +165,8 @@ function characterInfoGet(incomingData, targetName){
 		counter++;
 	}
 }
+
+//Creating onclick functions for modal boxes on characters
 
 function modalAssign(){
 	console.log("modalAssign")
@@ -179,4 +180,73 @@ function closeModal(){
 	var targetModal = document.getElementById(id="myModal")
 	targetModal.style.display = "none"
 	console.log("closed")
+}
+
+//Episode list generator
+
+function getEpisodeData(){
+	var episodeInfo
+	fetch("https://yongkokhong96.github.io/tenime/source/js/dataset.json").then(respond => respond.json())
+	.then(info => episodeInfo = info["TitleOneEpisodeData"])
+	.then(()=>addEpisodes(episodeInfo))
+}
+
+function addEpisodes(data){
+	console.log(data)
+	episodeListElement = document.getElementById("episodeListSeasonOne")
+	for (i in data){
+		var episodeRow = `
+		<p class="list-item">${data[i].Number}</p>
+		<p class="list-item">${data[i].Name}</p>
+		<p class="list-item"><a href="${data[i].Link}">Link</a></p>
+		`
+		episodeListElement.innerHTML += episodeRow
+	}
+}
+
+//Image Tab generator
+
+function getImageData(){
+	var imageInfo
+	fetch("https://yongkokhong96.github.io/tenime/source/js/dataset.json").then(respond => respond.json())
+	.then(info => imageInfo = info["TitleOneImageData"])
+	.then(() =>addImages(imageInfo))
+}
+
+function addImages(data){
+	imageContainerElement = document.getElementById("imageContainerSeasonOne")
+	for (i in data){
+		var imageSlot = `<img class= "poster-image" src="${data[i].src}">`
+		imageContainerElement.innerHTML += imageSlot
+	}
+}
+
+//Video Tab generator
+
+function getVideoData(){
+	var videoInfo
+	fetch("https://yongkokhong96.github.io/tenime/source/js/dataset.json").then(respond => respond.json())
+	.then(info => videoInfo = info["TitleOneVideoData"])
+	.then(() =>addVideos(videoInfo))
+}
+
+function addVideos(data){
+	videoContainerElement = document.getElementById("videoContainerSeasonOne")
+	for (i in data){
+		var videoSlot =`${data[i].fullEmbed}`
+		videoContainerElement.innerHTML  += videoSlot
+	}
+}
+
+//Prevent videos continuing to play while the user is on other sections of webpage
+function videoRemove(){
+	var videoElement = document.getElementById("videoContainerSeasonOne")
+	videoElement.innerHTML = ""
+}
+//Load ALL
+function loadAll(){
+	getCharacterData()
+	getEpisodeData()
+	getImageData()
+	getVideoData()
 }
