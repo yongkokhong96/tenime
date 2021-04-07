@@ -19,6 +19,7 @@
 	flex-direction: row;
 	margin-bottom: 2rem;
 	padding-left: 15px;
+	padding-right: 15px;
 	font-size: 18px;
 	font-weight: bold;
 	color: white;
@@ -31,6 +32,7 @@
 	align-content: center;
 	cursor: pointer;
 }
+
 
 .navbar-item:hover{
 	color: black;
@@ -48,7 +50,7 @@
 
 .anime-list{
 	display: grid;
-	grid-template-columns: 5% 80% 5% auto;
+	grid-template-columns: 5% 75% 8% auto;
 }
 
 .anime-list-test{
@@ -61,26 +63,48 @@
 	display: flex;
 }
 
+.list-header{
+	font-weight: 600;
+}
+
 .list-header, .list-item{
-	background-color: rgb(200,200,200);
+	border: 1px solid rgb(100, 100, 100);
+	background-color: rgb(200, 200, 200);
 	padding: 1rem 0rem 1rem 1rem;
 	margin:0px;
 }
 
 .list-item{
-	background-color: rgb(230,230,230);
+	background-color: rgb(231, 231, 231);
 }
 
 .list-title{
 	max-width:500px;
 }
 
+
+
 /*
 	elements in anime details page 
 */
 .episode-list{
 	display: grid;
-	grid-template-columns: 10% 85% auto;
+	grid-template-columns: 4% 88% 5%;
+}
+
+.episode-list-header{
+	font-weight: 600;
+}
+
+.episode-list-item{
+	background-color: rgb(231, 231, 231);
+}
+
+.episode-list-header, .episode-list-item{
+	border: 1px solid rgb(100, 100, 100);
+	background-color: rgb(200, 200, 200);
+	padding: 1rem 1rem 1rem 1rem;
+	margin:0px;
 }
 
 .seasonVisible{
@@ -91,13 +115,17 @@
 	display: none;
 }
 
+.season-selector-text{
+	margin: 5px 0.5em 5px 0.5em;
+}
 .cover-img{
 	max-height: 400px;
 	margin-bottom: 1rem;
 }
 
 .header-small{
-	font-size: 24px;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 .spacing-bottom-50{
@@ -135,7 +163,7 @@
 	transition: 0.3s;
 }
 
-.character-img:hover{
+.character-img:hover {
 	box-shadow: 0px 0px 10px rgb(0,0,0,.5);
 	transform: scale(1.2,1.2);
 	max-width: 140px;
@@ -149,7 +177,7 @@
 	margin-left: 10%;
 	margin-bottom: 5rem;
 	height : 50px;
-	font-family: "Times New Roman";
+	font-weight: 500;
 	font-size: 1em;
 	background: none;
 	border: none;
@@ -190,11 +218,10 @@
 
 .char-info-container{
 	display: grid;
-	grid-template-columns: auto 90%;
 }
 .character-info-image{
-	height: 380px;
-	width: 380px;
+	max-height: 330px;
+	max-width: 330px;
 	border:3px solid black;
 }
 
@@ -204,12 +231,7 @@
 	text-align: center;
 }
 
-.small-header{
-	font-size: 18px;
-	font-weight: bold;
-}
-
-.modal {
+.modal-custom{
 	display: block;
 	position: fixed; 
 	z-index: 1; 
@@ -222,12 +244,12 @@
 	background-color: rgba(0,0,0,0.6); 
   }
   
-  .modal-content {
+  .modal-custom-content {
 	background-color: #fefefe;
 	margin: 15% auto; 
 	padding: 20px;
 	border: 2px solid rgb(53, 53, 53);
-	width: 20%; 
+	max-width: 380px; 
 	
   }
   
