@@ -3,7 +3,7 @@
 window.addEventListener("load", loadAll)
 document.getElementById("seasonSelector").value = 1;
 
-//The 2 lines of code below only works on anime with 2 or more seasons
+//The 2 lines of code below only works on anime with at least 2 seasons
 var infoCurrentSeason = document.getElementById("seasonSelector")
 infoCurrentSeason.addEventListener("change", loadAll)
 
@@ -65,16 +65,49 @@ function showVideo(){
 		document.getElementById("videosSeasonOne").style.display = "block";
 	}
 }
+//Testing dataset
+const dataSource = "../js/dataset.json"
+//Live dataset
+//const dataSource = "https://yongkokhong96.github.io/tenime/source/js/dataset.json"
 
+//Add sypnosis
+function getAnimeData(){
+	var animeDetails;
+	fetch(dataSource).then(respond => respond.json())
+	.then(info => animeDetails = info)
+	.then(() => console.log(animeDetails["TitleOneSeasonOneAnimeData"]))
+	.then(() => addSypnosis(animeDetails["TitleOneSeasonOneAnimeData"]))
+}
+
+function addSypnosis(data){
+	var sypnosisElement = document.getElementById("synopsisPara")
+	var titleElement = document.getElementById("animeTitle")
+	console.log(data.TitleName)
+	document.getElementById("pageHead").innerHTML = `${data[0].TitleName} - Tenime`
+	titleElement.innerText = `${data[0].TitleName}`
+	sypnosisElement.innerHTML += `${data[0].Sypnosis}`
+}
 //Generate characters for each season
 
 function getCharacterData(){
-	var seasonDetails;
-	fetch("https://yongkokhong96.github.io/tenime/source/js/dataset.json").then(respond => respond.json())
-	.then(info => seasonDetails = info)
-	.then(() => addCharacters(seasonDetails["TitleOneCharacterData"]))
-	.then(() => linkAdder(seasonDetails))
-	//.then(() => console.log(seasonDetails["CharacterData"]))
+	var currentSeason = infoCurrentSeason.value
+	var characterDetails;
+	var section;
+	fetch(dataSource).then(respond => respond.json())
+	.then(info => characterDetails = info)
+	.then(section = charSeasonSelect(currentSeason))
+	.then(() => addCharacters(characterDetails[section]))
+	.then(() => linkAdder(characterDetails))
+	//.then(() => console.log(characterDetails["CharacterData"]))
+}
+
+function charSeasonSelect(season){
+	console.log("Season is " + season)
+	var section
+	if (season == 1){
+		section = "TitleOneSeasonOneCharacterData"
+	}
+	return section
 }
 
 function addCharacters(data){
@@ -109,12 +142,12 @@ function linkAdder(data){
 	}
 }
 
-function charInfo(test){
+function charInfo(characterName){
 	var charDetails
-	console.log(test + " Clicked")
-	fetch("https://yongkokhong96.github.io/tenime/source/js/dataset.json").then(respond => respond.json())
+	console.log(characterName + " Clicked")
+	fetch(dataSource).then(respond => respond.json())
 	.then(info => charDetails = info)
-	.then(()=>characterInfoGet(charDetails["TitleOneCharacterData"], test))
+	.then(()=>characterInfoGet(charDetails["TitleOneSeasonOneCharacterData"], characterName))
 	.then(()=>modalAssign())
 }
 
@@ -133,11 +166,12 @@ function characterInfoGet(incomingData, targetName){
 			while (counterTwo != infoContain.length){
 				if (counterTwo == 0){
 					var charImageLine = `
-					<div id="myModal" class="modal">
-					<div class="modal-content">
+					<div id="myModal" class="modal-custom">
+					<div class="modal-custom-content">
 						<span id="modalClose" class="close">close</span>
-						<img src =${infoContain[1][1]} class="character-info-image">
+						
 						<div id="characterInfoBox">
+							<img src =${infoContain[1][1]} class="character-info-image">
 							<p class="character-info-name">${infoContain[counterTwo][1]}</p>
 						</div>
 					</div>
@@ -186,8 +220,8 @@ function closeModal(){
 
 function getEpisodeData(){
 	var episodeInfo
-	fetch("https://yongkokhong96.github.io/tenime/source/js/dataset.json").then(respond => respond.json())
-	.then(info => episodeInfo = info["TitleOneEpisodeData"])
+	fetch(dataSource).then(respond => respond.json())
+	.then(info => episodeInfo = info["TitleOneSeasonOneEpisodeData"])
 	.then(()=>addEpisodes(episodeInfo))
 }
 
@@ -196,9 +230,9 @@ function addEpisodes(data){
 	episodeListElement = document.getElementById("episodeListSeasonOne")
 	for (i in data){
 		var episodeRow = `
-		<p class="list-item">${data[i].Number}</p>
-		<p class="list-item">${data[i].Name}</p>
-		<p class="list-item"><a href="${data[i].Link}">Link</a></p>
+		<p class="episode-list-item">${data[i].Number}</p>
+		<p class="episode-list-item">${data[i].Name}</p>
+		<p class="episode-list-item"><a href="${data[i].Link}">Link</a></p>
 		`
 		episodeListElement.innerHTML += episodeRow
 	}
@@ -208,9 +242,10 @@ function addEpisodes(data){
 
 function getImageData(){
 	var imageInfo
-	fetch("https://yongkokhong96.github.io/tenime/source/js/dataset.json").then(respond => respond.json())
-	.then(info => imageInfo = info["TitleOneImageData"])
+	fetch(dataSource).then(respond => respond.json())
+	.then(info => imageInfo = info["TitleOneSeasonOneImageData"])
 	.then(() =>addImages(imageInfo))
+	.then(() =>addCover(imageInfo))
 }
 
 function addImages(data){
@@ -221,12 +256,18 @@ function addImages(data){
 	}
 }
 
+function addCover(data){
+	console.log(data)
+	coverContainerElement = document.getElementById("coverContainerSeasonOne")
+	coverContainerElement.innerHTML += `<img class="cover-img" src="${data[0].src}">`
+}
+
 //Video Tab generator
 
 function getVideoData(){
 	var videoInfo
-	fetch("https://yongkokhong96.github.io/tenime/source/js/dataset.json").then(respond => respond.json())
-	.then(info => videoInfo = info["TitleOneVideoData"])
+	fetch("../js/dataset.json").then(respond => respond.json())
+	.then(info => videoInfo = info["TitleOneSeasonOneVideoData"])
 	.then(() =>addVideos(videoInfo))
 }
 
@@ -238,13 +279,14 @@ function addVideos(data){
 	}
 }
 
-//Prevent videos continuing to play while the user is on other sections of webpage
+//Prevent videos from continuing to play while the user is on other sections of webpage
 function videoRemove(){
 	var videoElement = document.getElementById("videoContainerSeasonOne")
 	videoElement.innerHTML = ""
 }
 //Load ALL
 function loadAll(){
+	getAnimeData()
 	getCharacterData()
 	getEpisodeData()
 	getImageData()
