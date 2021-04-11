@@ -82,8 +82,6 @@
 	max-width:500px;
 }
 
-
-
 /*
 	elements in anime details page 
 */
@@ -94,6 +92,7 @@
 
 .episode-list-header{
 	font-weight: 600;
+	background-color: rgba(0, 153, 255, 0.4);
 }
 
 .episode-list-item{
@@ -102,7 +101,6 @@
 
 .episode-list-header, .episode-list-item{
 	border: 1px solid rgb(100, 100, 100);
-	background-color: rgb(200, 200, 200);
 	padding: 1rem 1rem 1rem 1rem;
 	margin:0px;
 }
@@ -270,3 +268,7 @@
 /*
 	elements in suggest anime page
 */
+
+.form-row{
+	margin: 50px 0 50px 0;
+}
