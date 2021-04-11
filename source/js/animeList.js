@@ -2,6 +2,8 @@ window.addEventListener("load", generateAnimeList)
 
 function generateAnimeList(){
 	var animeDetails;
+    
+
 	fetch("../js/dataset.json")
     .then(respond => respond.json())
 	.then(info => animeDetails = info)
@@ -22,6 +24,8 @@ function animeListSort(){
     var animeListElement = document.getElementById("animeList")
     animeListElement.innerHTML = ``
     var currentSortType = sortTypeElement.value
+    
+
     if (currentSortType == "rating"){
         console.log(currentSortType)
         sortByRating()
@@ -43,6 +47,7 @@ fetch("../js/dataset.json")
 .then(() => console.log(sortingSource))
 
 function sortByRating(){
+    
     var animeListElement = document.getElementById("animeList")
     var orderElement = document.getElementById("orderType")
     animeListElement.innerHTML = `
@@ -53,15 +58,15 @@ function sortByRating(){
     `
     console.log("BEFORE RATE")
     console.log(sortingSource)
-    var sortedRatingArray = []
     if (orderElement.value == "up"){
-        sortedRatingArray = sortingSource.sort(function(a, b){ return b["Rating"]-a["Rating"]})
+        sortingSource.sort(function(a, b){ return b["Rating"]-a["Rating"]})
     }
     else if (orderElement.value == "down"){
-        sortedRatingArray = sortingSource.sort(function(a, b){ return a["Rating"]-b["Rating"]})
+        sortingSource.sort(function(a, b){ return a["Rating"]-b["Rating"]})
     }
+    //var sortedRatingArray = sortingSource.sort(function(a, b){ return b["Rating"]-a["Rating"]})
     //console.log(sortedRatingArray)
-    for(i in sortedRatingArray){
+    for(i in sortingSource){
         var animeEntry = `
         <p class="list-item">${parseInt(i)+1}</p>
 		<p class="list-item"><a href="${sortingSource[i]["Link"]}">${sortingSource[i]["Title"]}</a></p>
@@ -83,15 +88,15 @@ function sortByStatus(){
     <p class="list-header">Rating</p>
     <p class="list-header">Status</p>
     `
-    var sortedStatusArray = []
     if (orderElement.value == "up"){
-        sortedStatusArray = sortingSource.sort(function(a, b){return b["Status"] > a["Status"]})
+        sortingSource.sort(function(a, b){return b["Status"] > a["Status"]})
     }
     else if (orderElement.value == "down"){
-        sortedStatusArray = sortingSource.sort(function(a, b){return b["Status"] < a["Status"]})
+        sortingSource.sort(function(a, b){return b["Status"] < a["Status"]})
     }
+    //var sortedStatusArray = sortingSource.sort(function(a, b){return b["Status"] > a["Status"]})
 
-    for(i in sortedStatusArray){
+    for(i in sortingSource){
         var animeEntry = `
         <p class="list-item">${parseInt(i)+1}</p>
 		<p class="list-item"><a href="${sortingSource[i]["Link"]}">${sortingSource[i]["Title"]}</a></p>
@@ -113,14 +118,13 @@ function sortByName(){
     <p class="list-header">Rating</p>
     <p class="list-header">Status</p>
     `
-    var sortedNameArray = []
     if (orderElement.value == "up"){
-        sortedNameArray = sortingSource.sort(function(a, b){ return b["Title"] < a["Title"]})
+        sortingSource.sort(function(a, b){ return b["Title"] < a["Title"]})
     }
     else if (orderElement.value == "down"){
-        sortedNameArray = sortingSource.sort(function(a, b){ return b["Title"] > a["Title"]})
+        sortingSource.sort(function(a, b){ return b["Title"] > a["Title"]})
     }
-    for(i in sortedNameArray){
+    for(i in sortingSource){
         var animeEntry = `
         <p class="list-item">${parseInt(i)+1}</p>
 		<p class="list-item"><a href="${sortingSource[i]["Link"]}">${sortingSource[i]["Title"]}</a></p>
