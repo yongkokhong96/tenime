@@ -14,36 +14,43 @@
 			<p class="navbar-item">Anime by year</p>
 			<p class="navbar-item"><a href="suggest.html">Suggest an Anime</a></p>
 		</section>
-		<p>
+		<p class="header spacing-bottom-50">
 			Know a series that we don't? Feel free to share with us here.
 		</p>
 		<form>
-			<section>
-				<p>Title*</p>
-				<input type="text" name="title">
-			</section>
+			<div class="form-row">
+				<label>
+					Title
+					<input type="text" name="title" required>
+				</label>
+			</div>
 
-			<section>
-				<p>Status*</p>
+			<div class="form-row">
+				<label>Status: </label>
 				<label for="status">Completed</label>
-				<input type="radio" name="status">
+				<input type="radio" name="status" required>
 				<label for="status">Ongoing</label>
 				<input type="radio" name="status">
 				<label for="status">Not yet aired</label>
 				<input type="radio" name="status">
-			</section>
+			</div>
 
-			<section>
-				<p>Description</p>
-				<input type="text" name="description">
-			</section>
+			<div class="form-row">
+				<label>
+					Description
+					<input type="text" name="description" required>
+				</label>
+			</div>
 
-			<section>
-				<p>Genres</p>
-				<input type="text" name="genre">
-			</section>
+			<div class="form-row">
+				<label>
+					Genres
+					<input type="text" name="genre" required>
+				</label>
+			</div>
 
 			<input type="submit" value="Submit">
+			
 		</form>
 	</div> 
 </body>
