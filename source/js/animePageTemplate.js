@@ -458,6 +458,16 @@ const dataSource = "../js/dataset.json"
 //const dataSource = "https://yongkokhong96.github.io/tenime/source/js/dataset.json"
 //NOTE: Title names have to be changed manually
 
+//Load ALL
+function loadAll(){
+	changeSeason()
+	getAnimeData()
+	getCharacterData()
+	getEpisodeData()
+	getImageData()
+	getVideoData()
+}
+
 //Add sypnosis
 function getAnimeData(){
 	var currentSeason = infoCurrentSeason.value
@@ -855,13 +865,4 @@ function addVideos(data){
 function videoRemove(){
 	var videoElement = document.getElementById("videoContainerSeasonOne")
 	videoElement.innerHTML = ""
-}
-//Load ALL
-function loadAll(){
-	changeSeason()
-	getAnimeData()
-	getCharacterData()
-	getEpisodeData()
-	getImageData()
-	getVideoData()
 }

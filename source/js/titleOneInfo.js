@@ -70,6 +70,15 @@ const dataSource = "../js/dataset.json"
 //Live dataset
 //const dataSource = "https://yongkokhong96.github.io/tenime/source/js/dataset.json"
 
+//Load ALL
+function loadAll(){
+	getAnimeData()
+	getCharacterData()
+	getEpisodeData()
+	getImageData()
+	getVideoData()
+}
+
 //Add sypnosis
 function getAnimeData(){
 	var animeDetails;
@@ -283,12 +292,4 @@ function addVideos(data){
 function videoRemove(){
 	var videoElement = document.getElementById("videoContainerSeasonOne")
 	videoElement.innerHTML = ""
-}
-//Load ALL
-function loadAll(){
-	getAnimeData()
-	getCharacterData()
-	getEpisodeData()
-	getImageData()
-	getVideoData()
 }
