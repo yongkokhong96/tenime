@@ -1,13 +1,16 @@
+//Testing dataset
+const dataSource = "../js/dataset.json"
+//Live dataset
+//const dataSource = "https://yongkokhong96.github.io/tenime/source/js/dataset.json"
+
 window.addEventListener("load", generateAnimeList)
 
 function generateAnimeList(){
 	var animeDetails;
-    
-
-	fetch("../js/dataset.json")
+	fetch(dataSource)
     .then(respond => respond.json())
 	.then(info => animeDetails = info)
-    .then(animeListSort)
+    .then(() => animeListSort(animeDetails))
     //.then(() => console.log(animeDetails["AnimeListData"][0]["Title"]))
 }
 
@@ -19,7 +22,7 @@ var orderTypeElement = document.getElementById("orderType")
 orderTypeElement.value = "up"
 orderTypeElement.addEventListener("change",updateOrder)
 
-function animeListSort(){
+function animeListSort(data){
     var sortTypeElement = document.getElementById("sortType")
     var animeListElement = document.getElementById("animeList")
     animeListElement.innerHTML = ``
@@ -28,26 +31,20 @@ function animeListSort(){
 
     if (currentSortType == "rating"){
         console.log(currentSortType)
-        sortByRating()
+        sortByRating(data)
     }
     else if (currentSortType == "status"){
         console.log(currentSortType)
-        sortByStatus()
+        sortByStatus(data)
     }
     else if (currentSortType == "name"){
         console.log(currentSortType)
-        sortByName()
+        sortByName(data)
     }
 }
 
-var sortingSource
-fetch("../js/dataset.json")
-.then(respond => respond.json())
-.then(info => sortingSource = info["AnimeListData"])
-.then(() => console.log(sortingSource))
-
-function sortByRating(){
-    
+function sortByRating(data){
+    var sortingSource = data["AnimeListData"]
     var animeListElement = document.getElementById("animeList")
     var orderElement = document.getElementById("orderType")
     animeListElement.innerHTML = `
@@ -79,7 +76,8 @@ function sortByRating(){
     console.log(sortingSource)
 }
 
-function sortByStatus(){
+function sortByStatus(data){
+    var sortingSource = data["AnimeListData"]
     var animeListElement = document.getElementById("animeList")
     var orderElement = document.getElementById("orderType")
     animeListElement.innerHTML = `
@@ -109,7 +107,8 @@ function sortByStatus(){
     console.log(sortingSource)
 }
 
-function sortByName(){
+function sortByName(data){
+    var sortingSource = data["AnimeListData"]
     var animeListElement = document.getElementById("animeList")
     var orderElement = document.getElementById("orderType")
     animeListElement.innerHTML = `

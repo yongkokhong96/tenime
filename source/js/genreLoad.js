@@ -35,7 +35,7 @@ function loadGenres(data){
     console.log(genreList)
     createGenres(genreList, data)
     genreButtons(genreList)
-
+    //Generate genre anime list
     for (title in data){
         for (genre in data[title].Genre){
             for (item in genreList){
@@ -48,9 +48,7 @@ function loadGenres(data){
             }
         }
     }
-    
 }
-
 
 //Generate genre buttons and content
 function createGenres(genreList, data){

@@ -69,7 +69,7 @@
 
 .list-header, .list-item{
 	border: 1px solid rgb(100, 100, 100);
-	background-color: rgb(200, 200, 200);
+	background-color: rgba(0, 153, 255, 0.4);
 	padding: 1rem 0rem 1rem 1rem;
 	margin:0px;
 }
