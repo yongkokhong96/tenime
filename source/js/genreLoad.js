@@ -8,6 +8,7 @@ window.addEventListener("load", loadAll)
 function loadAll(){
     var genreList = getGenreData()
     genreButtons(genreList)
+    console.log("Hello")
 }
 
 function getGenreData(){
@@ -17,9 +18,9 @@ function getGenreData(){
     .then(() => loadGenres(genreDetails))
 }
 
+//Create an array of genres
 function loadGenres(data){
     var genreList = []
-    var toCheck
     console.log(data)
     for (title in data){
         for (genre in data[title]["Genre"]){
@@ -27,24 +28,66 @@ function loadGenres(data){
             genreList.push(data[title]["Genre"][genre])
         }
     }
+    //Remove duplicate entries
     var newSet = new Set(genreList)
     genreList = [...newSet]
-    //removeDuplicates(genreList)
+
     console.log(genreList)
-    createGenres(genreList)
+    createGenres(genreList, data)
+    genreButtons(genreList)
+
+    for (title in data){
+        for (genre in data[title].Genre){
+            for (item in genreList){
+                if (genreList[item] == data[title].Genre[genre]){
+                    var targetID = `${genreList[item]}Container`
+                    var targetTextElement = document.getElementById(targetID)
+                    console.log(data[title]["Title"])
+                    targetTextElement.innerHTML += `<p><a href=${data[title]["Link"]} id ="${data[title]["Title"]}">${data[title]["Title"]}</p>`
+                }
+            }
+        }
+    }
+    
 }
 
-function createGenres(genreList){
+
+//Generate genre buttons and content
+function createGenres(genreList, data){
+    console.log(genreList)
     var targetContainer = document.getElementById("genreContainer")
     for (item in genreList){
-        var genreElement = `<button id ="genre${genreList[item]}">${genreList[item]}</button>`
+        //var text = defineText(genreList[item],data)
+        var genreElement = `
+        <div class="genre-slot">
+        <button class= "genre-button" id= "button${genreList[item]}">${genreList[item]}</button>
+        <div class= "genre-text" id= "${genreList[item]}Container">
+        <p id= "text${genreList[item]}"></p>
+        </div>
+        </div>
+        `
         targetContainer.innerHTML+=genreElement
     }
 }
 
+//Add functions to buttons
 function genreButtons(genreList){
+    console.log("HELLO")
     for (item in genreList){
-        var addButtonTo = document.getElementById(genreList[item])
-        addButtonTo.setAttribute("onclick",`genreExpand("${genreList[item]}")`)
+        console.log(genreList[item])
+        var targetElement = document.getElementById(`button${genreList[item]}`)
+        targetElement.setAttribute("onclick",`genreExpand("${genreList[item]}")`)
+    }
+}
+
+//Toggle visibility of genre content [ON CLICK]
+function genreExpand(item){
+    console.log("Works" + item)
+    var targetElement = document.getElementById(`${item}Container`)
+    if (targetElement.style.display == "none"){
+        targetElement.style.display = "block"
+    }
+    else if (targetElement.style.display = "block"){
+        targetElement.style.display = "none"
     }
 }

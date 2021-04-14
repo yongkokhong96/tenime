@@ -282,3 +282,16 @@
 .form-row{
 	margin: 50px 0 50px 0;
 }
+
+.genre-slot{
+	word-wrap: break-word;
+	margin: 0 30px 50px 0;
+}
+
+.genre-button{
+	margin: 0 0 0 40%;
+}
+
+.genre-text{
+	display: none;
+}
