@@ -72,11 +72,13 @@ const dataSource = "../js/dataset.json"
 
 //Load ALL
 function loadAll(){
+	console.log("Loading")
 	getAnimeData()
 	getCharacterData()
 	getEpisodeData()
 	getImageData()
 	getVideoData()
+	console.log("Loaded")
 }
 
 //Add sypnosis
@@ -253,11 +255,13 @@ function getImageData(){
 	var imageInfo
 	fetch(dataSource).then(respond => respond.json())
 	.then(info => imageInfo = info["TitleOneSeasonOneImageData"])
-	.then(() =>addImages(imageInfo))
-	.then(() =>addCover(imageInfo))
+	.then(() => console.log(imageInfo))
+	.then(() => addCover(imageInfo))
+	.then(() => addImages(imageInfo))
 }
 
 function addImages(data){
+	console.log(data)
 	imageContainerElement = document.getElementById("imageContainerSeasonOne")
 	for (i in data){
 		var imageSlot = `<img class= "poster-image" src="${data[i].src}">`
