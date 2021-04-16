@@ -43,7 +43,7 @@ function loadGenres(data){
                     var targetID = `${genreList[item]}Container`
                     var targetTextElement = document.getElementById(targetID)
                     console.log(data[title]["Title"])
-                    targetTextElement.innerHTML += `<p><a href=${data[title]["Link"]} id ="${data[title]["Title"]}">${data[title]["Title"]}</p>`
+                    targetTextElement.innerHTML += `<p class="genre-text"><a class="genre-a" href=${data[title]["Link"]} id ="${data[title]["Title"]}">${data[title]["Title"]}</p>`
                 }
             }
         }
@@ -59,8 +59,7 @@ function createGenres(genreList, data){
         var genreElement = `
         <div class="genre-slot">
         <button class= "genre-button" id= "button${genreList[item]}">${genreList[item]}</button>
-        <div class= "genre-text" id= "${genreList[item]}Container">
-        <p id= "text${genreList[item]}"></p>
+        <div class= "genre-text-container" id= "${genreList[item]}Container">
         </div>
         </div>
         `
@@ -82,10 +81,13 @@ function genreButtons(genreList){
 function genreExpand(item){
     console.log("Works" + item)
     var targetElement = document.getElementById(`${item}Container`)
+    var textElement = document.getElementById(`text${item}`)
     if (targetElement.style.display == "none"){
         targetElement.style.display = "block"
+        textElement.style.display = "block"
     }
     else if (targetElement.style.display = "block"){
         targetElement.style.display = "none"
+        textElement.style.display = "none"
     }
 }
