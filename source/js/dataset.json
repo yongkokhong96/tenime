@@ -6,98 +6,108 @@
 			"Episodes": "50/?",
 			"Status":"Ongoing",
 			"Rating":"5",
-			"Link":"title1.html",
-			"Genre":["comedy","short","testSharedGenre"]
+			"Link":"HoloNoGra.html",
+			"Genre":["Comedy","Short","testSharedGenre"],
+			"Technical Name":"Title One"
 		},
 		{
-			"Title":"FE Title 2",
-			"Seasons": "3",
-			"Episodes": "52",
-			"Status":"Completed",
+			"Title":"JJBA",
+			"Seasons": "5",
+			"Episodes": "152",
+			"Status":"Ongoing",
 			"Rating":"8",
-			"Link":"title2.html",
-			"Genre":["testSharedGenre","evenNumberTitle"]
+			"Link":"JJBA.html",
+			"Genre":["Action", "Adventure","Supernatural","testSharedGenre"],
+			"Technical Name":"Title Two"
 		},
 		{
-			"Title":"GZ Title 3",
-			"Seasons": "3",
-			"Episodes": "52",
-			"Status":"Completed",
+			"Title":"Re:Zero",
+			"Seasons": "2",
+			"Episodes": "50",
+			"Status":"Ongoing",
 			"Rating":"7",
-			"Link":"title1.html",
-			"Genre":["testSharedGenre","oddNumberTitle"]
+			"Link":"ReZero.html",
+			"Genre":["Psychological", "Drama", "Thriller", "Fantasy","testSharedGenre"],
+			"Technical Name":"Title Three"
 		},
 		{
-			"Title":"GA Title 4",
+			"Title":"Steins;Gate",
 			"Seasons": "3",
-			"Episodes": "52",
+			"Episodes": "50",
 			"Status":"Ongoing",
 			"Rating":"6",
-			"Link":"title1.html",
-			"Genre":["testSharedGenre","evenNumberTitle"]
+			"Link":"SteinsGate.html",
+			"Genre":["Sci-Fi","Psychological", "Drama", "Thriller","testSharedGenre"],
+			"Technical Name":"Title Four"
 		},
 		{
-			"Title":"YE Title 5",
-			"Seasons": "3",
-			"Episodes": "52",
-			"Status":"Completed",
+			"Title":"Ascendance of a Bookworm",
+			"Seasons": "2",
+			"Episodes": "26",
+			"Status":"Ongoing",
 			"Rating":"5",
-			"Link":"title1.html",
-			"Genre":["testSharedGenre","oddNumberTitle"]
+			"Link":"AscendanceOfABookworm.html",
+			"Genre":["Slice of Life", "Fantasy","testSharedGenre"],
+			"Technical Name":"Title Five"
 		},
 		{
-			"Title":"HO Title 6",
+			"Title":"Psycho-Pass",
 			"Seasons": "3",
-			"Episodes": "52",
+			"Episodes": "41",
 			"Status":"Completed",
 			"Rating":"4",
-			"Link":"title1.html",
-			"Genre":["testSharedGenre","evenNumberTitle"]
+			"Link":"PsychoPass.html",
+			"Genre":["Action", "Sci-Fi", "Police", "Psychological","testSharedGenre"],
+			"Technical Name":"Title Six"
 		},
 		{
-			"Title":"AH Title 7",
-			"Seasons": "3",
-			"Episodes": "52",
-			"Status":"Ongoing",
-			"Rating":"3",
-			"Link":"title1.html",
-			"Genre":["testSharedGenre","oddNumberTitle"]
-		},
-		{
-			"Title":"SU Title 8",
-			"Seasons": "3",
-			"Episodes": "52",
+			"Title":"Rage of Bahamut",
+			"Seasons": "2",
+			"Episodes": "36",
 			"Status":"Completed",
-			"Rating":"2",
-			"Link":"title1.html",
-			"Genre":["testSharedGenre","evenNumberTitle"]
+			"Rating":"3",
+			"Link":"RageOfBahamut.html",
+			"Genre":["Action", "Adventure", "Demons", "Supernatural", "Magic", "Fantasy","testSharedGenre"],
+			"Technical Name":"Title Seven"
 		},
 		{
-			"Title":"TE Title 9",
-			"Seasons": "3",
-			"Episodes": "52",
+			"Title":"Hunter x Hunter",
+			"Seasons": "1",
+			"Episodes": "148",
+			"Status":"Ongoing",
+			"Rating":"2",
+			"Link":"HunterXHunter.html",
+			"Genre":["Action", "Adventure", "Fantasy", "Shounen", "Super Power","testSharedGenre"],
+			"Technical Name":"Title Eight"
+		},
+		{
+			"Title":"Symphogear",
+			"Seasons": "5",
+			"Episodes": "65",
 			"Status":"Completed",
 			"Rating":"1",
-			"Link":"title1.html",
-			"Genre":["testSharedGenre","oddNumberTitle"]
+			"Link":"Symphogear.html",
+			"Genre":["Action", "Sci-Fi", "Music","testSharedGenre"],
+			"Technical Name":"Title Nine"
 		},
 		{
-			"Title":"PS Title 10",
-			"Seasons": "3",
-			"Episodes": "52",
-			"Status":"Completed",
+			"Title":"Girls' Last Tour",
+			"Seasons": "1",
+			"Episodes": "12",
+			"Status":"Ongoing",
 			"Rating":"0",
-			"Link":"title1.html",
-			"Genre":["testSharedGenre","evenNumberTitle"]
+			"Link":"GirlsLastTour.html",
+			"Genre":["Adventure", "Mystery", "Sci-Fi", "Slice of Life","testSharedGenre"],
+			"Technical Name":"Title Ten"
 		}
 	],
-	"TitleOneSeasonOneAnimeData": [
+	"HoloNoGraSeasonOneAnimeData": [
 		{
 			"TitleName": "Holo No Graffiti",
 			"Sypnosis": "From unraveling the secrets of opening and closing doors to defusing surprise packages more commonly known as bombs, there is never a dull day at the Hololive Production office! Holo no Graffiti follows an eccentric cast of Virtual YouTubers, also known as \"VTubers,\" going about their absurd yet hilarious daily lives, detailing all their cute moments and mishaps."
 		}
 	],
-	"TitleOneSeasonOneCharacterData": [
+	"HoloNoGraSeasonOneCharacterData": [
 		{
 			"Name": "Tokino Sora",
 			"src": "https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/00sora.webp",
@@ -389,7 +399,7 @@
 			"Description": " Japanese Virtual YouTuber associated with hololive, as part of its fifth generation of VTubers. A circus performer who joined hololive in hopes of becoming the ringmaster of the VTuber world. She enjoys wowing audiences with acrobatics, and lives by the words, 'When the going gets tough, the tough get going.' If you ask her, her occasional mess ups are also part of her charm."
 		}
 	], 
-	"TitleOneSeasonOneEpisodeData":[
+	"HoloNoGraSeasonOneEpisodeData":[
 		{
 			"Number":"1",
 			"Name":"Last Time, on Love Live!",
@@ -766,7 +776,7 @@
 			"Link":"https://www.youtube.com/watch?v=Hs5wAN_AeBo"
 		}
 	],
-	"TitleOneSeasonOneImageData":[
+	"HoloNoGraSeasonOneImageData":[
 		{
 			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/holo-cover.png"
 		},
@@ -774,12 +784,432 @@
 			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/title%20one%20images/holo-logo.png"
 		}
 	],
-	"TitleOneSeasonOneVideoData":[
+	"HoloNoGraSeasonOneVideoData":[
 		{
 			"fullEmbed":"<iframe class= \"info-video\" src=\"https://www.youtube-nocookie.com/embed/Jnu8xZpHj00\" title=\"YouTube video player\" frameborder=\"0\" allowfullscreen></iframe>"
 		},
 		{
 			"fullEmbed":"<iframe class= \"info-video\" src=\"https://www.youtube-nocookie.com/embed/lYDuTqyD2ps\" title=\"YouTube video player\" frameborder=\"0\" allowfullscreen></iframe>"
+		}
+	],
+	"JJBASeasonOneAnimeData":[
+		{
+			"TitleName": "JoJo's Bizarre Adventure",
+			"Sypnosis": "In 1868, Dario Brando saves the life of an English nobleman, George Joestar. By taking in Dario's son Dio when the boy becomes fatherless, George hopes to repay the debt he owes to his savior. However Dio, unsatisfied with his station in life, aspires to seize the Joestar house for his own. Wielding an Aztec stone mask with supernatural properties, he sets out to destroy George and his son, Jonathan \"JoJo\" Joestar, and triggers a chain of events that will continue to echo through the years to come."
+		}
+	],
+	"JJBASeasonOneCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"JJBASeasonOneEpisodeData":[
+		{
+			"Number":"",
+			"Name":"",
+			"Link":""
+		}
+	],
+	"JJBASeasonOneImageData":[
+		{
+			"src":""
+		}
+	],
+	"JJBASeasonOneVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+	"JJBASeasonTwoAnimeData":[
+		{
+			"TitleName": "JoJo's Bizarre Adventure: Stardust Crusaders ",
+			"Sypnosis": "Years after an ancient evil was salvaged from the depths of the sea, Joutarou Kuujou sits peacefully within a Japanese jail cell. He's committed no crime yet demands he not be released, believing he's been possessed by an evil spirit capable of harming those around him. Concerned for her son, Holly Kuujou asks her father, Joseph Joestar, to convince Joutarou to leave the prison. Joseph informs his grandson that the \"evil spirit\" is in fact something called a \"Stand,\" the physical manifestation of one's fighting spirit which can adopt a variety of deadly forms. After a fiery brawl with Joseph's friend Mohammed Avdol, Joutarou is forced out of his cell and begins learning how to control the power of his Stand.However, when a Stand awakens within Holly and threatens to consume her in 50 days, Joutarou, his grandfather, and their allies must seek out and destroy the immortal vampire responsible for her condition. They must travel halfway across the world to Cairo, Egypt and along the way, do battle with ferocious Stand users set on thwarting them. If Joutarou and his allies fail in their mission, humanity is destined for a grim fate."
+		}
+	],
+	"JJBASeasonTwoCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"JJBASeasonTwoEpisodeData":[
+		{
+			"Number":"",
+			"Name":"",
+			"Link":""
+		}
+	],
+	"JJBASeasonTwoImageData":[
+		{
+			"src":""
+		}
+	],
+	"JJBASeasonTwoVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+	"JJBASeasonThreeAnimeData":[
+		{
+			"TitleName": "JoJo's Bizarre Adventure: Stardust Crusaders - Battle in Egypt",
+			"Sypnosis": "Joutarou Kuujou and his allies have finally made it to Egypt, where the immortal Dio awaits. Upon their arrival, the group gains a new comrade: Iggy, a mutt who wields the Stand \"The Fool.\" It's not all good news however, as standing in their path is a new group of Stand users who serve Dio, each with a Stand representative of an ancient Egyptian god. As their final battle approaches, it is a race against time to break Joutarou's mother free from her curse and end Dio's reign of terror over the Joestar family once and for all."
+		}
+	],
+	"JJBASeasonThreeCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"JJBASeasonThreeEpisodeData":[
+		{
+			"Number":"",
+			"Name":"",
+			"Link":""
+		}
+	],
+	"JJBASeasonThreeImageData":[
+		{
+			"src":""
+		}
+	],
+	"JJBASeasonThreeVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+	"JJBASeasonFourAnimeData":[
+		{
+			"TitleName": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
+			"Sypnosis": "The year is 1999. Morioh, a normally quiet and peaceful town, has recently become a hotbed of strange activity. Joutarou Kuujou, now a marine biologist, heads to the mysterious town to meet Jousuke Higashikata. While the two may seem like strangers at first, Jousuke is actually the illegitimate child of Joutarou's grandfather, Joseph Joestar. When they meet, Joutarou realizes that he may have more in common with Jousuke than just a blood relation."
+		}
+	],
+	"JJBASeasonFourCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"JJBASeasonFourEpisodeData":[
+		{
+			"Number":"",
+			"Name":"",
+			"Link":""
+		}
+	],
+	"JJBASeasonFourImageData":[
+		{
+			"src":""
+		}
+	],
+	"JJBASeasonFourVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+	"JJBASeasonFiveAnimeData":[
+		{
+			"TitleName": "JoJo's Bizarre Adventure: Golden Wind",
+			"Sypnosis": "In the coastal city of Naples, corruption is teeming—the police blatantly conspire with outlaws, drugs run rampant around the youth, and the mafia governs the streets with an iron fist. However, various fateful encounters will soon occur."
+		}
+	],
+	"JJBASeasonFiveCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"JJBASeasonFiveEpisodeData":[
+		{
+			"Number":"",
+			"Name":"",
+			"Link":""
+		}
+	],
+	"JJBASeasonFiveImageData":[
+		{
+			"src":""
+		}
+	],
+	"JJBASeasonFiveVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+	"JJBASeasonSixAnimeData":[
+		{
+			"TitleName": "JoJo's Bizarre Adventure: Stone Ocean",
+			"Sypnosis": "In Florida, 2011, Jolyne Kuujou sits in a jail cell like her father Joutarou once did; yet this situation is not of her own choice. Framed for a crime she didn’t commit, and manipulated into serving a longer sentence, Jolyne is ready to resign to a dire fate as a prisoner of Green Dolphin Street Jail. Though all hope seems lost, a gift from Joutarou ends up awakening her latent abilities, manifesting into her Stand, Stone Free. Now armed with the power to change her fate, Jolyne sets out to find an escape from the stone ocean that holds her."
+		}
+	],
+	"JJBASeasonSixCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"JJBASeasonSixEpisodeData":[
+		{
+			"Number":"",
+			"Name":"",
+			"Link":""
+		}
+	],
+	"JJBASeasonSixImageData":[
+		{
+			"src":""
+		}
+	],
+	"JJBASeasonSixVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+	"ReZeroSeasonOneAnimeData":[
+		{
+			"TitleName": "",
+			"Sypnosis": ""
+		}
+	],
+	"ReZeroSeasonOneCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"ReZeroSeasonOneEpisodeData":[
+		{
+			"Number":"",
+			"Name":"",
+			"Link":""
+		}
+	],
+	"ReZeroSeasonOneImageData":[
+		{
+			"src":""
+		}
+	],
+	"ReZeroSeasonOneVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+	"SteinGateSeasonOneAnimeData":[
+		{
+			"TitleName": "",
+			"Sypnosis": ""
+		}
+	],
+	"SteinGateSeasonOneCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"SteinGateSeasonOneEpisodeData":[
+		{
+			"Number":"",
+			"Name":"",
+			"Link":""
+		}
+	],
+	"SteinGateSeasonOneImageData":[
+		{
+			"src":""
+		}
+	],
+	"SteinGateSeasonOneVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+	"AoBSeasonOneAnimeData":[
+		{
+			"TitleName": "",
+			"Sypnosis": ""
+		}
+	],
+	"AoBSeasonOneCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"AoBSeasonOneEpisodeData":[
+		{
+			"Number":"",
+			"Name":"",
+			"Link":""
+		}
+	],
+	"AoBSeasonOneImageData":[
+		{
+			"src":""
+		}
+	],
+	"AoBSeasonOneVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+	"PsychoPassSeasonOneAnimeData":[
+		{
+			"TitleName": "",
+			"Sypnosis": ""
+		}
+	],
+	"PsychoPassSeasonOneCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"PsychoPassSeasonOneEpisodeData":[
+		{
+			"Number":"",
+			"Name":"",
+			"Link":""
+		}
+	],
+	"PsychoPassSeasonOneImageData":[
+		{
+			"src":""
+		}
+	],
+	"PsychoPassSeasonOneVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+	"RageBahamuttSeasonOneAnimeData":[
+		{
+			"TitleName": "",
+			"Sypnosis": ""
+		}
+	],
+	"RageBahamuttSeasonOneCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"RageBahamuttSeasonOneEpisodeData":[
+		{
+			"Number":"",
+			"Name":"",
+			"Link":""
+		}
+	],
+	"RageBahamuttSeasonOneImageData":[
+		{
+			"src":""
+		}
+	],
+	"RageBahamuttSeasonOneVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+	"HxHSeasonOneAnimeData":[
+		{
+			"TitleName": "",
+			"Sypnosis": ""
+		}
+	],
+	"HxHSeasonOneCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"HxHSeasonOneEpisodeData":[
+		{
+			"Number":"",
+			"Name":"",
+			"Link":""
+		}
+	],
+	"HxHSeasonOneImageData":[
+		{
+			"src":""
+		}
+	],
+	"HxHSeasonOneVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+	"SymphogearSeasonOneAnimeData":[
+		{
+			"TitleName": "",
+			"Sypnosis": ""
+		}
+	],
+	"SymphogearSeasonOneCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"SymphogearSeasonOneEpisodeData":[
+		{
+			"Number":"",
+			"Name":"",
+			"Link":""
+		}
+	],
+	"SymphogearSeasonOneImageData":[
+		{
+			"src":""
+		}
+	],
+	"SymphogearSeasonOneVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+	"GLTSeasonOneAnimeData":[
+		{
+			"TitleName": "",
+			"Sypnosis": ""
+		}
+	],
+	"GLTSeasonOneCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"GLTSeasonOneEpisodeData":[
+		{
+			"Number":"",
+			"Name":"",
+			"Link":""
+		}
+	],
+	"GLTSeasonOneImageData":[
+		{
+			"src":""
+		}
+	],
+	"GLTSeasonOneVideoData":[
+		{
+			"fullEmbed":""
 		}
 	],
 	"Placeholder Images T2S1": [
@@ -950,5 +1380,35 @@
 			"name": "Char 12",
 			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
 		}
+		],
+		"TitleBlankSeasonBlankAnimeData":[
+			{
+				"TitleName": "",
+				"Sypnosis": ""
+			}
+		],
+		"TitleBlankSeasonBlankCharacterData":[
+			{
+				"Name":"",
+				"src":"",
+				"Description": ""
+			}
+		],
+		"TitleBlankSeasonBlankEpisodeData":[
+			{
+				"Number":"",
+				"Name":"",
+				"Link":""
+			}
+		],
+		"TitleBlankSeasonBlankImageData":[
+			{
+				"src":""
+			}
+		],
+		"TitleBlankSeasonBlankVideoData":[
+			{
+				"fullEmbed":""
+			}
 		]
 }

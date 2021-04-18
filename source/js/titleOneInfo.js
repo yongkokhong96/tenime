@@ -86,8 +86,8 @@ function getAnimeData(){
 	var animeDetails;
 	fetch(dataSource).then(respond => respond.json())
 	.then(info => animeDetails = info)
-	.then(() => console.log(animeDetails["TitleOneSeasonOneAnimeData"]))
-	.then(() => addSypnosis(animeDetails["TitleOneSeasonOneAnimeData"]))
+	.then(() => console.log(animeDetails["HoloNoGraSeasonOneAnimeData"]))
+	.then(() => addSypnosis(animeDetails["HoloNoGraSeasonOneAnimeData"]))
 }
 
 function addSypnosis(data){
@@ -116,7 +116,7 @@ function charSeasonSelect(season){
 	console.log("Season is " + season)
 	var section
 	if (season == 1){
-		section = "TitleOneSeasonOneCharacterData"
+		section = "HoloNoGraSeasonOneCharacterData"
 	}
 	return section
 }
@@ -158,7 +158,7 @@ function charInfo(characterName){
 	console.log(characterName + " Clicked")
 	fetch(dataSource).then(respond => respond.json())
 	.then(info => charDetails = info)
-	.then(()=>characterInfoGet(charDetails["TitleOneSeasonOneCharacterData"], characterName))
+	.then(()=>characterInfoGet(charDetails["HoloNoGraSeasonOneCharacterData"], characterName))
 	.then(()=>modalAssign())
 }
 
@@ -232,7 +232,7 @@ function closeModal(){
 function getEpisodeData(){
 	var episodeInfo
 	fetch(dataSource).then(respond => respond.json())
-	.then(info => episodeInfo = info["TitleOneSeasonOneEpisodeData"])
+	.then(info => episodeInfo = info["HoloNoGraSeasonOneEpisodeData"])
 	.then(()=>addEpisodes(episodeInfo))
 }
 
@@ -254,7 +254,7 @@ function addEpisodes(data){
 function getImageData(){
 	var imageInfo
 	fetch(dataSource).then(respond => respond.json())
-	.then(info => imageInfo = info["TitleOneSeasonOneImageData"])
+	.then(info => imageInfo = info["HoloNoGraSeasonOneImageData"])
 	.then(() => console.log(imageInfo))
 	.then(() => addCover(imageInfo))
 	.then(() => addImages(imageInfo))
@@ -280,7 +280,7 @@ function addCover(data){
 function getVideoData(){
 	var videoInfo
 	fetch("../js/dataset.json").then(respond => respond.json())
-	.then(info => videoInfo = info["TitleOneSeasonOneVideoData"])
+	.then(info => videoInfo = info["HoloNoGraSeasonOneVideoData"])
 	.then(() =>addVideos(videoInfo))
 }
 
