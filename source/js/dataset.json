@@ -51,13 +51,13 @@
 			"Technical Name":"Title Five"
 		},
 		{
-			"Title":"Psycho-Pass",
-			"Seasons": "3",
-			"Episodes": "41",
+			"Title":"Manaria Friends",
+			"Seasons": "1",
+			"Episodes": "10",
 			"Status":"Completed",
 			"Rating":"4",
-			"Link":"PsychoPass.html",
-			"Genre":["Action", "Sci-Fi", "Police", "Psychological","testSharedGenre"],
+			"Link":"ManariaFriends.html",
+			"Genre":["Demons", "Fantasy", "Magic", "Supernatural","testSharedGenre"],
 			"Technical Name":"Title Six"
 		},
 		{
@@ -772,8 +772,18 @@
 		},
 		{
 			"Number":"74",
-			"Name":"Really Wanna Eat You-Know-What! ",
+			"Name":"Really Wanna Eat You-Know-What!",
 			"Link":"https://www.youtube.com/watch?v=Hs5wAN_AeBo"
+		},
+		{
+			"Number":"75",
+			"Name":"Everybody's Scary When Mad",
+			"Link":"https://www.youtube.com/watch?v=IeWMT2PVhE0"
+		},
+		{
+			"Number":"76",
+			"Name":"First Look",
+			"Link":"https://www.youtube.com/watch?v=dr0yef-9WOU"
 		}
 	],
 	"HoloNoGraSeasonOneImageData":[
@@ -792,6 +802,7 @@
 			"fullEmbed":"<iframe class= \"info-video\" src=\"https://www.youtube-nocookie.com/embed/lYDuTqyD2ps\" title=\"YouTube video player\" frameborder=\"0\" allowfullscreen></iframe>"
 		}
 	],
+
 	"JJBASeasonOneAnimeData":[
 		{
 			"TitleName": "JoJo's Bizarre Adventure",
@@ -800,15 +811,170 @@
 	],
 	"JJBASeasonOneCharacterData":[
 		{
-			"Name":"",
+			"Name":"Jonathan Joestar",
 			"src":"",
-			"Description": ""
+			"Description": "Jonathan Joestar is the main protagonist of the first part of the JoJo's Bizarre Adventure series, Phantom Blood, and the first JoJo of the series. His legacy extends throughout almost the entirety of the first six parts of the series, with major characters such as Joseph Joestar and Jotaro Kujo being his descendants."
+		},
+		{
+			"Name":"Dio Brando",
+			"src":"",
+			"Description": "The central villain of the Jojo's Bizarre Adventure series, Dio is an immortal vampire and the arch rival of the Joestar family."
+		},
+		{
+			"Name":"Robert E. O. Speedwagon",
+			"src":"",
+			"Description": "Robert E. O. Speedwagon is a major ally featured in Phantom Blood and is a minor ally in Battle Tendency."
+		},
+		{
+			"Name":"Will A. Zeppeli",
+			"src":"",
+			"Description": "Will A. Zeppeli was on a ship with a crew studying Aztec ruins when he was younger when his father put on the mask and killed everyone in the crew but his son. After this horrific event, Zeppeli travels the world in order to destroy the mask."
+		},
+		{
+			"Name":"Joseph Joestar",
+			"src":"",
+			"Description": "Joseph is the main protagonist of the second arc, Battle Tendency. He is the grandson of Jonathan Joestar, the main protagonist of the first arc, Phantom Blood. Joseph is hotheaded and confrontational. He also has the uncanny ability to predict what his opponent will say next."
+		},
+		{
+			"Name":"Caesar Zeppeli",
+			"src":"",
+			"Description": "The grandson of Will A. Zeppeli. He is a blond, suave ladies' man, as well as a skilled Ripple user. He was taught by Lisa Lisa, and currently lives in Italy. He is rather cool and collected, especially compared to Joseph, with whom he is grudgingly paired to fight the Pillar Men. But over time Joseph starts to grow on him so much he is able to understand his strange thought pattern."
+		},
+		{
+			"Name":"Lisa Lisa",
+			"src":"",
+			"Description": "A mysterious Ripple user whom Joseph Joestar meets in Venice, Lisa Lisa reveals herself to be his friend Caesar Zeppeli's mentor. She trains Joseph in the ways of the Ripple and joins in the fight against the Pillar Men, as a powerful Ripple user in her own right."
 		}
 	],
 	"JJBASeasonOneEpisodeData":[
 		{
-			"Number":"",
-			"Name":"",
+			"Number":"1",
+			"Name":"Dio the Invader",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"A Letter From the Past",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"Youth With Dio",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"Overdrive",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"The Dark Knights",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"Pluck for Tomorrow",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"The Successor",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"Bloody Battle! JoJo & Dio",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"The Final Ripple!",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"New York's JoJo",
+			"Link":""
+		},
+		{
+			"Number":"11",
+			"Name":"The Game Master",
+			"Link":""
+		},
+		{
+			"Number":"12",
+			"Name":"The Pillar Man",
+			"Link":""
+		},
+		{
+			"Number":"13",
+			"Name":"JoJo vs. the Ultimate Lifeform",
+			"Link":""
+		},
+		{
+			"Number":"14",
+			"Name":"Ultimate Warriors from Ancient Times",
+			"Link":""
+		},
+		{
+			"Number":"15",
+			"Name":"A Hero's Proof",
+			"Link":""
+		},
+		{
+			"Number":"16",
+			"Name":"Lisa Lisa, Hamon Coach",
+			"Link":""
+		},
+		{
+			"Number":"17",
+			"Name":"The Deeper Plan",
+			"Link":""
+		},
+		{
+			"Number":"18",
+			"Name":"Von Stroheim's Revenge",
+			"Link":""
+		},
+		{
+			"Number":"19",
+			"Name":"A Race Towards the Brink",
+			"Link":""
+		},
+		{
+			"Number":"20",
+			"Name":"Young Caesar",
+			"Link":""
+		},
+		{
+			"Number":"21",
+			"Name":"A Hundred Against Two",
+			"Link":""
+		},
+		{
+			"Number":"22",
+			"Name":"A True Warrior",
+			"Link":""
+		},
+		{
+			"Number":"23",
+			"Name":"The Warrior of Wind",
+			"Link":""
+		},
+		{
+			"Number":"24",
+			"Name":"The Ties That Bind JoJo",
+			"Link":""
+		},
+		{
+			"Number":"25",
+			"Name":"The Birth of a Superbeing",
+			"Link":""
+		},
+		{
+			"Number":"26",
+			"Name":"The Ascendant One",
 			"Link":""
 		}
 	],
@@ -837,8 +1003,123 @@
 	],
 	"JJBASeasonTwoEpisodeData":[
 		{
-			"Number":"",
-			"Name":"",
+			"Number":"1",
+			"Name":"The Man Possessed by an Evil Spirit",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"Who Will Be the Judge",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"The Curse of DIO",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"Tower of Gray",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"Silver Chariot",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"Dark Blue Moon",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"Strength",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"The Devil",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"Yellow Temperance",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"The Emperor and the Hanged Man, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"11",
+			"Name":"The Emperor and the Hanged Man, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"12",
+			"Name":"The Empress",
+			"Link":""
+		},
+		{
+			"Number":"13",
+			"Name":"Wheel of Fortune",
+			"Link":""
+		},
+		{
+			"Number":"14",
+			"Name":"Justice, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"15",
+			"Name":"Justice, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"16",
+			"Name":"The Lovers, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"17",
+			"Name":"The Lovers, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"18",
+			"Name":"The Sun",
+			"Link":""
+		},
+		{
+			"Number":"19",
+			"Name":"Death 13, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"20",
+			"Name":"Death 13, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"21",
+			"Name":"Judgement, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"22",
+			"Name":"Judgement, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"23",
+			"Name":"High Priestess, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"24",
+			"Name":"High Priestess, Part 2",
 			"Link":""
 		}
 	],
@@ -867,8 +1148,123 @@
 	],
 	"JJBASeasonThreeEpisodeData":[
 		{
-			"Number":"",
-			"Name":"",
+			"Number":"1",
+			"Name":"Iggy the Fool and Geb's N'Doul, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"Iggy the Fool and Geb's N'Doul, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"Khnum's Oingo and Thoth's Boingo / Khnum's Zenyatta and Thoth's Mondatta",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"Anubis, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"Anubis, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"Bastet's Mariah, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"Bastet's Mariah, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"Set's Alessi, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"Set's Alessi, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"D'Arby the Gambler, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"11",
+			"Name":"D'Arby the Gambler, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"12",
+			"Name":"Hol Horse and Boingo, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"13",
+			"Name":"Hol Horse and Boingo, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"14",
+			"Name":"The Guardian of Hell, Pet Shop, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"15",
+			"Name":"The Guardian of Hell, Pet Shop, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"16",
+			"Name":"D'Arby the Player, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"17",
+			"Name":"D'Arby the Player, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"18",
+			"Name":"The Miasma of the Void, Vanilla Ice, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"19",
+			"Name":"The Miasma of the Void, Vanilla Ice, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"20",
+			"Name":"The Miasma of the Void, Vanilla Ice, Part 3",
+			"Link":""
+		},
+		{
+			"Number":"21",
+			"Name":"DIO's World, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"22",
+			"Name":"DIO's World, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"23",
+			"Name":"DIO's World, Part 3",
+			"Link":""
+		},
+		{
+			"Number":"24",
+			"Name":"Long Journey Farewell, My Friends",
 			"Link":""
 		}
 	],
@@ -897,8 +1293,198 @@
 	],
 	"JJBASeasonFourEpisodeData":[
 		{
-			"Number":"",
-			"Name":"",
+			"Number":"1",
+			"Name":"Jotaro Kujo! Meets Josuke Higashikata",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"Josuke Higashikata! Meets Angelo",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"The Nijimura Brothers, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"The Nijimura Brothers, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"The Nijimura Brothers, Part 3",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"Koichi Hirose (Echoes)",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"Toshikazu Hazamada (Surface)",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"Yukako Yamagishi Falls in Love, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"Yukako Yamagishi Falls in Love, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"Let's Go Eat Some Italian Food",
+			"Link":""
+		},
+		{
+			"Number":"11",
+			"Name":"Red Hot Chili Pepper, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"12",
+			"Name":"Red Hot Chili Pepper, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"13",
+			"Name":"We Picked Up Something Crazy",
+			"Link":""
+		},
+		{
+			"Number":"14",
+			"Name":"Let's Go to the Manga Artist's House, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"15",
+			"Name":"Let's Go to the Manga Artist's House, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"16",
+			"Name":"Let's Go Hunting",
+			"Link":""
+		},
+		{
+			"Number":"17",
+			"Name":"Rohan Kishibe's Adventure",
+			"Link":""
+		},
+		{
+			"Number":"18",
+			"Name":"Shigechi's Harvest, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"19",
+			"Name":"Shigechi's Harvest, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"20",
+			"Name":"Yukako Yamagishi Dreams of Cinderella",
+			"Link":""
+		},
+		{
+			"Number":"21",
+			"Name":"Yoshikage Kira Just Wants to Live Quietly, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"22",
+			"Name":"Yoshikage Kira Just Wants to Live Quietly, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"23",
+			"Name":"Sheer Heart Attack, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"24",
+			"Name":"Sheer Heart Attack, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"25",
+			"Name":"Atom Heart Father",
+			"Link":""
+		},
+		{
+			"Number":"26",
+			"Name":"Janken Boy Is Coming",
+			"Link":""
+		},
+		{
+			"Number":"27",
+			"Name":"I'm an Alien",
+			"Link":""
+		},
+		{
+			"Number":"28",
+			"Name":"Highway Star, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"29",
+			"Name":"Highway Star, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"30",
+			"Name":"Cats Love Yoshikage Kira",
+			"Link":""
+		},
+		{
+			"Number":"31",
+			"Name":"July 15th, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"32",
+			"Name":"July 15th, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"33",
+			"Name":"July 15th, Part 3",
+			"Link":""
+		},
+		{
+			"Number":"34",
+			"Name":"July 15th, Part 4",
+			"Link":""
+		},
+		{
+			"Number":"35",
+			"Name":"Another One Bites the Dust, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"36",
+			"Name":"Another One Bites the Dust, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"37",
+			"Name":"Diamond is Unbreakable, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"38",
+			"Name":"Diamond is Unbreakable, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"39",
+			"Name":"Goodbye, Morioh - The Heart of Gold",
 			"Link":""
 		}
 	],
@@ -927,8 +1513,198 @@
 	],
 	"JJBASeasonFiveEpisodeData":[
 		{
-			"Number":"",
-			"Name":"",
+			"Number":"1",
+			"Name":"Gold Experience",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"Bucciarati Appears",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"Meet the Gangster Behind the Wall",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"Joining the Gang",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"Find Polpo's Fortune",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"Moody Blues' Counterattack",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"Sex Pistols Appears, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"Sex Pistols Appears, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"The First Mission from the Boss",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"Hitman Team",
+			"Link":""
+		},
+		{
+			"Number":"11",
+			"Name":"Narancia's Aerosmith",
+			"Link":""
+		},
+		{
+			"Number":"12",
+			"Name":"The Second Mission from the Boss",
+			"Link":""
+		},
+		{
+			"Number":"13",
+			"Name":"Man in the Mirror and Purple Haze",
+			"Link":""
+		},
+		{
+			"Number":"14",
+			"Name":"Express Train to Florence",
+			"Link":""
+		},
+		{
+			"Number":"15",
+			"Name":"The Grateful Dead, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"16",
+			"Name":"The Grateful Dead, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"17",
+			"Name":"Baby Face",
+			"Link":""
+		},
+		{
+			"Number":"18",
+			"Name":"Head to Venice",
+			"Link":""
+		},
+		{
+			"Number":"19",
+			"Name":"White Album",
+			"Link":""
+		},
+		{
+			"Number":"20",
+			"Name":"The Final Mission from the Boss",
+			"Link":""
+		},
+		{
+			"Number":"21",
+			"Name":"The Mystery of King Crimson",
+			"Link":""
+		},
+		{
+			"Number":"22",
+			"Name":"The 'G' in Guts ",
+			"Link":""
+		},
+		{
+			"Number":"23",
+			"Name":"Clash and Talking Head",
+			"Link":""
+		},
+		{
+			"Number":"24",
+			"Name":"Notorious B.I.G",
+			"Link":""
+		},
+		{
+			"Number":"25",
+			"Name":"Spice Girl ",
+			"Link":""
+		},
+		{
+			"Number":"26",
+			"Name":"A Little Story From The Past",
+			"Link":""
+		},
+		{
+			"Number":"27",
+			"Name":"King Crimson vs. Metallica",
+			"Link":""
+		},
+		{
+			"Number":"28",
+			"Name":"Beneath a Sky on the Verge of Falling",
+			"Link":""
+		},
+		{
+			"Number":"29",
+			"Name":"Get to the Roman Colosseum",
+			"Link":""
+		},
+		{
+			"Number":"30",
+			"Name":"Green Day and Oasis, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"31",
+			"Name":"Green Day and Oasis, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"32",
+			"Name":"Green Day and Oasis, Part 3",
+			"Link":""
+		},
+		{
+			"Number":"33",
+			"Name":"His Name Is Diavolo",
+			"Link":""
+		},
+		{
+			"Number":"34",
+			"Name":"The Requiem Quietly Plays, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"35",
+			"Name":"The Requiem Quietly Plays, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"36",
+			"Name":"Diavolo Surfaces",
+			"Link":""
+		},
+		{
+			"Number":"37",
+			"Name":"King of Kings",
+			"Link":""
+		},
+		{
+			"Number":"38",
+			"Name":"Gold Experience Requiem",
+			"Link":""
+		},
+		{
+			"Number":"39",
+			"Name":"The Sleeping Slave",
 			"Link":""
 		}
 	],
@@ -957,8 +1733,8 @@
 	],
 	"JJBASeasonSixEpisodeData":[
 		{
-			"Number":"",
-			"Name":"",
+			"Number":"TBA",
+			"Name":"TBA",
 			"Link":""
 		}
 	],
@@ -972,10 +1748,11 @@
 			"fullEmbed":""
 		}
 	],
+
 	"ReZeroSeasonOneAnimeData":[
 		{
-			"TitleName": "",
-			"Sypnosis": ""
+			"TitleName": "Re:ZERO Starting Life in Another World",
+			"Sypnosis": "When Subaru Natsuki leaves the convenience store, the last thing he expects is to be wrenched from his everyday life and dropped into a fantasy world. Things aren't looking good for the bewildered teenager; however, not long after his arrival, he is attacked by some thugs. Armed with only a bag of groceries and a now useless cell phone, he is quickly beaten to a pulp. Fortunately, a mysterious beauty named Satella, in hot pursuit after the one who stole her insignia, happens upon Subaru and saves him. In order to thank the honest and kindhearted girl, Subaru offers to help in her search, and later that night, he even finds the whereabouts of that which she seeks. But unbeknownst to them, a much darker force stalks the pair from the shadows."
 		}
 	],
 	"ReZeroSeasonOneCharacterData":[
@@ -987,8 +1764,128 @@
 	],
 	"ReZeroSeasonOneEpisodeData":[
 		{
-			"Number":"",
-			"Name":"",
+			"Number":"1",
+			"Name":"The End of the Beginning and the Beginning of the End",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"Reunion with the Witch",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"Starting Life from Zero in Another World",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"The Happy Roswaal Mansion Family",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"The Morning of Our Promise is Still Distant",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"The Sound of Chains",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"Natsuki Subaru's Restart",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"I Cried, Cried My Lungs Out, and Stopped Crying",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"The Meaning of Courage",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"Fanatical Methods Like a Demon",
+			"Link":""
+		},
+		{
+			"Number":"11",
+			"Name":"Rem",
+			"Link":""
+		},
+		{
+			"Number":"12",
+			"Name":"Return to the Capital",
+			"Link":""
+		},
+		{
+			"Number":"13",
+			"Name":"Self-Proclaimed Knight Natsuki Subaru",
+			"Link":""
+		},
+		{
+			"Number":"14",
+			"Name":"The Sickness Called Despair",
+			"Link":""
+		},
+		{
+			"Number":"15",
+			"Name":"The Face of Madness",
+			"Link":""
+		},
+		{
+			"Number":"16",
+			"Name":"The Greed of a Pig",
+			"Link":""
+		},
+		{
+			"Number":"17",
+			"Name":"Disgrace in the Extreme",
+			"Link":""
+		},
+		{
+			"Number":"18",
+			"Name":"From Zero",
+			"Link":""
+		},
+		{
+			"Number":"19",
+			"Name":"Battle Against the White Whale",
+			"Link":""
+		},
+		{
+			"Number":"20",
+			"Name":"Wilhelm van Astrea",
+			"Link":""
+		},
+		{
+			"Number":"21",
+			"Name":"A Wager That Defies Despair",
+			"Link":""
+		},
+		{
+			"Number":"22",
+			"Name":"A Flash of Sloth",
+			"Link":""
+		},
+		{
+			"Number":"23",
+			"Name":"Nefarious Sloth",
+			"Link":""
+		},
+		{
+			"Number":"24",
+			"Name":"The Self-Proclaimed Knight and the Greatest Knight",
+			"Link":""
+		},
+		{
+			"Number":"25",
+			"Name":"That's All This Story Is About",
 			"Link":""
 		}
 	],
@@ -1002,10 +1899,161 @@
 			"fullEmbed":""
 		}
 	],
+	"ReZeroSeasonTwoAnimeData":[
+		{
+			"TitleName": "Re:ZERO Starting Life in Another World",
+			"Sypnosis": "Everlasting contracts, past sins, and unrequited love will clash and submerge into a river of blood in the second season of Re:Zero kara Hajimeru Isekai Seikatsu. Pushed to the brink of hopelessness, how long will Subaru's resolve to save his loved ones last?"
+		}
+	],
+	"ReZeroSeasonTwoCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"ReZeroSeasonTwoEpisodeData":[
+		{
+			"Number":"1",
+			"Name":"Each One's Promise",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"The Next Location",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"The Long-Awaited Reunion",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"Parent and Child",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"A Step Forward",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"The Maiden's Gospel",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"Friend",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"The Value of Life",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"Love Love Love Love Love Love You",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"I Know Hell",
+			"Link":""
+		},
+		{
+			"Number":"11",
+			"Name":"The Taste of Death",
+			"Link":""
+		},
+		{
+			"Number":"12",
+			"Name":"The Witches' Tea Party",
+			"Link":""
+		},
+		{
+			"Number":"13",
+			"Name":"The Sounds That Make You Want to Cry",
+			"Link":""
+		},
+		{
+			"Number":"14",
+			"Name":"STRAIGHT BET",
+			"Link":""
+		},
+		{
+			"Number":"15",
+			"Name":"Otto Suwen",
+			"Link":""
+		},
+		{
+			"Number":"16",
+			"Name":"Nobody Can Lift a Quain Stone Alone",
+			"Link":""
+		},
+		{
+			"Number":"17",
+			"Name":"A Journey Through Memories",
+			"Link":""
+		},
+		{
+			"Number":"18",
+			"Name":"The Day Betelgeuse Laughed",
+			"Link":""
+		},
+		{
+			"Number":"19",
+			"Name":"The Permafrost of Elior Forest",
+			"Link":""
+		},
+		{
+			"Number":"20",
+			"Name":"The Beginning of the Sanctuary and the Beginning of the End",
+			"Link":""
+		},
+		{
+			"Number":"21",
+			"Name":"Reunion of Roars",
+			"Link":""
+		},
+		{
+			"Number":"22",
+			"Name":"Happiness Reflected on the Water's Surface",
+			"Link":""
+		},
+		{
+			"Number":"23",
+			"Name":"Love Me Down to My Blood and Guts",
+			"Link":""
+		},
+		{
+			"Number":"24",
+			"Name":"Choose Me",
+			"Link":""
+		},
+		{
+			"Number":"25",
+			"Name":"Offbeat Steps Under the Moonlight",
+			"Link":""
+		}
+	],
+	"ReZeroSeasonTwoImageData":[
+		{
+			"src":""
+		}
+	],
+	"ReZeroSeasonTwoVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+
 	"SteinGateSeasonOneAnimeData":[
 		{
-			"TitleName": "",
-			"Sypnosis": ""
+			"TitleName": "Steins;Gate",
+			"Sypnosis": "The self-proclaimed mad scientist Rintarou Okabe rents out a room in a rickety old building in Akihabara, where he indulges himself in his hobby of inventing prospective \"future gadgets\" with fellow lab members: Mayuri Shiina, his air-headed childhood friend, and Hashida Itaru, a perverted hacker nicknamed \"Daru.\" The three pass the time by tinkering with their most promising contraption yet, a machine dubbed the \"Phone Microwave,\" which performs the strange function of morphing bananas into piles of green gel.Though miraculous in itself, the phenomenon doesn't provide anything concrete in Okabe's search for a scientific breakthrough; that is, until the lab members are spurred into action by a string of mysterious happenings before stumbling upon an unexpected success—the Phone Microwave can send emails to the past, altering the flow of history."
 		}
 	],
 	"SteinGateSeasonOneCharacterData":[
@@ -1017,8 +2065,123 @@
 	],
 	"SteinGateSeasonOneEpisodeData":[
 		{
-			"Number":"",
-			"Name":"",
+			"Number":"1",
+			"Name":"Turning Point",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"Time Travel Paranoia",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"Parallel World Paranoia",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"Interpreter Rendezvous",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"Starmine Rendezvous",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"Butterfly Effect's Divergence",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"Divergence Singularity",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"Chaos Theory Homeostasis ",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"Chaos Theory Homeostasis 2",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"Chaos Theory Homeostasis 3",
+			"Link":""
+		},
+		{
+			"Number":"11",
+			"Name":"Dogma in Event Horizon",
+			"Link":""
+		},
+		{
+			"Number":"12",
+			"Name":"Dogma in Ergosphere",
+			"Link":""
+		},
+		{
+			"Number":"13",
+			"Name":"Metaphysics Necrosis",
+			"Link":""
+		},
+		{
+			"Number":"14",
+			"Name":"Physically Necrosis",
+			"Link":""
+		},
+		{
+			"Number":"15",
+			"Name":"Missing Link Necrosis",
+			"Link":""
+		},
+		{
+			"Number":"16",
+			"Name":"Sacrificial Necrosis",
+			"Link":""
+		},
+		{
+			"Number":"17",
+			"Name":"Made in Complex",
+			"Link":""
+		},
+		{
+			"Number":"18",
+			"Name":"Fractal Androgynous",
+			"Link":""
+		},
+		{
+			"Number":"19",
+			"Name":"Endless Apoptosis",
+			"Link":""
+		},
+		{
+			"Number":"20",
+			"Name":"Finalize Apoptosis",
+			"Link":""
+		},
+		{
+			"Number":"21",
+			"Name":"Paradox Meltdown",
+			"Link":""
+		},
+		{
+			"Number":"22",
+			"Name":"Being Meltdown",
+			"Link":""
+		},
+		{
+			"Number":"23",
+			"Name":"Open the Steins Gate",
+			"Link":""
+		},
+		{
+			"Number":"24",
+			"Name":"Achievement Point",
 			"Link":""
 		}
 	],
@@ -1032,10 +2195,156 @@
 			"fullEmbed":""
 		}
 	],
+	"SteinGateSeasonTwoAnimeData":[
+		{
+			"TitleName": "Steins;Gate 0",
+			"Sypnosis": "The eccentric, self-proclaimed mad scientist Rintarou Okabe has become a shell of his former self. Depressed and traumatized after failing to rescue his friend Makise Kurisu, he has decided to forsake his mad scientist alter ego and live as an ordinary college student. Surrounded by friends who know little of his time travel experiences, Okabe spends his days trying to forget the horrors of his adventures alone."
+		}
+	],
+	"SteinGateSeasonTwoCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"SteinGateSeasonTwoEpisodeData":[
+		{
+			"Number":"0",
+			"Name":"Divide by Zero",
+			"Link":""
+		},
+		{
+			"Number":"1",
+			"Name":"Missing Link of the Annihilator: Absolute Zero",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"Epigraph of the Closed Curve: Closed Epigraph",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"Protocol of the Two-sided Gospel: X-Day Protocol",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"Solitude of the Mournful Flow: A Stray Sheep",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"Solitude of the Astigmatism: Entangled Sheep",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"Eclipse of Orbital Ordering: The Orbital Eclipse",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"Eclipse of Vibronic Transition: Vibronic Transition",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"Dual of Antinomy: Antinomic Dual",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"Pandora of Eternal Return: Pandora's Box",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"Pandora of Provable Existence: Forbidden Cubicle",
+			"Link":""
+		},
+		{
+			"Number":"11",
+			"Name":"Pandora of Forgotten Existence: Sealed Reliquary",
+			"Link":""
+		},
+		{
+			"Number":"12",
+			"Name":"Mother Goose of Mutual Recursion: Recursive Mother Goose",
+			"Link":""
+		},
+		{
+			"Number":"13",
+			"Name":"Mother Goose of Diffractive Recitativo: Diffraction Mother Goose",
+			"Link":""
+		},
+		{
+			"Number":"14",
+			"Name":"Recognition of the Elastic Limit: Presage or Recognize",
+			"Link":""
+		},
+		{
+			"Number":"15",
+			"Name":"Recognition of the Asymptotic Line: Recognize Asymptote",
+			"Link":""
+		},
+		{
+			"Number":"16",
+			"Name":"Altair of the Point at Infinity: Vega and Altair",
+			"Link":""
+		},
+		{
+			"Number":"17",
+			"Name":"Altair of the Hyperbolic Plane: Beltrami Pseudosphere",
+			"Link":""
+		},
+		{
+			"Number":"18",
+			"Name":"Altair of Translational Symmetry: Translational Symmetry",
+			"Link":""
+		},
+		{
+			"Number":"19",
+			"Name":"Altair of the Cyclic Coordinate: Time-Leap Machine",
+			"Link":""
+		},
+		{
+			"Number":"20",
+			"Name":"Rinascimento of the Unwavering Promise: Promised Rinascimento",
+			"Link":""
+		},
+		{
+			"Number":"21",
+			"Name":"Rinascimento of Image Formation: Return of Phoenix",
+			"Link":""
+		},
+		{
+			"Number":"22",
+			"Name":"Rinascimento of Projection: Project Amadeus",
+			"Link":""
+		},
+		{
+			"Number":"23",
+			"Name":"Arclight of the Point at Infinity: Arclight of the Sky",
+			"Link":""
+		}
+	],
+	"SteinGateSeasonTwoImageData":[
+		{
+			"src":""
+		}
+	],
+	"SteinGateSeasonTwoVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+
 	"AoBSeasonOneAnimeData":[
 		{
-			"TitleName": "",
-			"Sypnosis": ""
+			"TitleName": "Ascendance of a Bookworm",
+			"Sypnosis": "Urano Motosu loves books and has an endless desire to read literature, no matter the subject. She almost fulfills her dream job of becoming a librarian before her life is ended in an accident. As she draws her last breath, she wishes to be able to read more books in her next life. As if fate was listening to her prayer, she wakes up reincarnated as Myne—a frail five-year-old girl living in a medieval era. What immediately comes to her mind is her passion. She tries to find something to read, only to become frustrated by the lack of books at her disposal. Without the printing press, books have to be written and copied by hand, making them very expensive; as such, only a few nobles can afford them—but this won't stop Myne. She will prove that her will to read is unbreakable, and if there are no books around, she will make them herself! "
 		}
 	],
 	"AoBSeasonOneCharacterData":[
@@ -1047,8 +2356,73 @@
 	],
 	"AoBSeasonOneEpisodeData":[
 		{
-			"Number":"",
-			"Name":"",
+			"Number":"1",
+			"Name":"A World Without Books",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"Life Improvements and Slates",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"The Events of Winter",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"Forests and Clay Tablets",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"Baptisms and Strange Fevers",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"Meeting",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"Seeds of Suspicion",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"Lutz's Main",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"The Guild Master's Granddaughter",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"To the Second Winter",
+			"Link":""
+		},
+		{
+			"Number":"11",
+			"Name":"Life-or-Death Choices and Family Meetings",
+			"Link":""
+		},
+		{
+			"Number":"12",
+			"Name":"Baptism and Divine Paradises",
+			"Link":""
+		},
+		{
+			"Number":"13",
+			"Name":"The Choice to Be an Apprentice Priestess",
+			"Link":""
+		},
+		{
+			"Number":"14",
+			"Name":"Conclusions",
 			"Link":""
 		}
 	],
@@ -1062,40 +2436,172 @@
 			"fullEmbed":""
 		}
 	],
-	"PsychoPassSeasonOneAnimeData":[
+	"AoBSeasonTwoAnimeData":[
 		{
-			"TitleName": "",
-			"Sypnosis": ""
+			"TitleName": "Ascendance of a Bookworm Part 2",
+			"Sypnosis": "When Myne learns that the Holy Church is in need of mana for their relics, she sees it as her chance to be cured of her life-threatening mana disorder. After seeing their bountiful library, she throws herself headfirst into the Church's grasp and begs to join their order. In exchange for her service and her unusually bountiful supply of mana, Myne is given the blue robes of a noble-born apprentice priestess, despite being a commoner. To Myne, all this talk of mana and nobility is trivial, as she now has access to an unlimited supply of books!"
 		}
 	],
-	"PsychoPassSeasonOneCharacterData":[
+	"AoBSeasonTwoCharacterData":[
 		{
 			"Name":"",
 			"src":"",
 			"Description": ""
 		}
 	],
-	"PsychoPassSeasonOneEpisodeData":[
+	"AoBSeasonTwoEpisodeData":[
 		{
-			"Number":"",
-			"Name":"",
+			"Number":"1",
+			"Name":"Apprentice Priestess",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"Blue Robes and Uncommon Sense",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"Needs",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"Orphanage Reforms",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"Cleanups and Star Festivals",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"The Path Ahead of Lutz",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"New Retainers",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"Wilma and Holy Scriptures for Kids",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"Harvest Festivals and Staying Home",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"Knight Orders and Requests",
+			"Link":""
+		},
+		{
+			"Number":"11",
+			"Name":"Trombe and Battles",
+			"Link":""
+		},
+		{
+			"Number":"12",
+			"Name":"Dreamlike World",
 			"Link":""
 		}
 	],
-	"PsychoPassSeasonOneImageData":[
+	"AoBSeasonTwoImageData":[
 		{
 			"src":""
 		}
 	],
-	"PsychoPassSeasonOneVideoData":[
+	"AoBSeasonTwoVideoData":[
 		{
 			"fullEmbed":""
 		}
 	],
+
+	"ManariaFriendsSeasonOneAnimeData":[
+		{
+			"TitleName": "Manaria Friends",
+			"Sypnosis": "Mysteria Academy is a prestigious magic school that teaches magic without discrimination to the three factions (men, gods, demons), who usually are engaged in battle with each other. Two of the academy's students are Anne, a princess and honor student, and Grea, a princess born from a dragon and a human."
+		}
+	],
+	"ManariaFriendsSeasonOneCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"ManariaFriendsSeasonOneEpisodeData":[
+		{
+			"Number":"1",
+			"Name":"Anne & Grea",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"Agony of Grea",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"Princess's Holiday",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"Test Time",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"Academy Down",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"Floating at Sea",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"Hide and Seek",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"Backstage Confidential",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"A Slice of Life",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"The Pair's Promise",
+			"Link":""
+		}
+	],
+	"ManariaFriendsSeasonOneImageData":[
+		{
+			"src":""
+		}
+	],
+	"ManariaFriendsSeasonOneVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+
 	"RageBahamuttSeasonOneAnimeData":[
 		{
-			"TitleName": "",
-			"Sypnosis": ""
+			"TitleName": "Rage of Bahamut: Genesis",
+			"Sypnosis": "Shingeki no Bahamut: Genesis tells the story of a group of unlikely heroes who find themselves caught in the middle of an epic clash between gods and demons, forced to carve their own path in the face of the imminent storm."
 		}
 	],
 	"RageBahamuttSeasonOneCharacterData":[
@@ -1107,8 +2613,63 @@
 	],
 	"RageBahamuttSeasonOneEpisodeData":[
 		{
-			"Number":"",
-			"Name":"",
+			"Number":"1",
+			"Name":"Encounter Wytearp",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"Escape of Levian",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"Fog of Nebelville",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"Reunion at Ysmenport",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"Rescue in Sword Valley",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"Anatae, Part 1: Legendary Saint",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"Anatae, Part 2: The Storm Rages",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"Anatae, Part 3: Beyond the Storm",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"Decision in the Wailing Woods",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"Helheim, Land of Lies",
+			"Link":""
+		},
+		{
+			"Number":"11",
+			"Name":"All Roads Lead to Abos",
+			"Link":""
+		},
+		{
+			"Number":"12",
+			"Name":"Rage of Bahamut",
 			"Link":""
 		}
 	],
@@ -1122,10 +2683,156 @@
 			"fullEmbed":""
 		}
 	],
+	"RageBahamuttSeasonTwoAnimeData":[
+		{
+			"TitleName": "Rage of Bahamut: Virgin Soul",
+			"Sypnosis": " Nina Drango, a cheerful young bounty hunter, has arrived at the Royal Capital with hopes of settling down and earning a living. However, her peaceful life in the capital is quickly thrown into chaos when she crosses paths with the ominous Rag Demon who is determined to seek revenge against humans, and Kaisar Lidfard, a noble knight battling an internal moral conflict."
+		}
+	],
+	"RageBahamuttSeasonTwoCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"RageBahamuttSeasonTwoEpisodeData":[
+		{
+			"Number":"1",
+			"Name":"Red Dragon",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"The Miserables",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"Close Encounter",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"Firestarter",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"Those Who Won't Give Up",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"Anatean Holiday",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"The Day of Victory",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"The Day of Defeat",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"Same Old, Same Old",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"The Way She Was",
+			"Link":""
+		},
+		{
+			"Number":"11",
+			"Name":"Declaration of War",
+			"Link":""
+		},
+		{
+			"Number":"12",
+			"Name":"The Great Escape",
+			"Link":""
+		},
+		{
+			"Number":"13",
+			"Name":"A Farewell to Arms",
+			"Link":""
+		},
+		{
+			"Number":"14",
+			"Name":"Homecoming",
+			"Link":""
+		},
+		{
+			"Number":"15",
+			"Name":"City of the Gods, Part 1",
+			"Link":""
+		},
+		{
+			"Number":"16",
+			"Name":"City of the Gods, Part 2",
+			"Link":""
+		},
+		{
+			"Number":"17",
+			"Name":"Virgin Souls",
+			"Link":""
+		},
+		{
+			"Number":"18",
+			"Name":"Invictus",
+			"Link":""
+		},
+		{
+			"Number":"19",
+			"Name":"Shall We Dance",
+			"Link":""
+		},
+		{
+			"Number":"20",
+			"Name":"From Heaven to Hell",
+			"Link":""
+		},
+		{
+			"Number":"21",
+			"Name":"Vengeance",
+			"Link":""
+		},
+		{
+			"Number":"22",
+			"Name":"Which Way Is the Wind Blowing",
+			"Link":""
+		},
+		{
+			"Number":"23",
+			"Name":"Rise of the Nightmare",
+			"Link":""
+		},
+		{
+			"Number":"24",
+			"Name":"Run, Nina, Run",
+			"Link":""
+		}
+	],
+	"RageBahamuttSeasonTwoImageData":[
+		{
+			"src":""
+		}
+	],
+	"RageBahamuttSeasonTwoVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+
 	"HxHSeasonOneAnimeData":[
 		{
-			"TitleName": "",
-			"Sypnosis": ""
+			"TitleName": "Hunter x Hunter",
+			"Sypnosis": "Hunter x Hunter is set in a world where Hunters exist to perform all manner of dangerous tasks like capturing criminals and bravely searching for lost treasures in uncharted territories. Twelve-year-old Gon Freecss is determined to become the best Hunter possible in hopes of finding his father, who was a Hunter himself and had long ago abandoned his young son. However, Gon soon realizes the path to achieving his goals is far more challenging than he could have ever imagined."
 		}
 	],
 	"HxHSeasonOneCharacterData":[
@@ -1137,8 +2844,743 @@
 	],
 	"HxHSeasonOneEpisodeData":[
 		{
-			"Number":"",
-			"Name":"",
+			"Number":"1",
+			"Name":"Departure And Friends",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"Test of Tests",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"Rivals In Survival",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"Hope and Ambition",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"Hisoka is Sneaky",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"A Surprising Challenge",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"Showdown On The Airship",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"Solution Is Majority Rules?",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"Beware Of Prisoners",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"Trick To The Trick",
+			"Link":""
+		},
+		{
+			"Number":"11",
+			"Name":"Trouble With The Gamble",
+			"Link":""
+		},
+		{
+			"Number":"12",
+			"Name":"Last Test Of Resolve",
+			"Link":""
+		},
+		{
+			"Number":"13",
+			"Name":"Letter From Gon",
+			"Link":""
+		},
+		{
+			"Number":"14",
+			"Name":"Hit The Target",
+			"Link":""
+		},
+		{
+			"Number":"15",
+			"Name":"Scramble Of Deception",
+			"Link":""
+		},
+		{
+			"Number":"16",
+			"Name":"Defeat And Disgrace",
+			"Link":""
+		},
+		{
+			"Number":"17",
+			"Name":"Trap In The Hole",
+			"Link":""
+		},
+		{
+			"Number":"18",
+			"Name":"Big Time Interview",
+			"Link":""
+		},
+		{
+			"Number":"19",
+			"Name":"Can't Win But Can't Lose",
+			"Link":""
+		},
+		{
+			"Number":"20",
+			"Name":"Baffling Turn Of Events",
+			"Link":""
+		},
+		{
+			"Number":"21",
+			"Name":"Some Brother Trouble",
+			"Link":""
+		},
+		{
+			"Number":"22",
+			"Name":"A Dangerous Watchdog",
+			"Link":""
+		},
+		{
+			"Number":"23",
+			"Name":"The Guard's Duty",
+			"Link":""
+		},
+		{
+			"Number":"24",
+			"Name":"The Zoldyck Family",
+			"Link":""
+		},
+		{
+			"Number":"25",
+			"Name":"Can't See If You're Blind",
+			"Link":""
+		},
+		{
+			"Number":"26",
+			"Name":"Then and After",
+			"Link":""
+		},
+		{
+			"Number":"27",
+			"Name":"Arrival At The Arena",
+			"Link":""
+		},
+		{
+			"Number":"28",
+			"Name":"Nen And Nen",
+			"Link":""
+		},
+		{
+			"Number":"29",
+			"Name":"Awakening And Potential",
+			"Link":""
+		},
+		{
+			"Number":"30",
+			"Name":"Fierce And Ferocious",
+			"Link":""
+		},
+		{
+			"Number":"31",
+			"Name":"Destiny And Tenacity",
+			"Link":""
+		},
+		{
+			"Number":"32",
+			"Name":"A Surprising Win",
+			"Link":""
+		},
+		{
+			"Number":"33",
+			"Name":"An Empty Threat",
+			"Link":""
+		},
+		{
+			"Number":"34",
+			"Name":"Power To Avenge",
+			"Link":""
+		},
+		{
+			"Number":"35",
+			"Name":"The True Pass",
+			"Link":""
+		},
+		{
+			"Number":"36",
+			"Name":"A Big Debt And A Small Kick",
+			"Link":""
+		},
+		{
+			"Number":"37",
+			"Name":"Ging And Gon",
+			"Link":""
+		},
+		{
+			"Number":"38",
+			"Name":"Reply From Dad",
+			"Link":""
+		},
+		{
+			"Number":"39",
+			"Name":"Wish And Promise",
+			"Link":""
+		},
+		{
+			"Number":"40",
+			"Name":"Nen Users Unite?",
+			"Link":""
+		},
+		{
+			"Number":"41",
+			"Name":"Gathering Of Heroes",
+			"Link":""
+		},
+		{
+			"Number":"42",
+			"Name":"Defend And Attack",
+			"Link":""
+		},
+		{
+			"Number":"43",
+			"Name":"A Shocking Tragedy",
+			"Link":""
+		},
+		{
+			"Number":"44",
+			"Name":"Buildup To A Fierce Battle",
+			"Link":""
+		},
+		{
+			"Number":"45",
+			"Name":"Restraint And Vow",
+			"Link":""
+		},
+		{
+			"Number":"46",
+			"Name":"Chasing And Waiting",
+			"Link":""
+		},
+		{
+			"Number":"47",
+			"Name":"Condition And Condition",
+			"Link":""
+		},
+		{
+			"Number":"48",
+			"Name":"Very Sharp Eye",
+			"Link":""
+		},
+		{
+			"Number":"49",
+			"Name":"Pursuit And Analysis",
+			"Link":""
+		},
+		{
+			"Number":"50",
+			"Name":"Ally And Sword",
+			"Link":""
+		},
+		{
+			"Number":"51",
+			"Name":"A Brutal Battlefield",
+			"Link":""
+		},
+		{
+			"Number":"52",
+			"Name":"Assault And Impact",
+			"Link":""
+		},
+		{
+			"Number":"53",
+			"Name":"Fake And Psyche",
+			"Link":""
+		},
+		{
+			"Number":"54",
+			"Name":"Fortunes Aren't Right",
+			"Link":""
+		},
+		{
+			"Number":"55",
+			"Name":"Allies And Lies",
+			"Link":""
+		},
+		{
+			"Number":"56",
+			"Name":"Beloved And Beleaguered",
+			"Link":""
+		},
+		{
+			"Number":"57",
+			"Name":"Initiative And Law",
+			"Link":""
+		},
+		{
+			"Number":"58",
+			"Name":"Signal To Retreat",
+			"Link":""
+		},
+		{
+			"Number":"59",
+			"Name":"Bid And Haste",
+			"Link":""
+		},
+		{
+			"Number":"60",
+			"Name":"End And Beginning",
+			"Link":""
+		},
+		{
+			"Number":"61",
+			"Name":"Invitation And Friend",
+			"Link":""
+		},
+		{
+			"Number":"62",
+			"Name":"Reality And Raw",
+			"Link":""
+		},
+		{
+			"Number":"63",
+			"Name":"A Hard Master",
+			"Link":""
+		},
+		{
+			"Number":"64",
+			"Name":"Strengthen And Threaten",
+			"Link":""
+		},
+		{
+			"Number":"65",
+			"Name":"Evil Fist And Rock-Paper-Scissors",
+			"Link":""
+		},
+		{
+			"Number":"66",
+			"Name":"Strategy And Scheme",
+			"Link":""
+		},
+		{
+			"Number":"67",
+			"Name":"15 x 15",
+			"Link":""
+		},
+		{
+			"Number":"68",
+			"Name":"Pirates And Guesses",
+			"Link":""
+		},
+		{
+			"Number":"69",
+			"Name":"A Heated Showdown",
+			"Link":""
+		},
+		{
+			"Number":"70",
+			"Name":"Guts And Courage",
+			"Link":""
+		},
+		{
+			"Number":"71",
+			"Name":"Bargain And Deal",
+			"Link":""
+		},
+		{
+			"Number":"72",
+			"Name":"Chase And Chance",
+			"Link":""
+		},
+		{
+			"Number":"73",
+			"Name":"Insanity And Sanity",
+			"Link":""
+		},
+		{
+			"Number":"74",
+			"Name":"Victor And Loser",
+			"Link":""
+		},
+		{
+			"Number":"75",
+			"Name":"Ging's Friends And True Friends",
+			"Link":""
+		},
+		{
+			"Number":"76",
+			"Name":"Reunion And Understanding",
+			"Link":""
+		},
+		{
+			"Number":"77",
+			"Name":"Unease And Sighting",
+			"Link":""
+		},
+		{
+			"Number":"78",
+			"Name":"Very Rapid Reproduction",
+			"Link":""
+		},
+		{
+			"Number":"79",
+			"Name":"No Good NGL",
+			"Link":""
+		},
+		{
+			"Number":"80",
+			"Name":"Evil And Terrible",
+			"Link":""
+		},
+		{
+			"Number":"81",
+			"Name":"The Fight Begins",
+			"Link":""
+		},
+		{
+			"Number":"82",
+			"Name":"Kite And Slots",
+			"Link":""
+		},
+		{
+			"Number":"83",
+			"Name":"Inspiration To Evolve",
+			"Link":""
+		},
+		{
+			"Number":"84",
+			"Name":"A Fated Awakening",
+			"Link":""
+		},
+		{
+			"Number":"85",
+			"Name":"Light And Darkness",
+			"Link":""
+		},
+		{
+			"Number":"86",
+			"Name":"Promise And Reunion",
+			"Link":""
+		},
+		{
+			"Number":"87",
+			"Name":"Duel And Escape",
+			"Link":""
+		},
+		{
+			"Number":"88",
+			"Name":"Rock-Paper-Scissors And Weakness",
+			"Link":""
+		},
+		{
+			"Number":"89",
+			"Name":"Compassion And Strength",
+			"Link":""
+		},
+		{
+			"Number":"90",
+			"Name":"Interest And Curse",
+			"Link":""
+		},
+		{
+			"Number":"91",
+			"Name":"The Strong And The Weak",
+			"Link":""
+		},
+		{
+			"Number":"92",
+			"Name":"One Wish And Two Promises",
+			"Link":""
+		},
+		{
+			"Number":"93",
+			"Name":"Date With Palm",
+			"Link":""
+		},
+		{
+			"Number":"94",
+			"Name":"Friend And Journey",
+			"Link":""
+		},
+		{
+			"Number":"95",
+			"Name":"Grudge And Dread",
+			"Link":""
+		},
+		{
+			"Number":"96",
+			"Name":"A Lawless Home",
+			"Link":""
+		},
+		{
+			"Number":"97",
+			"Name":"Carnage And Devastation",
+			"Link":""
+		},
+		{
+			"Number":"98",
+			"Name":"Infiltration And Selection",
+			"Link":""
+		},
+		{
+			"Number":"99",
+			"Name":"Combination And Evolution",
+			"Link":""
+		},
+		{
+			"Number":"100",
+			"Name":"Tracking And Pursuit",
+			"Link":""
+		},
+		{
+			"Number":"101",
+			"Name":"Ikalgo And Lightning",
+			"Link":""
+		},
+		{
+			"Number":"102",
+			"Name":"Power And Games",
+			"Link":""
+		},
+		{
+			"Number":"103",
+			"Name":"Check And Mate",
+			"Link":""
+		},
+		{
+			"Number":"104",
+			"Name":"Doubt And Hesitation",
+			"Link":""
+		},
+		{
+			"Number":"105",
+			"Name":"Resolve And Awakening",
+			"Link":""
+		},
+		{
+			"Number":"106",
+			"Name":"Knov And Morel",
+			"Link":""
+		},
+		{
+			"Number":"107",
+			"Name":"Return And Retire",
+			"Link":""
+		},
+		{
+			"Number":"108",
+			"Name":"Gungi Of Komugi",
+			"Link":""
+		},
+		{
+			"Number":"109",
+			"Name":"Taking Stock And Taking Action",
+			"Link":""
+		},
+		{
+			"Number":"110",
+			"Name":"Confusion And Expectation",
+			"Link":""
+		},
+		{
+			"Number":"111",
+			"Name":"Charge And Invade",
+			"Link":""
+		},
+		{
+			"Number":"112",
+			"Name":"Monster And Monster",
+			"Link":""
+		},
+		{
+			"Number":"113",
+			"Name":"An Indebted Insect",
+			"Link":""
+		},
+		{
+			"Number":"114",
+			"Name":"Divide And Conquer",
+			"Link":""
+		},
+		{
+			"Number":"115",
+			"Name":"Duty And Question",
+			"Link":""
+		},
+		{
+			"Number":"116",
+			"Name":"Revenge And Recovery",
+			"Link":""
+		},
+		{
+			"Number":"117",
+			"Name":"Insult And Payback",
+			"Link":""
+		},
+		{
+			"Number":"118",
+			"Name":"A False Rage",
+			"Link":""
+		},
+		{
+			"Number":"119",
+			"Name":"Strong Or Weak",
+			"Link":""
+		},
+		{
+			"Number":"120",
+			"Name":"Fake And Real",
+			"Link":""
+		},
+		{
+			"Number":"121",
+			"Name":"Defeat And Dignity",
+			"Link":""
+		},
+		{
+			"Number":"122",
+			"Name":"Pose And Name",
+			"Link":""
+		},
+		{
+			"Number":"123",
+			"Name":"Centipede And Memory",
+			"Link":""
+		},
+		{
+			"Number":"124",
+			"Name":"Breakdown And Awakening",
+			"Link":""
+		},
+		{
+			"Number":"125",
+			"Name":"Great Power And Ultimate Power",
+			"Link":""
+		},
+		{
+			"Number":"126",
+			"Name":"Zero And Rose",
+			"Link":""
+		},
+		{
+			"Number":"127",
+			"Name":"Hostility And Determination",
+			"Link":""
+		},
+		{
+			"Number":"128",
+			"Name":"Unparalleled Joy And Unconditional Love",
+			"Link":""
+		},
+		{
+			"Number":"129",
+			"Name":"Formidable Enemy And Clear Objective",
+			"Link":""
+		},
+		{
+			"Number":"130",
+			"Name":"Magic And Despair",
+			"Link":""
+		},
+		{
+			"Number":"131",
+			"Name":"Anger And Light",
+			"Link":""
+		},
+		{
+			"Number":"132",
+			"Name":"Flash And Trigger",
+			"Link":""
+		},
+		{
+			"Number":"133",
+			"Name":"Deadline to Live",
+			"Link":""
+		},
+		{
+			"Number":"134",
+			"Name":"The Word Is That Person",
+			"Link":""
+		},
+		{
+			"Number":"135",
+			"Name":"This Day And This Moment",
+			"Link":""
+		},
+		{
+			"Number":"136",
+			"Name":"Homecoming And Real Name",
+			"Link":""
+		},
+		{
+			"Number":"137",
+			"Name":"Twelve Zodiac In Discussion",
+			"Link":""
+		},
+		{
+			"Number":"138",
+			"Name":"Plea and Favor",
+			"Link":""
+		},
+		{
+			"Number":"139",
+			"Name":"Alluka and That Thing",
+			"Link":""
+		},
+		{
+			"Number":"140",
+			"Name":"Third Election And Re-election",
+			"Link":""
+		},
+		{
+			"Number":"141",
+			"Name":"Magician And Butler",
+			"Link":""
+		},
+		{
+			"Number":"142",
+			"Name":"Needle And Debt",
+			"Link":""
+		},
+		{
+			"Number":"143",
+			"Name":"Sin And Claw",
+			"Link":""
+		},
+		{
+			"Number":"144",
+			"Name":"Approval And Coalition",
+			"Link":""
+		},
+		{
+			"Number":"145",
+			"Name":"Defeat And Reunion",
+			"Link":""
+		},
+		{
+			"Number":"146",
+			"Name":"Chairman And Release",
+			"Link":""
+		},
+		{
+			"Number":"147",
+			"Name":"Salvation And Future",
+			"Link":""
+		},
+		{
+			"Number":"148",
+			"Name":"Until Now And From Now",
 			"Link":""
 		}
 	],
@@ -1152,6 +3594,7 @@
 			"fullEmbed":""
 		}
 	],
+
 	"SymphogearSeasonOneAnimeData":[
 		{
 			"TitleName": "",
@@ -1160,15 +3603,75 @@
 	],
 	"SymphogearSeasonOneCharacterData":[
 		{
-			"Name":"",
+			"Name":"Symphogear",
 			"src":"",
 			"Description": ""
 		}
 	],
 	"SymphogearSeasonOneEpisodeData":[
 		{
-			"Number":"",
-			"Name":"",
+			"Number":"1",
+			"Name":"Awakening Heartbeat",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"Noise and Disharmony",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"Passing in the Night",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"Falling Tears",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"From the Bottom of Darker Depths",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"Where Omens Lead",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"Fate Just Keeps Firing",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"No Shadows in the Sunlight",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"Protector's Song",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"What Only Clasped Hands Can Create",
+			"Link":""
+		},
+		{
+			"Number":"11",
+			"Name":"Shoot the Moon",
+			"Link":""
+		},
+		{
+			"Number":"12",
+			"Name":"Symphogear",
+			"Link":""
+		},
+		{
+			"Number":"13",
+			"Name":"Meteoroids Falling, Burning, Disappearing, and then",
 			"Link":""
 		}
 	],
@@ -1182,6 +3685,367 @@
 			"fullEmbed":""
 		}
 	],
+	"SymphogearSeasonTwoAnimeData":[
+		{
+			"TitleName": "Symphogear G",
+			"Sypnosis": ""
+		}
+	],
+	"SymphogearSeasonTwoCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"SymphogearSeasonTwoEpisodeData":[
+		{
+			"Number":"1",
+			"Name":"The Gungnir Girl",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"Power and Lies in Her Heart",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"Those Who Long for the End, Those Who Challenge the End",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"The Place I Call Home",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"Bloodstained Serenade",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"A Miracle is a Cruel Thing",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"When You Stop Being You",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"Hand in Hand for Me, As I Waver",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"The Origin of a Hero",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"Countdown to Loss",
+			"Link":""
+		},
+		{
+			"Number":"11",
+			"Name":"Destiny Ark",
+			"Link":""
+		},
+		{
+			"Number":"12",
+			"Name":"Striking Spear",
+			"Link":""
+		},
+		{
+			"Number":"13",
+			"Name":"In the Distance, That Day, When the Star Became Music",
+			"Link":""
+		}
+	],
+	"SymphogearSeasonTwoImageData":[
+		{
+			"src":""
+		}
+	],
+	"SymphogearSeasonTwoVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+	"SymphogearSeasonThreeAnimeData":[
+		{
+			"TitleName": "",
+			"Sypnosis": ""
+		}
+	],
+	"SymphogearSeasonThreeCharacterData":[
+		{
+			"Name":"Symphogear GX",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"SymphogearSeasonThreeEpisodeData":[
+		{
+			"Number":"1",
+			"Name":"Murderer of Miracles",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"Before I Destroy the World",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"Twilight of the Wielders",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"Gungnir, Once More",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"Edge Works",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"Drawn Blade",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"Carry on the Shining Light, and Stay True to Yourself",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"The Courage to Face It",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"The Middle of a Dream",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"It's So Cruel, But..",
+			"Link":""
+		},
+		{
+			"Number":"11",
+			"Name":"It's All Right. Everything is Just Fine.",
+			"Link":""
+		},
+		{
+			"Number":"12",
+			"Name":"GX",
+			"Link":""
+		},
+		{
+			"Number":"13",
+			"Name":"Believe in Justice and Hold It Close",
+			"Link":""
+		}
+	],
+	"SymphogearSeasonThreeImageData":[
+		{
+			"src":""
+		}
+	],
+	"SymphogearSeasonThreeVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+	"SymphogearSeasonFourAnimeData":[
+		{
+			"TitleName": "Symphogear AXZ",
+			"Sypnosis": ""
+		}
+	],
+	"SymphogearSeasonFourCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"SymphogearSeasonFourEpisodeData":[
+		{
+			"Number":"1",
+			"Name":"Hell at Valverde",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"Last Resort",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"A Horoscope Drawn By Gears",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"Golden Transmutation",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"Risking Your Life In A Fictional Warzone",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"Surfacing From the Suicide Zone",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"ARCANA No. 00",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"In The Gap Between Past and Future",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"Blue Bunny",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"An Tiki Thera",
+			"Link":""
+		},
+		{
+			"Number":"11",
+			"Name":"Ultimate Apotheosis",
+			"Link":""
+		},
+		{
+			"Number":"12",
+			"Name":"AXZ",
+			"Link":""
+		},
+		{
+			"Number":"13",
+			"Name":"The Reality Proved When Each Tear Falls On The Next",
+			"Link":""
+		}
+	],
+	"SymphogearSeasonFourImageData":[
+		{
+			"src":""
+		}
+	],
+	"SymphogearSeasonFourVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+	"SymphogearSeasonFiveAnimeData":[
+		{
+			"TitleName": "Symphogear XV",
+			"Sypnosis": ""
+		}
+	],
+	"SymphogearSeasonFiveCharacterData":[
+		{
+			"Name":"",
+			"src":"",
+			"Description": ""
+		}
+	],
+	"SymphogearSeasonFiveEpisodeData":[
+		{
+			"Number":"1",
+			"Name":"From the Horizon of Mankind's History",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"The Day The Sky Falls",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"Penny Dreadful",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"The Name of the Flower Is Amalgam",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"The Hidden Thing in the Bag",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"Xenoglossia",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"Cutting the Tangled Thread",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"XV",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"I am a father",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"Not a Crude Color of Rust",
+			"Link":""
+		},
+		{
+			"Number":"11",
+			"Name":"In The Beginning Was The Word",
+			"Link":""
+		},
+		{
+			"Number":"12",
+			"Name":"Senki Zessho",
+			"Link":""
+		},
+		{
+			"Number":"13",
+			"Name":"Let's Make History With A Light That Even the Gods Don't Know",
+			"Link":""
+		}
+	],
+	"SymphogearSeasonFiveImageData":[
+		{
+			"src":""
+		}
+	],
+	"SymphogearSeasonFiveVideoData":[
+		{
+			"fullEmbed":""
+		}
+	],
+	
 	"GLTSeasonOneAnimeData":[
 		{
 			"TitleName": "",
@@ -1197,8 +4061,63 @@
 	],
 	"GLTSeasonOneEpisodeData":[
 		{
-			"Number":"",
-			"Name":"",
+			"Number":"1",
+			"Name":"Starry Sky/War",
+			"Link":""
+		},
+		{
+			"Number":"2",
+			"Name":"Bath/Journal/Laudry",
+			"Link":""
+		},
+		{
+			"Number":"3",
+			"Name":"Encounter/City/Streetlights",
+			"Link":""
+		},
+		{
+			"Number":"4",
+			"Name":"Photograph/Temple",
+			"Link":""
+		},
+		{
+			"Number":"5",
+			"Name":"House/Nap/The Sound of Rain",
+			"Link":""
+		},
+		{
+			"Number":"6",
+			"Name":"Accident/Technology/Takeoff",
+			"Link":""
+		},
+		{
+			"Number":"7",
+			"Name":"Labyrinth/Cooking",
+			"Link":""
+		},
+		{
+			"Number":"8",
+			"Name":"Memories/Spiral/Moonlight",
+			"Link":""
+		},
+		{
+			"Number":"9",
+			"Name":"Technology/Aquarium/Life",
+			"Link":""
+		},
+		{
+			"Number":"10",
+			"Name":"Train/Wavelength/Capture",
+			"Link":""
+		},
+		{
+			"Number":"11",
+			"Name":"Culture/Destruction/The Past",
+			"Link":""
+		},
+		{
+			"Number":"12",
+			"Name":"Connection/Friends",
 			"Link":""
 		}
 	],
@@ -1212,201 +4131,33 @@
 			"fullEmbed":""
 		}
 	],
-	"Placeholder Images T2S1": [
-		{
-			"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
-		},
-		{
-			"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
-		},
-		{
-			"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
-		},
-		{
-			"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
-		},
-		{
-			"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
-		},
-		{
-			"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
-		}
-		],
-	"Placeholder Images T2S2": [
-		{
-			"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
-		},
-		{
-			"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
-		},
-		{
-			"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
-		},
-		{
-			"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
-		},
-		{
-			"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
-		},
-		{
-			"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
-		}
-		],
-	"Placeholder Images T2S3": [
-		{
-			"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
-		},
-		{
-			"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
-		},
-		{
-			"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
-		},
-		{
-			"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
-		},
-		{
-			"src": "https://www.genius100visions.com/wp-content/uploads/2017/09/placeholder-vertical.jpg"
-		},
-		{
-			"src": "https://singaporefintech.org/wp-content/plugins/bbpowerpack/modules/pp-content-grid//images/placeholder.jpg"
-		}
-		], 
-	"Placeholder Character Images T2S1": [
-		{
-			"name": "Char 1",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 2",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 3",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 4",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 5",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 6",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 7",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 8",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		}
-		],
-	"Placeholder Character Images T2S2": [{
-			"name": "Char 1",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 2",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 3",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 4",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 5",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 6",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		}
-		],
-	"Placeholder Character Images T2S3": [
-		{
-			"name": "Char 1",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 2",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 3",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 4",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 5",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 6",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 7",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 8",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 9",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 10",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 11",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		},
-		{
-			"name": "Char 12",
-			"src": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-		}
-		],
-		"TitleBlankSeasonBlankAnimeData":[
+	
+	"TitleBlankSeasonBlankAnimeData":[
 			{
 				"TitleName": "",
 				"Sypnosis": ""
 			}
 		],
-		"TitleBlankSeasonBlankCharacterData":[
+	"TitleBlankSeasonBlankCharacterData":[
 			{
 				"Name":"",
 				"src":"",
 				"Description": ""
 			}
 		],
-		"TitleBlankSeasonBlankEpisodeData":[
+	"TitleBlankSeasonBlankEpisodeData":[
 			{
 				"Number":"",
 				"Name":"",
 				"Link":""
 			}
 		],
-		"TitleBlankSeasonBlankImageData":[
+	"TitleBlankSeasonBlankImageData":[
 			{
 				"src":""
 			}
 		],
-		"TitleBlankSeasonBlankVideoData":[
+	"TitleBlankSeasonBlankVideoData":[
 			{
 				"fullEmbed":""
 			}
