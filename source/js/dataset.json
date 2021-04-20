@@ -996,9 +996,29 @@
 	],
 	"JJBASeasonTwoCharacterData":[
 		{
-			"Name":"",
+			"Name":"Kuujou Joutarou",
 			"src":"",
-			"Description": ""
+			"Description": "Joutarou is a fictional character from the Japanese manga JoJo's Bizarre Adventure, and the protagonist of Series 3. He has a recognizable attire of trenchcoat-length school uniform jacket with yellow chains on the collar. He also wears a trademark hat which, while torn in the back, often seems to blend with his hair. While they are first shown as being completely separate, later publications cause more uncertainty as to where his hat and his hair actually meet. His hat is most likely a Japanese student cap that was normally worn along with the gakuran prior to the 1970s."
+		},
+		{
+			"Name":"Joseph Joestar",
+			"src":"",
+			"Description": "Joseph is the main protagonist of the second arc, Battle Tendency. He is the grandson of Jonathan Joestar, the main protagonist of the first arc, Phantom Blood. Joseph is hotheaded and confrontational. He also has the uncanny ability to predict what his opponent will say next."
+		},
+		{
+			"Name":"Mohammed Avdol",
+			"src":"",
+			"Description": "Avdol is a rather serious fellow, who wears his heart on his sleeve and is a good source of knowledge. He is extremely dedicated and willing to die for his comrades. He acts as an adviser of sorts, but is also a powerful warrior. He is the most moderate member of the team: not as impulsive and warm-blooded as Polnareff and Joseph, and not as cold as Kakyoin and Jotaro. He serves as the voice of reason to the rest of the team."
+		},
+		{
+			"Name":"Noriaki Kakyouin",
+			"src":"",
+			"Description": "Initially a student who has traveled to Egypt, Dio Brando sensed his Stand powers and asked him for a demonstration, which turned out to be a fight. Afterwards, Kakyoin is brainwashed by Dio using buds from his own cells into following his will, which is to kill Jotaro Kujo."
+		},
+		{
+			"Name":"Jean-Pierre Polnareff",
+			"src":"",
+			"Description": "Jean Pierre Polnareff is the second to last addition to the Crusaders, who joined after he fought and was defeated by Muhammad Avdol. "
 		}
 	],
 	"JJBASeasonTwoEpisodeData":[
@@ -1141,9 +1161,34 @@
 	],
 	"JJBASeasonThreeCharacterData":[
 		{
-			"Name":"",
+			"Name":"Kuujou Joutarou",
 			"src":"",
-			"Description": ""
+			"Description": "Joutarou is a fictional character from the Japanese manga JoJo's Bizarre Adventure, and the protagonist of Series 3. He has a recognizable attire of trenchcoat-length school uniform jacket with yellow chains on the collar. He also wears a trademark hat which, while torn in the back, often seems to blend with his hair. While they are first shown as being completely separate, later publications cause more uncertainty as to where his hat and his hair actually meet. His hat is most likely a Japanese student cap that was normally worn along with the gakuran prior to the 1970s."
+		},
+		{
+			"Name":"Joseph Joestar",
+			"src":"",
+			"Description": "Joseph is the main protagonist of the second arc, Battle Tendency. He is the grandson of Jonathan Joestar, the main protagonist of the first arc, Phantom Blood. Joseph is hotheaded and confrontational. He also has the uncanny ability to predict what his opponent will say next."
+		},
+		{
+			"Name":"Mohammed Avdol",
+			"src":"",
+			"Description": "Avdol is a rather serious fellow, who wears his heart on his sleeve and is a good source of knowledge. He is extremely dedicated and willing to die for his comrades. He acts as an adviser of sorts, but is also a powerful warrior. He is the most moderate member of the team: not as impulsive and warm-blooded as Polnareff and Joseph, and not as cold as Kakyoin and Jotaro. He serves as the voice of reason to the rest of the team."
+		},
+		{
+			"Name":"Noriaki Kakyouin",
+			"src":"",
+			"Description": "Initially a student who has traveled to Egypt, Dio Brando sensed his Stand powers and asked him for a demonstration, which turned out to be a fight. Afterwards, Kakyoin is brainwashed by Dio using buds from his own cells into following his will, which is to kill Jotaro Kujo."
+		},
+		{
+			"Name":"Jean-Pierre Polnareff",
+			"src":"",
+			"Description": "Jean Pierre Polnareff is the second to last addition to the Crusaders, who joined after he fought and was defeated by Muhammad Avdol. "
+		},
+		{
+			"Name":"Iggy",
+			"src":"",
+			"Description": "Iggy, who possessed the powers of a Stand, was found by Muhammad Avdol in the street slums of New York. Only Avdol is able to come close to him."
 		}
 	],
 	"JJBASeasonThreeEpisodeData":[
@@ -1286,9 +1331,24 @@
 	],
 	"JJBASeasonFourCharacterData":[
 		{
-			"Name":"",
+			"Name":"Jousuke Higashikata",
 			"src":"",
-			"Description": ""
+			"Description": "Jousuke is the main hero of JoJo's Bizarre Adventure Part 4. He begins his story as a new freshman in the town of Morioh. Part 4 begins with Joutarou seeking him out, as Jousuke is the illegitimate son of Joutarou's grandfather, Joseph Joestar."
+		},
+		{
+			"Name":"Kouichi Hirose",
+			"src":"",
+			"Description": "An ally and classmate who meets Jousuke when Joutarou is searching for him, resulting in the two becoming quick friends."
+		},
+		{
+			"Name":"Okuyasu Nijimura",
+			"src":"",
+			"Description": "Okuyasu isn't exactly the brightest character in the Jojo story, and tended to rely on his elder brother Keicho to make hard decisions. After his brother died, he sought revenge against the User of Red Hot Chili Pepper, Akira Otoishi. During this time and the following events surrounding Yoshikage Kira, he became fast friends with Josuke and Koichi. Okuyasu tends to be jealous of Koichi's relationship with Yukako, and enjoys Tonio's cooking. He also befriends Shigekiyo, after doing battle with his Harvest with Josuke. "
+		},
+		{
+			"Name":"Kuujou Joutarou",
+			"src":"",
+			"Description": "Joutarou is a fictional character from the Japanese manga JoJo's Bizarre Adventure, and the protagonist of Series 3. He has a recognizable attire of trenchcoat-length school uniform jacket with yellow chains on the collar. He also wears a trademark hat which, while torn in the back, often seems to blend with his hair. While they are first shown as being completely separate, later publications cause more uncertainty as to where his hat and his hair actually meet. His hat is most likely a Japanese student cap that was normally worn along with the gakuran prior to the 1970s."
 		}
 	],
 	"JJBASeasonFourEpisodeData":[
@@ -1506,9 +1566,39 @@
 	],
 	"JJBASeasonFiveCharacterData":[
 		{
-			"Name":"",
+			"Name":"Giorno Giovanna",
 			"src":"",
-			"Description": ""
+			"Description": "Born Haruno Shiobana, Giorno is the son of Dio and a Japanese woman. As a young child his mother remarried, to an Italian man, and they moved to Italy; hence Haruno Shiobana became Giorno Giovanna."
+		},
+		{
+			"Name":"Bruno Buccellati",
+			"src":"",
+			"Description": "As a child, Bruno was born in a poor fishing village, but he looked up to his father because of the love he had for his family. When his father became mixed up in the drug business and was badly injured, Bruno protected his father from the people that were trying to kill him, by killing them himself. This led him into the world of gangsters. Even though he was a member of \"Passione,\" he had a kind personality; many people came to him for help."
+		},
+		{
+			"Name":"Guido Mista",
+			"src":"",
+			"Description": "Mista is one of the heroes of part 5, a part of Bruno's gang. When he was younger, he had a run-in with a group of gangsters, and was shot at. All of the gangster's shots missed, and that is where he saw an opportunity to pick up a gun, take aim, and shoot them all in the head. He was sentenced to prison for the rest of teenage years, and was eventually bailed out by Bucciarati, and passed Polpo's test. Guido tends to use a revolver as his firearm, and believes the number 4 is unlucky due to events from his childhood and the character for 4 in Japanese sounds similar to the word \"die\"."
+		},
+		{
+			"Name":"Narancia Ghirga",
+			"src":"",
+			"Description": "Narancia is one of the heroes of part 5, a part of Bruno's gang. Narancia's mother died of sickness, and his father thinks he is a loser. At age 14 he was wandering around and was picked up by Fugo and from there he meets Bruno. Narancia was so overwhelmed with Bruno's kindness that he vowed to follow him forever."
+		},
+		{
+			"Name":"Leone Abbacchio",
+			"src":"",
+			"Description": "Leone Abbacchio is a fictional character from the Japanese manga JoJo's Bizarre Adventure. Abbacchio is one of the heroes of part 5, a part of Bruno's gang. Abbacchio was a cop once. His dream was to protect people. Then one day, because of his clumsiness, one of the police died protecting him. From then on, he has no hope of living and decided to join the gang."
+		},
+		{
+			"Name":"Pannacotta Fugo",
+			"src":"",
+			"Description": "Fugo is a member of Buccellati's gang and is known to lose his patience and explode with anger. "
+		},
+		{
+			"Name":"Trish Una",
+			"src":"",
+			"Description": "The sole female member of Buccellati's gang. She is the daughter to their boss, Diavolo, and was living a normal life before she found out who her father was. From then on, she was on the run to meet her father. "
 		}
 	],
 	"JJBASeasonFiveEpisodeData":[
@@ -1757,9 +1847,14 @@
 	],
 	"ReZeroSeasonOneCharacterData":[
 		{
-			"Name":"",
+			"Name":"Subaru Natsuki",
 			"src":"",
-			"Description": ""
+			"Description": "While Subaru tends to not read the situation, he is loyal to those he holds dear, willing to help them, even if that means taking the thorny path. He has his resolve confirmed through the many situations and circumstances he faces in the fantasy world, originally having been one to always take the easy route. As a hikikomori, he is hopeful of the possibilities that being sucked into a new realm brings, but later realizes the realities of the predicament he is in. Ultimately, he resolves himself to be faithful and protective of the ones that he cares most about."
+		},
+		{
+			"Name":"Emilia",
+			"src":"",
+			"Description": "Emilia is good natured and likes to take care of others, though she herself refuses to admit it, instead thinking of it as her own selfishness. She is indifferent to her own appearance, leaving Puck to take care of her clothes and hair. Because her appearance is similar to the Witch of Envy, she has received unfair discrimination from others. She sometimes acts like a child and is unacquainted with the world as she used to live in the woods with other Elves, though despite this she still works hard to become a ruler."
 		}
 	],
 	"ReZeroSeasonOneEpisodeData":[
@@ -1907,9 +2002,14 @@
 	],
 	"ReZeroSeasonTwoCharacterData":[
 		{
-			"Name":"",
+			"Name":"Subaru Natsuki",
 			"src":"",
-			"Description": ""
+			"Description": "While Subaru tends to not read the situation, he is loyal to those he holds dear, willing to help them, even if that means taking the thorny path. He has his resolve confirmed through the many situations and circumstances he faces in the fantasy world, originally having been one to always take the easy route. As a hikikomori, he is hopeful of the possibilities that being sucked into a new realm brings, but later realizes the realities of the predicament he is in. Ultimately, he resolves himself to be faithful and protective of the ones that he cares most about."
+		},
+		{
+			"Name":"Emilia",
+			"src":"",
+			"Description": "Emilia is good natured and likes to take care of others, though she herself refuses to admit it, instead thinking of it as her own selfishness. She is indifferent to her own appearance, leaving Puck to take care of her clothes and hair. Because her appearance is similar to the Witch of Envy, she has received unfair discrimination from others. She sometimes acts like a child and is unacquainted with the world as she used to live in the woods with other Elves, though despite this she still works hard to become a ruler."
 		}
 	],
 	"ReZeroSeasonTwoEpisodeData":[
@@ -2058,9 +2158,24 @@
 	],
 	"SteinGateSeasonOneCharacterData":[
 		{
-			"Name":"",
+			"Name":"Rintarou Okabe",
 			"src":"",
-			"Description": ""
+			"Description": "Okabe Rintarou is the main protagonist of Steins;Gate. He is a first-year student attending Tokyo Denki University and calls himself a Crazy Mad Scientist. He acts like a villain but is rather immature as he frequently shows traits of Chunibyou (中二病) syndrome despite being a grown-up man. After enrolling in university, he went to Akihabara to open up a laboratory called the \"Future Gadget Research Establishment\" where he invents gadgets that are rather useless. He also talks to himself on the cellphone, his words not making much sense. Supposedly, he has very few friends that can understand what he's talking about."
+		},
+		{
+			"Name":"Kurisu Makise",
+			"src":"",
+			"Description": "The female protagonist. Kurisu is a research member in Victor Qondria University's Brain Research Program. Her age group matches that of third-year high schoolers, but she skipped a grade through America's educational system. She is also famous in America for writing theses papers, part of which is covered in the news. Thanks to skipping a grade in America as a girl, she was envied by people around her, and ended up building a strong personality. She does not want to show weakness to others, so she always has a stern expression. However, she is very curious, and when she builds interest, she pokes into things. Occasionally, she has views that differ from regular opinions, such as, \"The experiment data is more important than the subject's privacy.\" Rintarou often tells her, \"Hey, you've got a pretty good sense of being a Mad Scientist,\" but she is not one to agree to such things personally."
+		},
+		{
+			"Name":"Itaru Hashida",
+			"src":"",
+			"Description": "First year student in Tokyo Denki University. Pro-active otaku, who's got a thing for both 2-D and 3-D girls. Talks quite a lot, and uses @ch (a spin-off of 2ch) terminology. Plenty of statements he makes could be taken as sexual harassment. He and Rintarou have known each other since high school. Usually turns down Rintarou's ridiculous requests as \"annoying,\" but in truth gets them done in proper order. However, he trusts Rintarou as a friend. Has great confidence in his programming and hacking abilities . He's always in front of the computer."
+		},
+		{
+			"Name":"Mayuri Shiina",
+			"src":"",
+			"Description": "Second year in Kasensou Private Preparatory Academy. Childhood friend of Rintarou's, and slow by nature. Speaks in a very wavy manner, and seems to always be smiling and having fun. She's quite the optimist. She has trouble understanding complicated theories, but doesn't mind as long as it's enjoyable. Doesn't like people arguing, and is depressed when things are unpleasant. Though she'd like to ease the situation in such cases, she's not really good at reading between the lines. She often went with her grandmother to see the stars on her grandmother's back. Because of that, she has a habit of reaching her arm out to the sky at times, which has led Rintarou to naming it the \"Stardust Shakehand.\" She abruptly does this (even if she's talking with someone), which surprises everyone around her."
 		}
 	],
 	"SteinGateSeasonOneEpisodeData":[
@@ -2203,9 +2318,34 @@
 	],
 	"SteinGateSeasonTwoCharacterData":[
 		{
-			"Name":"",
+			"Name":"Rintarou Okabe",
 			"src":"",
-			"Description": ""
+			"Description": "Okabe Rintarou is the main protagonist of Steins;Gate. He is a first-year student attending Tokyo Denki University and calls himself a Crazy Mad Scientist. He acts like a villain but is rather immature as he frequently shows traits of Chunibyou (中二病) syndrome despite being a grown-up man. After enrolling in university, he went to Akihabara to open up a laboratory called the \"Future Gadget Research Establishment\" where he invents gadgets that are rather useless. He also talks to himself on the cellphone, his words not making much sense. Supposedly, he has very few friends that can understand what he's talking about."
+		},
+		{
+			"Name":"Kurisu Makise",
+			"src":"",
+			"Description": "The female protagonist. Kurisu is a research member in Victor Qondria University's Brain Research Program. Her age group matches that of third-year high schoolers, but she skipped a grade through America's educational system. She is also famous in America for writing theses papers, part of which is covered in the news. Thanks to skipping a grade in America as a girl, she was envied by people around her, and ended up building a strong personality. She does not want to show weakness to others, so she always has a stern expression. However, she is very curious, and when she builds interest, she pokes into things. Occasionally, she has views that differ from regular opinions, such as, \"The experiment data is more important than the subject's privacy.\" Rintarou often tells her, \"Hey, you've got a pretty good sense of being a Mad Scientist,\" but she is not one to agree to such things personally."
+		},
+		{
+			"Name":"Maho Hiyajou",
+			"src":"",
+			"Description": "Another researcher at Viktor Chondria University's Neuroscience Lab, similar to Kurisu. She attends a lecture at Okabe's university as Professor Leskinen's assistant."
+		},
+		{
+			"Name":"Itaru Hashida",
+			"src":"",
+			"Description": "First year student in Tokyo Denki University. Pro-active otaku, who's got a thing for both 2-D and 3-D girls. Talks quite a lot, and uses @ch (a spin-off of 2ch) terminology. Plenty of statements he makes could be taken as sexual harassment. He and Rintarou have known each other since high school. Usually turns down Rintarou's ridiculous requests as \"annoying,\" but in truth gets them done in proper order. However, he trusts Rintarou as a friend. Has great confidence in his programming and hacking abilities . He's always in front of the computer."
+		},
+		{
+			"Name":"Mayuri Shiina",
+			"src":"",
+			"Description": "Second year in Kasensou Private Preparatory Academy. Childhood friend of Rintarou's, and slow by nature. Speaks in a very wavy manner, and seems to always be smiling and having fun. She's quite the optimist. She has trouble understanding complicated theories, but doesn't mind as long as it's enjoyable. Doesn't like people arguing, and is depressed when things are unpleasant. Though she'd like to ease the situation in such cases, she's not really good at reading between the lines. She often went with her grandmother to see the stars on her grandmother's back. Because of that, she has a habit of reaching her arm out to the sky at times, which has led Rintarou to naming it the \"Stardust Shakehand.\" She abruptly does this (even if she's talking with someone), which surprises everyone around her."
+		},
+		{
+			"Name":"Suzuha Amane",
+			"src":"",
+			"Description": "A girl that really likes riding bicycles, and is quite energetic, though a little crude. If you stick around her, she's surprisingly cautious. She is very helpful and a little too familiar with things, but doesn't dig too deep. She's also not quite comfortable with having other people help her. Her personality drastically changes when it comes to her own interests. She is proactive and has a habit of using strange and difficult vocabulary at times, but somehow you can tell she's purposely doing so. She ended up hanging out with the Future Gadget Laboratory since she started working at the CRT TV Workshop."
 		}
 	],
 	"SteinGateSeasonTwoEpisodeData":[
@@ -2349,9 +2489,14 @@
 	],
 	"AoBSeasonOneCharacterData":[
 		{
-			"Name":"",
+			"Name":"Myne",
 			"src":"",
-			"Description": ""
+			"Description": "Originally a young woman from our world who just finished her studies to become a librarian and died buried in her own books after an earthquake caused her bookshelves to fall on her, she found herself reincarnated in a very frail body of a 5-year-old young girl called Myne in a fantasy world"
+		},
+		{
+			"Name":"Lutz",
+			"src":"",
+			"Description": "Lutz has golden hair and jade eyes. He is the fourth and youngest son of Karla and Died. His older brothers are Zasha, Sieg and Ralph. He is close friends with Myne and works closely with her to monitor her health as well as help her created new products. "
 		}
 	],
 	"AoBSeasonOneEpisodeData":[
@@ -2444,9 +2589,19 @@
 	],
 	"AoBSeasonTwoCharacterData":[
 		{
-			"Name":"",
+			"Name":"Myne",
 			"src":"",
-			"Description": ""
+			"Description": "Originally a young woman from our world who just finished her studies to become a librarian and died buried in her own books after an earthquake caused her bookshelves to fall on her, she found herself reincarnated in a very frail body of a 5-year-old young girl called Myne in a fantasy world"
+		},
+		{
+			"Name":"Lutz",
+			"src":"",
+			"Description": "Lutz has golden hair and jade eyes. He is the fourth and youngest son of Karla and Died. His older brothers are Zasha, Sieg and Ralph. He is close friends with Myne and works closely with her to monitor her health as well as help her created new products. "
+		},
+		{
+			"Name":"Ferdinand",
+			"src":"",
+			"Description": "Ferdinand is the head priest in the temple of Ehrenfest, as well as the patron and educator of Myne in the temple. Ferdinand teaches and guides her to be a 'proper' shrine maiden and noble lady."
 		}
 	],
 	"AoBSeasonTwoEpisodeData":[
@@ -2530,7 +2685,12 @@
 	],
 	"ManariaFriendsSeasonOneCharacterData":[
 		{
-			"Name":"",
+			"Name":"Anne",
+			"src":"",
+			"Description": ""
+		},
+		{
+			"Name":"Grea",
 			"src":"",
 			"Description": ""
 		}
@@ -2605,6 +2765,21 @@
 		}
 	],
 	"RageBahamuttSeasonOneCharacterData":[
+		{
+			"Name":"Favaro Leone",
+			"src":"",
+			"Description": "Favaro makes his living as a bounty hunter. He can't live without women, money, and wine. His life takes a turn when he meets Amira."
+		},
+		{
+			"Name":"Amira",
+			"src":"",
+			"Description": "A mysterious woman who fell from the sky. She, by all means, wants to reach the northern land called Helheim."
+		},
+		{
+			"Name":"Kaisar Lidfard",
+			"src":"",
+			"Description": "A noble by birth, Kaisar, is obliged to make his living as a bounty hunter. He, for some reason, wants to take his revenge upon Favaro Leone."
+		},
 		{
 			"Name":"",
 			"src":"",
@@ -2691,10 +2866,31 @@
 	],
 	"RageBahamuttSeasonTwoCharacterData":[
 		{
-			"Name":"",
+			"Name":"Nina Drango",
 			"src":"",
-			"Description": ""
+			"Description": "She is a bounty hunter who’s come to the big city to make a living. The citizens of the capital love her happy-go-lucky personality. It's revealed that Favoro was her teacher."
+		},
+		{
+			"Name":"Charioce XVII",
+			"src":"",
+			"Description": "He is a calculating king who is willing to resort to any measure as long as it fits his goal. Fearing neither god nor demon, he wields forbidden power stolen from the gods themselves."
+		},
+		{
+			"Name":"Favaro Leone",
+			"src":"",
+			"Description": "Favaro makes his living as a bounty hunter. He can't live without women, money, and wine. His life takes a turn when he meets Amira."
+		},
+		{
+			"Name":"Kaisar Lidfard",
+			"src":"",
+			"Description": "A noble by birth, Kaisar, is obliged to make his living as a bounty hunter. He, for some reason, wants to take his revenge upon Favaro Leone."
+		},
+		{
+			"Name":"Azazel",
+			"src":"",
+			"Description": "He is the fallen angel since he dared to disobey the God himself. He now tries to get hold of the God's key."
 		}
+		
 	],
 	"RageBahamuttSeasonTwoEpisodeData":[
 		{
@@ -2837,9 +3033,24 @@
 	],
 	"HxHSeasonOneCharacterData":[
 		{
-			"Name":"",
+			"Name":"Gon Freecss",
 			"src":"",
-			"Description": ""
+			"Description": "Gon's an innocent boy who is willing to help anyone, especially his friends. He rarely ever looks at anything in a bad way. His curious and naive personality often frustrates his friends but this is also the reason why many people are attracted to him. He is also from the enhancer nen group. He usually fights barehanded or with his fishing rod, but it is seen quite often that Gon's fist is more deadly than any weapons."
+		},
+		{
+			"Name":"Killua Zoldyck",
+			"src":"",
+			"Description": "Killua is a member of the Zoldyck family, who are a family of legendary assassins. Since birth, he trained endlessly in the art of assassination. He eventually ran away from his family and profession out of boredom and joined the Hunter exam to pass time. He befriended Gon almost immediately and has loyally followed his best friend since then."
+		},
+		{
+			"Name":"Kurapika",
+			"src":"",
+			"Description": "Kurapika is a member of the Kurta tribe who were massacred by the Phantom Troupe (The Spiders) 4 years prior the Hunter exam. The Kurta tribe was an isolated group of people whose eyes would turn scarlet when angered or excited. These scarlet eyes were known to be beautiful, being one of the seven most beautiful in the world. Because of this, the Kurta tribe was constantly pursued and eventually massacred. The eyes of the tribe members were all taken away during the massacre. Kurapika is so far the only known survivor with a heart bent on revenge. He strives to have his revenge against the Phantom Troupe as well as recover the eyes of his tribe members."
+		},
+		{
+			"Name":"Leorio Paladiknight",
+			"src":"",
+			"Description": "Prior the hunter exam, Leorio's close friend died to a curable illness. Despite being curable, Leorio was unable to save his close friend due to his lack of money and knowledge. He aims to become a doctor. One that will help those even without the money to pay for treatment. He decides to take the hunter exam in an attempt to earn money for tuition fees and medical treatment for others."
 		}
 	],
 	"HxHSeasonOneEpisodeData":[
@@ -3597,15 +3808,25 @@
 
 	"SymphogearSeasonOneAnimeData":[
 		{
-			"TitleName": "",
-			"Sypnosis": ""
+			"TitleName": "Symphogear",
+			"Sypnosis": "Two idols, Tsubasa Kazanari and Kanade Amō, collectively known as Zwei Wing, battle against an alien race known as Noise using armor known as Symphogear, which uses the power of music to counteract the Noise's destructive capability. However, Kanade sacrifices herself to protect a girl named Hibiki Tachibana, who ends up with a piece of Kanade's Symphogear relic, Gungnir, embedded in her chest. Two years later, Hibiki awakens the power of the Gungnir relic inside her body, gaining the same Symphogear armor that Kanade had. Using the power of song, Hibiki and her fellow Symphogear wielders must fight to protect the innocent and defeat those who would use the Noise for evil"
 		}
 	],
 	"SymphogearSeasonOneCharacterData":[
 		{
-			"Name":"Symphogear",
+			"Name":"Hibiki Tachibana",
 			"src":"",
-			"Description": ""
+			"Description": "A student who's an avid fan of Zwei Wing. She had a near-death incident in the past, her memories of which are hazy. She believes Tsubasa to have answers to the mysteries surrounding the past."
+		},
+		{
+			"Name":"Tsubasa Kazanari",
+			"src":"",
+			"Description": "A popular idol singer and part of the Zwei Wing unit. When she's not singing, she's fighting Noise with her partner, Kanade."
+		},
+		{
+			"Name":"Chris Yukine",
+			"src":"",
+			"Description": " A mysterious girl, who fights Tsubasa and Hibiki. She hates singing because of the destruction it causes. Even though she is violent, she is very kind sometimes."
 		}
 	],
 	"SymphogearSeasonOneEpisodeData":[
@@ -3688,14 +3909,24 @@
 	"SymphogearSeasonTwoAnimeData":[
 		{
 			"TitleName": "Symphogear G",
-			"Sypnosis": ""
+			"Sypnosis": "Three months after a Lunar Attack which nearly caused Earth's destruction, Hibiki Tachibana, Tsubasa Kazanari, and Chris Yukine continue to fight the Noise—a mysterious alien threat—using powerful armor known as Symphogear. After defending an American convoy from a Noise attack, Hibiki and Chris race toward the Queens of Music concert hall to attend one of Tsubasa's concerts. "
 		}
 	],
 	"SymphogearSeasonTwoCharacterData":[
 		{
-			"Name":"",
+			"Name":"Hibiki Tachibana",
 			"src":"",
-			"Description": ""
+			"Description": "A student who's an avid fan of Zwei Wing. She had a near-death incident in the past, her memories of which are hazy. She believes Tsubasa to have answers to the mysteries surrounding the past."
+		},
+		{
+			"Name":"Tsubasa Kazanari",
+			"src":"",
+			"Description": "A popular idol singer and part of the Zwei Wing unit. When she's not singing, she's fighting Noise with her partner, Kanade."
+		},
+		{
+			"Name":"Chris Yukine",
+			"src":"",
+			"Description": " A mysterious girl, who fights Tsubasa and Hibiki. She hates singing because of the destruction it causes. Even though she is violent, she is very kind sometimes."
 		}
 	],
 	"SymphogearSeasonTwoEpisodeData":[
@@ -3777,15 +4008,40 @@
 	],
 	"SymphogearSeasonThreeAnimeData":[
 		{
-			"TitleName": "",
-			"Sypnosis": ""
+			"TitleName": "Symphogear GX",
+			"Sypnosis": "Following the events of Senki Zesshou Symphogear G, Hibiki Tachibana, Tsubasa Kazanari, and Chris Yukine continue to operate under the command of Genjuurou Kazanari. Meanwhile, Maria Cadenzavna Eve, Kirika Akatsuki, and Shirabe Tsukuyomi are taken into protective custody. With peace restored, everyone returns to their daily lives; however, the appearance of the alchemist Carol Malus Dienheim and her subordinates—the \"Autoscorers\"—threatens to draw everyone back into a conflict. "
 		}
 	],
 	"SymphogearSeasonThreeCharacterData":[
 		{
-			"Name":"Symphogear GX",
+			"Name":"Hibiki Tachibana",
 			"src":"",
-			"Description": ""
+			"Description": "A student who's an avid fan of Zwei Wing. She had a near-death incident in the past, her memories of which are hazy. She believes Tsubasa to have answers to the mysteries surrounding the past."
+		},
+		{
+			"Name":"Tsubasa Kazanari",
+			"src":"",
+			"Description": "A popular idol singer and part of the Zwei Wing unit. When she's not singing, she's fighting Noise with her partner, Kanade."
+		},
+		{
+			"Name":"Chris Yukine",
+			"src":"",
+			"Description": " A mysterious girl, who fights Tsubasa and Hibiki. She hates singing because of the destruction it causes. Even though she is violent, she is very kind sometimes."
+		},
+		{
+			"Name":"Maria Cadenzavna Eve",
+			"src":"",
+			"Description": "An energetic singer who reached the top of the American music charts about 2 months after her debut. Although it has a mysterious quality, her vigorous singing voice has crossed over international borders and garnered a large number of wild and enthusiastic fans throughout the world. To bring forth justice, she has risen as an enemy against all of humanity, clad in a Black Gungnir Symphogear that is outside of the Japanese government's control."
+		},
+		{
+			"Name":"Kirika Akatsuki",
+			"src":"",
+			"Description": "Kirika is another one of the mysterious Symphogear users. Although she has a very straightforward cheerful and cooperative personality, she harbors a shadowy past as one of the \"Receptor Children\" who was treated as an observation subject at a certain research facility along with Maria, Serena, Shirabe and others. The bonds between Kirika and her friends are so strong that she feels no fear from fighting against the entire world."
+		},
+		{
+			"Name":"Shirabe Tsukuyomi",
+			"src":"",
+			"Description": " One of the mysterious Symphogear users who coordinates with Maria's team. Although she appears docile on the outside, she is actually a bold tactician that has frequently used any means necessary to meet her goals. She harbors strong feelings of distrust against Hibiki, who has been named a hero after saving the Earth from a moon fragment, and she will constantly belittle Hibiki's actions by calling her a \"hypocrite.\" Her weapons are disc blades stored in several parts of her body."
 		}
 	],
 	"SymphogearSeasonThreeEpisodeData":[
@@ -3868,14 +4124,39 @@
 	"SymphogearSeasonFourAnimeData":[
 		{
 			"TitleName": "Symphogear AXZ",
-			"Sypnosis": ""
+			"Sypnosis": "Hibiki Tachibana has defeated many powerful enemies, saved countless innocent lives, and escaped from numerous desperate situations, but she is currently finding herself unable to escape from her most desperate situation yet—summer homework! Although her high school life is relatively unremarkable, her career as a member of the military organization S.O.N.G. is anything but. Using powerful, ancient armor known as Symphogear, Hibiki and her teammates work with the United Nations to deal with international disputes and disasters. "
 		}
 	],
 	"SymphogearSeasonFourCharacterData":[
 		{
-			"Name":"",
+			"Name":"Hibiki Tachibana",
 			"src":"",
-			"Description": ""
+			"Description": "A student who's an avid fan of Zwei Wing. She had a near-death incident in the past, her memories of which are hazy. She believes Tsubasa to have answers to the mysteries surrounding the past."
+		},
+		{
+			"Name":"Tsubasa Kazanari",
+			"src":"",
+			"Description": "A popular idol singer and part of the Zwei Wing unit. When she's not singing, she's fighting Noise with her partner, Kanade."
+		},
+		{
+			"Name":"Chris Yukine",
+			"src":"",
+			"Description": " A mysterious girl, who fights Tsubasa and Hibiki. She hates singing because of the destruction it causes. Even though she is violent, she is very kind sometimes."
+		},
+		{
+			"Name":"Maria Cadenzavna Eve",
+			"src":"",
+			"Description": "An energetic singer who reached the top of the American music charts about 2 months after her debut. Although it has a mysterious quality, her vigorous singing voice has crossed over international borders and garnered a large number of wild and enthusiastic fans throughout the world. To bring forth justice, she has risen as an enemy against all of humanity, clad in a Black Gungnir Symphogear that is outside of the Japanese government's control."
+		},
+		{
+			"Name":"Kirika Akatsuki",
+			"src":"",
+			"Description": "Kirika is another one of the mysterious Symphogear users. Although she has a very straightforward cheerful and cooperative personality, she harbors a shadowy past as one of the \"Receptor Children\" who was treated as an observation subject at a certain research facility along with Maria, Serena, Shirabe and others. The bonds between Kirika and her friends are so strong that she feels no fear from fighting against the entire world."
+		},
+		{
+			"Name":"Shirabe Tsukuyomi",
+			"src":"",
+			"Description": " One of the mysterious Symphogear users who coordinates with Maria's team. Although she appears docile on the outside, she is actually a bold tactician that has frequently used any means necessary to meet her goals. She harbors strong feelings of distrust against Hibiki, who has been named a hero after saving the Earth from a moon fragment, and she will constantly belittle Hibiki's actions by calling her a \"hypocrite.\" Her weapons are disc blades stored in several parts of her body."
 		}
 	],
 	"SymphogearSeasonFourEpisodeData":[
@@ -3958,14 +4239,39 @@
 	"SymphogearSeasonFiveAnimeData":[
 		{
 			"TitleName": "Symphogear XV",
-			"Sypnosis": ""
+			"Sypnosis": "Humanity is finally confronted with the threat of the Custodians—the ancient, sentient species held responsible for cursing humanity to speak different languages thousands of years ago. The Symphogear wielders—Hibiki Tachibana, Tsubasa Kazanari, Chris Yukine, Maria Cadenzavna Eve, Kirika Akatsuki, and Shirabe Tsukuyomi—are sent to the Antarctic in order to retrieve an ancient relic. After securing it and rescuing the scientific staff present there from a Coffin, the automated defense mechanism protecting it, the relic is given to American researchers due to international agreements."
 		}
 	],
 	"SymphogearSeasonFiveCharacterData":[
 		{
-			"Name":"",
+			"Name":"Hibiki Tachibana",
 			"src":"",
-			"Description": ""
+			"Description": "A student who's an avid fan of Zwei Wing. She had a near-death incident in the past, her memories of which are hazy. She believes Tsubasa to have answers to the mysteries surrounding the past."
+		},
+		{
+			"Name":"Tsubasa Kazanari",
+			"src":"",
+			"Description": "A popular idol singer and part of the Zwei Wing unit. When she's not singing, she's fighting Noise with her partner, Kanade."
+		},
+		{
+			"Name":"Chris Yukine",
+			"src":"",
+			"Description": " A mysterious girl, who fights Tsubasa and Hibiki. She hates singing because of the destruction it causes. Even though she is violent, she is very kind sometimes."
+		},
+		{
+			"Name":"Maria Cadenzavna Eve",
+			"src":"",
+			"Description": "An energetic singer who reached the top of the American music charts about 2 months after her debut. Although it has a mysterious quality, her vigorous singing voice has crossed over international borders and garnered a large number of wild and enthusiastic fans throughout the world. To bring forth justice, she has risen as an enemy against all of humanity, clad in a Black Gungnir Symphogear that is outside of the Japanese government's control."
+		},
+		{
+			"Name":"Kirika Akatsuki",
+			"src":"",
+			"Description": "Kirika is another one of the mysterious Symphogear users. Although she has a very straightforward cheerful and cooperative personality, she harbors a shadowy past as one of the \"Receptor Children\" who was treated as an observation subject at a certain research facility along with Maria, Serena, Shirabe and others. The bonds between Kirika and her friends are so strong that she feels no fear from fighting against the entire world."
+		},
+		{
+			"Name":"Shirabe Tsukuyomi",
+			"src":"",
+			"Description": " One of the mysterious Symphogear users who coordinates with Maria's team. Although she appears docile on the outside, she is actually a bold tactician that has frequently used any means necessary to meet her goals. She harbors strong feelings of distrust against Hibiki, who has been named a hero after saving the Earth from a moon fragment, and she will constantly belittle Hibiki's actions by calling her a \"hypocrite.\" Her weapons are disc blades stored in several parts of her body."
 		}
 	],
 	"SymphogearSeasonFiveEpisodeData":[
@@ -4048,15 +4354,20 @@
 	
 	"GLTSeasonOneAnimeData":[
 		{
-			"TitleName": "",
-			"Sypnosis": ""
+			"TitleName": "Girls' Last Tour",
+			"Sypnosis": "Among a scenery of barren landscapes and deserted buildings, Shoujo Shuumatsu Ryokou tells the uplifting tale of two girls and their quest to find hope in a bleak and dying world."
 		}
 	],
 	"GLTSeasonOneCharacterData":[
 		{
-			"Name":"",
+			"Name":"Chito",
 			"src":"",
-			"Description": ""
+			"Description": "Drives the Kettenkrad and can also do simple repairs. Likes books and is afraid of heights."
+		},
+		{
+			"Name":"Yuuri",
+			"src":"",
+			"Description": "Carries a rifle. Likes to eat."
 		}
 	],
 	"GLTSeasonOneEpisodeData":[
