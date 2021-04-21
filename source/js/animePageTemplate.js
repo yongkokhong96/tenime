@@ -864,7 +864,14 @@ function getImageData(){
 	fetch(dataSource).then(respond => respond.json())
 	.then(section = imageSeasonSelect(currentSeason))
 	.then(info => imageInfo = info[section])
+	.then(() => addCover(imageInfo))
 	.then(() =>addImages(imageInfo))
+}
+
+function addCover(data){
+	console.log(data)
+	coverContainerElement = document.getElementById("coverContainer")
+	coverContainerElement.innerHTML += `<img class="cover-img" src="${data[0].src}">`
 }
 
 function imageSeasonSelect(season){
