@@ -66,7 +66,7 @@
 			"Episodes": "36",
 			"Status":"Completed",
 			"Rating":"3",
-			"Link":"RageOfBahamut.html",
+			"Link":"RageOfBahamutt.html",
 			"Genre":["Action", "Adventure", "Demons", "Supernatural", "Magic", "Fantasy","testSharedGenre"],
 			"Technical Name":"Title Seven"
 		},
@@ -76,7 +76,7 @@
 			"Episodes": "148",
 			"Status":"Ongoing",
 			"Rating":"2",
-			"Link":"HunterXHunter.html",
+			"Link":"HunterHunter.html",
 			"Genre":["Action", "Adventure", "Fantasy", "Shounen", "Super Power","testSharedGenre"],
 			"Technical Name":"Title Eight"
 		},
@@ -2709,7 +2709,7 @@
 		},
 		{
 			"Name":"Grea",
-			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Manaria%20Friends%20images/Characters02/02grea.webp",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Manaria%20Friends%20images/Characters/02grea.webp",
 			"Description": ""
 		}
 	],
@@ -2767,10 +2767,10 @@
 	],
 	"ManariaFriendsSeasonOneImageData":[
 		{
-			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Manaria%20Friends%20images/ManariaFriendsS1Cover1"
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Manaria%20Friends%20images/ManariaFriendsS1Cover1.webp"
 		},
 		{
-			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Manaria%20Friends%20images/ManariaFriendsS1Cover2"
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Manaria%20Friends%20images/ManariaFriendsS1Cover2.webp"
 		}
 	],
 	"ManariaFriendsSeasonOneVideoData":[
@@ -3032,7 +3032,7 @@
 	],
 	"RageBahamuttSeasonTwoImageData":[
 		{
-			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Rage%20of%20Bahamutt%20images/Season%201/RoBS2Cover1.webp"
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Rage%20of%20Bahamutt%20images/Season%202/RoBS2Cover1.webp"
 		}
 	],
 	"RageBahamuttSeasonTwoVideoData":[
@@ -4450,7 +4450,7 @@
 	],
 	"GLTSeasonOneImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Girls'%20Last%20Tour%20images/GLTS1Cover1.webp"
 		}
 	],
 	"GLTSeasonOneVideoData":[
