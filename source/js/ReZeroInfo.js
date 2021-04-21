@@ -191,30 +191,6 @@ function charSeasonSelect(season){
 	else if(season == 2){
 		section = "ReZeroSeasonTwoCharacterData"
 	}
-	else if(season == 3){
-		section = "ReZeroSeasonThreeCharacterData"
-	}
-	else if(season == 4){
-		section = "ReZeroSeasonFourCharacterData"
-	}
-	else if(season == 5){
-		section = "ReZeroSeasonFiveCharacterData"
-	}
-	else if(season == 6){
-		section = "ReZeroSeasonSixCharacterData"
-	}
-	else if(season == 7){
-		section = "ReZeroSeasonSevenCharacterData"
-	}
-	else if(season == 8){
-		section = "ReZeroSeasonEightCharacterData"
-	}
-	else if(season == 9){
-		section = "ReZeroSeasonNineCharacterData"
-	}
-	else if(season == 10){
-		section = "ReZeroSeasonTenCharacterData"
-	}
 	return section
 }
 
@@ -384,30 +360,6 @@ function episodeSeasonSelect(season){
 	else if(season == 2){
 		section = "ReZeroSeasonTwoEpisodeData"
 	}
-	else if(season == 3){
-		section = "ReZeroSeasonThreeEpisodeData"
-	}
-	else if(season == 4){
-		section = "ReZeroSeasonFourEpisodeData"
-	}
-	else if(season == 5){
-		section = "ReZeroSeasonFiveEpisodeData"
-	}
-	else if(season == 6){
-		section = "ReZeroSeasonSixEpisodeData"
-	}
-	else if(season == 7){
-		section = "ReZeroSeasonSevenEpisodeData"
-	}
-	else if(season == 8){
-		section = "ReZeroSeasonEightEpisodeData"
-	}
-	else if(season == 9){
-		section = "ReZeroSeasonNineEpisodeData"
-	}
-	else if(season == 10){
-		section = "ReZeroSeasonTenEpisodeData"
-	}
 	return section
 }
 
@@ -481,7 +433,7 @@ function getImageData(){
 function addCover(data){
 	console.log(data)
 	coverContainerElement = document.getElementById("coverContainer")
-	coverContainerElement.innerHTML += `<img class="cover-img" src="${data[0].src}">`
+	coverContainerElement.innerHTML = `<img class="cover-img" src="${data[0].src}">`
 }
 
 function imageSeasonSelect(season){
@@ -534,30 +486,6 @@ function videoSeasonSelect(season){
 	}
 	else if(season == 2){
 		section = "ReZeroSeasonTwoVideoData"
-	}
-	else if(season == 3){
-		section = "ReZeroSeasonThreeVideoData"
-	}
-	else if(season == 4){
-		section = "ReZeroSeasonFourVideoData"
-	}
-	else if(season == 5){
-		section = "ReZeroSeasonFiveVideoData"
-	}
-	else if(season == 6){
-		section = "ReZeroSeasonSixVideoData"
-	}
-	else if(season == 7){
-		section = "ReZeroSeasonSevenVideoData"
-	}
-	else if(season == 8){
-		section = "ReZeroSeasonEightVideoData"
-	}
-	else if(season == 9){
-		section = "ReZeroSeasonNineVideoData"
-	}
-	else if(season == 10){
-		section = "ReZeroSeasonTenVideoData"
 	}
 	return section
 }

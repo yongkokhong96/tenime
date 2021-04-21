@@ -871,7 +871,7 @@ function getImageData(){
 function addCover(data){
 	console.log(data)
 	coverContainerElement = document.getElementById("coverContainer")
-	coverContainerElement.innerHTML += `<img class="cover-img" src="${data[0].src}">`
+	coverContainerElement.innerHTML = `<img class="cover-img" src="${data[0].src}">`
 }
 
 function imageSeasonSelect(season){
