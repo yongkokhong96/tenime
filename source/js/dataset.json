@@ -2709,7 +2709,7 @@
 		},
 		{
 			"Name":"Grea",
-			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Manaria%20Friends%20images/Characters02/grea.webp",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Manaria%20Friends%20images/Characters02/02grea.webp",
 			"Description": ""
 		}
 	],
@@ -2788,24 +2788,20 @@
 	"RageBahamuttSeasonOneCharacterData":[
 		{
 			"Name":"Favaro Leone",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Rage%20of%20Bahamutt%20images/Season%201/Characters/01favaro.webp",
 			"Description": "Favaro makes his living as a bounty hunter. He can't live without women, money, and wine. His life takes a turn when he meets Amira."
 		},
 		{
 			"Name":"Amira",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Rage%20of%20Bahamutt%20images/Season%201/Characters/02amira.webp",
 			"Description": "A mysterious woman who fell from the sky. She, by all means, wants to reach the northern land called Helheim."
 		},
 		{
 			"Name":"Kaisar Lidfard",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Rage%20of%20Bahamutt%20images/Season%201/Characters/03kaisar.webp",
 			"Description": "A noble by birth, Kaisar, is obliged to make his living as a bounty hunter. He, for some reason, wants to take his revenge upon Favaro Leone."
-		},
-		{
-			"Name":"",
-			"src":"",
-			"Description": ""
 		}
+		
 	],
 	"RageBahamuttSeasonOneEpisodeData":[
 		{
@@ -2871,12 +2867,12 @@
 	],
 	"RageBahamuttSeasonOneImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Rage%20of%20Bahamutt%20images/Season%201/RoBS1Cover1.webp"
 		}
 	],
 	"RageBahamuttSeasonOneVideoData":[
 		{
-			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/NyalqGh5rvk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	"RageBahamuttSeasonTwoAnimeData":[
@@ -2888,30 +2884,29 @@
 	"RageBahamuttSeasonTwoCharacterData":[
 		{
 			"Name":"Nina Drango",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Rage%20of%20Bahamutt%20images/Season%202/Characters/01nina.webp",
 			"Description": "She is a bounty hunter who’s come to the big city to make a living. The citizens of the capital love her happy-go-lucky personality. It's revealed that Favoro was her teacher."
 		},
 		{
 			"Name":"Charioce XVII",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Rage%20of%20Bahamutt%20images/Season%202/Characters/02charioce.webp",
 			"Description": "He is a calculating king who is willing to resort to any measure as long as it fits his goal. Fearing neither god nor demon, he wields forbidden power stolen from the gods themselves."
 		},
 		{
 			"Name":"Favaro Leone",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Rage%20of%20Bahamutt%20images/Season%202/Characters/03favaro.webp",
 			"Description": "Favaro makes his living as a bounty hunter. He can't live without women, money, and wine. His life takes a turn when he meets Amira."
 		},
 		{
 			"Name":"Kaisar Lidfard",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Rage%20of%20Bahamutt%20images/Season%202/Characters/04kaisar.webp",
 			"Description": "A noble by birth, Kaisar, is obliged to make his living as a bounty hunter. He, for some reason, wants to take his revenge upon Favaro Leone."
 		},
 		{
 			"Name":"Azazel",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Rage%20of%20Bahamutt%20images/Season%202/Characters/05azazel.webp",
 			"Description": "He is the fallen angel since he dared to disobey the God himself. He now tries to get hold of the God's key."
 		}
-		
 	],
 	"RageBahamuttSeasonTwoEpisodeData":[
 		{
@@ -3037,12 +3032,12 @@
 	],
 	"RageBahamuttSeasonTwoImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Rage%20of%20Bahamutt%20images/Season%201/RoBS2Cover1.webp"
 		}
 	],
 	"RageBahamuttSeasonTwoVideoData":[
 		{
-			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ra47IXw7tqU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 
@@ -3055,22 +3050,22 @@
 	"HxHSeasonOneCharacterData":[
 		{
 			"Name":"Gon Freecss",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Hunter%20x%20Hunter%20images/Characters/01gon.webp",
 			"Description": "Gon's an innocent boy who is willing to help anyone, especially his friends. He rarely ever looks at anything in a bad way. His curious and naive personality often frustrates his friends but this is also the reason why many people are attracted to him. He is also from the enhancer nen group. He usually fights barehanded or with his fishing rod, but it is seen quite often that Gon's fist is more deadly than any weapons."
 		},
 		{
 			"Name":"Killua Zoldyck",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Hunter%20x%20Hunter%20images/Characters/02killua.webp",
 			"Description": "Killua is a member of the Zoldyck family, who are a family of legendary assassins. Since birth, he trained endlessly in the art of assassination. He eventually ran away from his family and profession out of boredom and joined the Hunter exam to pass time. He befriended Gon almost immediately and has loyally followed his best friend since then."
 		},
 		{
 			"Name":"Kurapika",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Hunter%20x%20Hunter%20images/Characters/03kurapika.webp",
 			"Description": "Kurapika is a member of the Kurta tribe who were massacred by the Phantom Troupe (The Spiders) 4 years prior the Hunter exam. The Kurta tribe was an isolated group of people whose eyes would turn scarlet when angered or excited. These scarlet eyes were known to be beautiful, being one of the seven most beautiful in the world. Because of this, the Kurta tribe was constantly pursued and eventually massacred. The eyes of the tribe members were all taken away during the massacre. Kurapika is so far the only known survivor with a heart bent on revenge. He strives to have his revenge against the Phantom Troupe as well as recover the eyes of his tribe members."
 		},
 		{
 			"Name":"Leorio Paladiknight",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Hunter%20x%20Hunter%20images/Characters/04leorio.webp",
 			"Description": "Prior the hunter exam, Leorio's close friend died to a curable illness. Despite being curable, Leorio was unable to save his close friend due to his lack of money and knowledge. He aims to become a doctor. One that will help those even without the money to pay for treatment. He decides to take the hunter exam in an attempt to earn money for tuition fees and medical treatment for others."
 		}
 	],
@@ -3818,12 +3813,12 @@
 	],
 	"HxHSeasonOneImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Hunter%20x%20Hunter%20images/HxHS1Cover1.webp"
 		}
 	],
 	"HxHSeasonOneVideoData":[
 		{
-			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/yBTW-O_BiB0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 
@@ -3836,17 +3831,17 @@
 	"SymphogearSeasonOneCharacterData":[
 		{
 			"Name":"Hibiki Tachibana",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%201/Characters/01hibiki.webp",
 			"Description": "A student who's an avid fan of Zwei Wing. She had a near-death incident in the past, her memories of which are hazy. She believes Tsubasa to have answers to the mysteries surrounding the past."
 		},
 		{
 			"Name":"Tsubasa Kazanari",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%201/Characters/02tsubasa.webp",
 			"Description": "A popular idol singer and part of the Zwei Wing unit. When she's not singing, she's fighting Noise with her partner, Kanade."
 		},
 		{
 			"Name":"Chris Yukine",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%201/Characters/03chris.webp",
 			"Description": " A mysterious girl, who fights Tsubasa and Hibiki. She hates singing because of the destruction it causes. Even though she is violent, she is very kind sometimes."
 		}
 	],
@@ -3919,12 +3914,12 @@
 	],
 	"SymphogearSeasonOneImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%201/SymphogearS1Cover1.webp"
 		}
 	],
 	"SymphogearSeasonOneVideoData":[
 		{
-			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/FOXaWCRv_68\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	"SymphogearSeasonTwoAnimeData":[
@@ -3936,17 +3931,17 @@
 	"SymphogearSeasonTwoCharacterData":[
 		{
 			"Name":"Hibiki Tachibana",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%202/Characters/01hibiki.webp",
 			"Description": "A student who's an avid fan of Zwei Wing. She had a near-death incident in the past, her memories of which are hazy. She believes Tsubasa to have answers to the mysteries surrounding the past."
 		},
 		{
 			"Name":"Tsubasa Kazanari",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%202/Characters/02tsubasa.webp",
 			"Description": "A popular idol singer and part of the Zwei Wing unit. When she's not singing, she's fighting Noise with her partner, Kanade."
 		},
 		{
 			"Name":"Chris Yukine",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%202/Characters/03chris.webp",
 			"Description": " A mysterious girl, who fights Tsubasa and Hibiki. She hates singing because of the destruction it causes. Even though she is violent, she is very kind sometimes."
 		}
 	],
@@ -4019,12 +4014,12 @@
 	],
 	"SymphogearSeasonTwoImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%202/SymphogearS2Cover1.webp"
 		}
 	],
 	"SymphogearSeasonTwoVideoData":[
 		{
-			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Dxt9pEZKDaw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	"SymphogearSeasonThreeAnimeData":[
@@ -4036,32 +4031,32 @@
 	"SymphogearSeasonThreeCharacterData":[
 		{
 			"Name":"Hibiki Tachibana",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%203/Characters/01hibiki.webp",
 			"Description": "A student who's an avid fan of Zwei Wing. She had a near-death incident in the past, her memories of which are hazy. She believes Tsubasa to have answers to the mysteries surrounding the past."
 		},
 		{
 			"Name":"Tsubasa Kazanari",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%203/Characters/02tsubasa.webp",
 			"Description": "A popular idol singer and part of the Zwei Wing unit. When she's not singing, she's fighting Noise with her partner, Kanade."
 		},
 		{
 			"Name":"Chris Yukine",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%203/Characters/03chris.webp",
 			"Description": " A mysterious girl, who fights Tsubasa and Hibiki. She hates singing because of the destruction it causes. Even though she is violent, she is very kind sometimes."
 		},
 		{
 			"Name":"Maria Cadenzavna Eve",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%203/Characters/04maria.webp",
 			"Description": "An energetic singer who reached the top of the American music charts about 2 months after her debut. Although it has a mysterious quality, her vigorous singing voice has crossed over international borders and garnered a large number of wild and enthusiastic fans throughout the world. To bring forth justice, she has risen as an enemy against all of humanity, clad in a Black Gungnir Symphogear that is outside of the Japanese government's control."
 		},
 		{
 			"Name":"Kirika Akatsuki",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%203/Characters/05kirika.webp",
 			"Description": "Kirika is another one of the mysterious Symphogear users. Although she has a very straightforward cheerful and cooperative personality, she harbors a shadowy past as one of the \"Receptor Children\" who was treated as an observation subject at a certain research facility along with Maria, Serena, Shirabe and others. The bonds between Kirika and her friends are so strong that she feels no fear from fighting against the entire world."
 		},
 		{
 			"Name":"Shirabe Tsukuyomi",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%203/Characters/06shirabe.webp",
 			"Description": " One of the mysterious Symphogear users who coordinates with Maria's team. Although she appears docile on the outside, she is actually a bold tactician that has frequently used any means necessary to meet her goals. She harbors strong feelings of distrust against Hibiki, who has been named a hero after saving the Earth from a moon fragment, and she will constantly belittle Hibiki's actions by calling her a \"hypocrite.\" Her weapons are disc blades stored in several parts of her body."
 		}
 	],
@@ -4134,12 +4129,12 @@
 	],
 	"SymphogearSeasonThreeImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%203/SymphogearS3Cover1.webp"
 		}
 	],
 	"SymphogearSeasonThreeVideoData":[
 		{
-			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/CLcpO8S8tvY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	"SymphogearSeasonFourAnimeData":[
@@ -4151,32 +4146,32 @@
 	"SymphogearSeasonFourCharacterData":[
 		{
 			"Name":"Hibiki Tachibana",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%204/Characters/01hibiki.webp",
 			"Description": "A student who's an avid fan of Zwei Wing. She had a near-death incident in the past, her memories of which are hazy. She believes Tsubasa to have answers to the mysteries surrounding the past."
 		},
 		{
 			"Name":"Tsubasa Kazanari",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%204/Characters/02tsubasa.webp",
 			"Description": "A popular idol singer and part of the Zwei Wing unit. When she's not singing, she's fighting Noise with her partner, Kanade."
 		},
 		{
 			"Name":"Chris Yukine",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%204/Characters/03chris.webp",
 			"Description": " A mysterious girl, who fights Tsubasa and Hibiki. She hates singing because of the destruction it causes. Even though she is violent, she is very kind sometimes."
 		},
 		{
 			"Name":"Maria Cadenzavna Eve",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%204/Characters/04maria.webp",
 			"Description": "An energetic singer who reached the top of the American music charts about 2 months after her debut. Although it has a mysterious quality, her vigorous singing voice has crossed over international borders and garnered a large number of wild and enthusiastic fans throughout the world. To bring forth justice, she has risen as an enemy against all of humanity, clad in a Black Gungnir Symphogear that is outside of the Japanese government's control."
 		},
 		{
 			"Name":"Kirika Akatsuki",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%204/Characters/05kirika.webp",
 			"Description": "Kirika is another one of the mysterious Symphogear users. Although she has a very straightforward cheerful and cooperative personality, she harbors a shadowy past as one of the \"Receptor Children\" who was treated as an observation subject at a certain research facility along with Maria, Serena, Shirabe and others. The bonds between Kirika and her friends are so strong that she feels no fear from fighting against the entire world."
 		},
 		{
 			"Name":"Shirabe Tsukuyomi",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%204/Characters/06shirabe.webp",
 			"Description": " One of the mysterious Symphogear users who coordinates with Maria's team. Although she appears docile on the outside, she is actually a bold tactician that has frequently used any means necessary to meet her goals. She harbors strong feelings of distrust against Hibiki, who has been named a hero after saving the Earth from a moon fragment, and she will constantly belittle Hibiki's actions by calling her a \"hypocrite.\" Her weapons are disc blades stored in several parts of her body."
 		}
 	],
@@ -4249,12 +4244,12 @@
 	],
 	"SymphogearSeasonFourImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%204/SymphogearS4Cover1.webp"
 		}
 	],
 	"SymphogearSeasonFourVideoData":[
 		{
-			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/YtGqEKOSqOA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	"SymphogearSeasonFiveAnimeData":[
@@ -4266,32 +4261,32 @@
 	"SymphogearSeasonFiveCharacterData":[
 		{
 			"Name":"Hibiki Tachibana",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%204/Characters/01hibiki.webp",
 			"Description": "A student who's an avid fan of Zwei Wing. She had a near-death incident in the past, her memories of which are hazy. She believes Tsubasa to have answers to the mysteries surrounding the past."
 		},
 		{
 			"Name":"Tsubasa Kazanari",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%204/Characters/02tsubasa.webp",
 			"Description": "A popular idol singer and part of the Zwei Wing unit. When she's not singing, she's fighting Noise with her partner, Kanade."
 		},
 		{
 			"Name":"Chris Yukine",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%204/Characters/03chris.webp",
 			"Description": " A mysterious girl, who fights Tsubasa and Hibiki. She hates singing because of the destruction it causes. Even though she is violent, she is very kind sometimes."
 		},
 		{
 			"Name":"Maria Cadenzavna Eve",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%204/Characters/04maria.webp",
 			"Description": "An energetic singer who reached the top of the American music charts about 2 months after her debut. Although it has a mysterious quality, her vigorous singing voice has crossed over international borders and garnered a large number of wild and enthusiastic fans throughout the world. To bring forth justice, she has risen as an enemy against all of humanity, clad in a Black Gungnir Symphogear that is outside of the Japanese government's control."
 		},
 		{
 			"Name":"Kirika Akatsuki",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%204/Characters/05kirika.webp",
 			"Description": "Kirika is another one of the mysterious Symphogear users. Although she has a very straightforward cheerful and cooperative personality, she harbors a shadowy past as one of the \"Receptor Children\" who was treated as an observation subject at a certain research facility along with Maria, Serena, Shirabe and others. The bonds between Kirika and her friends are so strong that she feels no fear from fighting against the entire world."
 		},
 		{
 			"Name":"Shirabe Tsukuyomi",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%204/Characters/06shirabe.webp",
 			"Description": " One of the mysterious Symphogear users who coordinates with Maria's team. Although she appears docile on the outside, she is actually a bold tactician that has frequently used any means necessary to meet her goals. She harbors strong feelings of distrust against Hibiki, who has been named a hero after saving the Earth from a moon fragment, and she will constantly belittle Hibiki's actions by calling her a \"hypocrite.\" Her weapons are disc blades stored in several parts of her body."
 		}
 	],
@@ -4364,12 +4359,12 @@
 	],
 	"SymphogearSeasonFiveImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Symphogear%20images/Season%205/SymphogearS5Cover1.webp"
 		}
 	],
 	"SymphogearSeasonFiveVideoData":[
 		{
-			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Gl3vAScd2sk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	
@@ -4382,12 +4377,12 @@
 	"GLTSeasonOneCharacterData":[
 		{
 			"Name":"Chito",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Girls'%20Last%20Tour%20images/Characters/01chito.webp",
 			"Description": "Drives the Kettenkrad and can also do simple repairs. Likes books and is afraid of heights."
 		},
 		{
 			"Name":"Yuuri",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Girls'%20Last%20Tour%20images/Characters/02yuuri.webp",
 			"Description": "Carries a rifle. Likes to eat."
 		}
 	],
@@ -4460,7 +4455,7 @@
 	],
 	"GLTSeasonOneVideoData":[
 		{
-			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SuVVs4giZrI&t\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	
