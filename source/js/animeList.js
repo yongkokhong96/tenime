@@ -10,35 +10,32 @@ function generateAnimeList(){
 	fetch(dataSource)
     .then(respond => respond.json())
 	.then(info => animeDetails = info)
+    .then(() => console.log(animeDetails))
     .then(() => animeListSort(animeDetails))
     //.then(() => console.log(animeDetails["AnimeListData"][0]["Title"]))
 }
 
 var sortTypeElement = document.getElementById("sortType")
 sortTypeElement.value = "rating"
-sortTypeElement.addEventListener("change",animeListSort)
+sortTypeElement.addEventListener("change",generateAnimeList)
 
 var orderTypeElement = document.getElementById("orderType")
 orderTypeElement.value = "up"
-orderTypeElement.addEventListener("change",updateOrder)
+orderTypeElement.addEventListener("change",generateAnimeList)
 
 function animeListSort(data){
     var sortTypeElement = document.getElementById("sortType")
     var animeListElement = document.getElementById("animeList")
     animeListElement.innerHTML = ``
     var currentSortType = sortTypeElement.value
-    
 
     if (currentSortType == "rating"){
-        console.log(currentSortType)
         sortByRating(data)
     }
     else if (currentSortType == "status"){
-        console.log(currentSortType)
         sortByStatus(data)
     }
     else if (currentSortType == "name"){
-        console.log(currentSortType)
         sortByName(data)
     }
 }
