@@ -1835,7 +1835,7 @@
 	],
 	"JJBASeasonSixVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 
@@ -2153,35 +2153,35 @@
 		}
 	],
 
-	"SteinGateSeasonOneAnimeData":[
+	"SteinsGateSeasonOneAnimeData":[
 		{
 			"TitleName": "Steins;Gate",
 			"Sypnosis": "The self-proclaimed mad scientist Rintarou Okabe rents out a room in a rickety old building in Akihabara, where he indulges himself in his hobby of inventing prospective \"future gadgets\" with fellow lab members: Mayuri Shiina, his air-headed childhood friend, and Hashida Itaru, a perverted hacker nicknamed \"Daru.\" The three pass the time by tinkering with their most promising contraption yet, a machine dubbed the \"Phone Microwave,\" which performs the strange function of morphing bananas into piles of green gel.Though miraculous in itself, the phenomenon doesn't provide anything concrete in Okabe's search for a scientific breakthrough; that is, until the lab members are spurred into action by a string of mysterious happenings before stumbling upon an unexpected success—the Phone Microwave can send emails to the past, altering the flow of history."
 		}
 	],
-	"SteinGateSeasonOneCharacterData":[
+	"SteinsGateSeasonOneCharacterData":[
 		{
 			"Name":"Rintarou Okabe",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Steins%20Gate%20images/Season%201/Characters/01rintarou.webp",
 			"Description": "Okabe Rintarou is the main protagonist of Steins;Gate. He is a first-year student attending Tokyo Denki University and calls himself a Crazy Mad Scientist. He acts like a villain but is rather immature as he frequently shows traits of Chunibyou (中二病) syndrome despite being a grown-up man. After enrolling in university, he went to Akihabara to open up a laboratory called the \"Future Gadget Research Establishment\" where he invents gadgets that are rather useless. He also talks to himself on the cellphone, his words not making much sense. Supposedly, he has very few friends that can understand what he's talking about."
 		},
 		{
 			"Name":"Kurisu Makise",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Steins%20Gate%20images/Season%201/Characters/02kurisu.webp",
 			"Description": "The female protagonist. Kurisu is a research member in Victor Qondria University's Brain Research Program. Her age group matches that of third-year high schoolers, but she skipped a grade through America's educational system. She is also famous in America for writing theses papers, part of which is covered in the news. Thanks to skipping a grade in America as a girl, she was envied by people around her, and ended up building a strong personality. She does not want to show weakness to others, so she always has a stern expression. However, she is very curious, and when she builds interest, she pokes into things. Occasionally, she has views that differ from regular opinions, such as, \"The experiment data is more important than the subject's privacy.\" Rintarou often tells her, \"Hey, you've got a pretty good sense of being a Mad Scientist,\" but she is not one to agree to such things personally."
 		},
 		{
 			"Name":"Itaru Hashida",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Steins%20Gate%20images/Season%201/Characters/03itaru.webp",
 			"Description": "First year student in Tokyo Denki University. Pro-active otaku, who's got a thing for both 2-D and 3-D girls. Talks quite a lot, and uses @ch (a spin-off of 2ch) terminology. Plenty of statements he makes could be taken as sexual harassment. He and Rintarou have known each other since high school. Usually turns down Rintarou's ridiculous requests as \"annoying,\" but in truth gets them done in proper order. However, he trusts Rintarou as a friend. Has great confidence in his programming and hacking abilities . He's always in front of the computer."
 		},
 		{
 			"Name":"Mayuri Shiina",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Steins%20Gate%20images/Season%201/Characters/04mayuri.webp",
 			"Description": "Second year in Kasensou Private Preparatory Academy. Childhood friend of Rintarou's, and slow by nature. Speaks in a very wavy manner, and seems to always be smiling and having fun. She's quite the optimist. She has trouble understanding complicated theories, but doesn't mind as long as it's enjoyable. Doesn't like people arguing, and is depressed when things are unpleasant. Though she'd like to ease the situation in such cases, she's not really good at reading between the lines. She often went with her grandmother to see the stars on her grandmother's back. Because of that, she has a habit of reaching her arm out to the sky at times, which has led Rintarou to naming it the \"Stardust Shakehand.\" She abruptly does this (even if she's talking with someone), which surprises everyone around her."
 		}
 	],
-	"SteinGateSeasonOneEpisodeData":[
+	"SteinsGateSeasonOneEpisodeData":[
 		{
 			"Number":"1",
 			"Name":"Turning Point",
@@ -2303,55 +2303,58 @@
 			"Link":""
 		}
 	],
-	"SteinGateSeasonOneImageData":[
+	"SteinsGateSeasonOneImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Steins%20Gate%20images/Season%201/SteinsGateS1Cover1.webp"
+		},
+		{
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Steins%20Gate%20images/Season%201/SteinsGateS1Cover2.webp"
 		}
 	],
-	"SteinGateSeasonOneVideoData":[
+	"SteinsGateSeasonOneVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/27OZc-ku6is\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
-	"SteinGateSeasonTwoAnimeData":[
+	"SteinsGateSeasonTwoAnimeData":[
 		{
 			"TitleName": "Steins;Gate 0",
 			"Sypnosis": "The eccentric, self-proclaimed mad scientist Rintarou Okabe has become a shell of his former self. Depressed and traumatized after failing to rescue his friend Makise Kurisu, he has decided to forsake his mad scientist alter ego and live as an ordinary college student. Surrounded by friends who know little of his time travel experiences, Okabe spends his days trying to forget the horrors of his adventures alone."
 		}
 	],
-	"SteinGateSeasonTwoCharacterData":[
+	"SteinsGateSeasonTwoCharacterData":[
 		{
 			"Name":"Rintarou Okabe",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Steins%20Gate%20images/Season%202/Characters/01rintarou.webp",
 			"Description": "Okabe Rintarou is the main protagonist of Steins;Gate. He is a first-year student attending Tokyo Denki University and calls himself a Crazy Mad Scientist. He acts like a villain but is rather immature as he frequently shows traits of Chunibyou (中二病) syndrome despite being a grown-up man. After enrolling in university, he went to Akihabara to open up a laboratory called the \"Future Gadget Research Establishment\" where he invents gadgets that are rather useless. He also talks to himself on the cellphone, his words not making much sense. Supposedly, he has very few friends that can understand what he's talking about."
 		},
 		{
 			"Name":"Kurisu Makise",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Steins%20Gate%20images/Season%202/Characters/02kurisu.webp",
 			"Description": "The female protagonist. Kurisu is a research member in Victor Qondria University's Brain Research Program. Her age group matches that of third-year high schoolers, but she skipped a grade through America's educational system. She is also famous in America for writing theses papers, part of which is covered in the news. Thanks to skipping a grade in America as a girl, she was envied by people around her, and ended up building a strong personality. She does not want to show weakness to others, so she always has a stern expression. However, she is very curious, and when she builds interest, she pokes into things. Occasionally, she has views that differ from regular opinions, such as, \"The experiment data is more important than the subject's privacy.\" Rintarou often tells her, \"Hey, you've got a pretty good sense of being a Mad Scientist,\" but she is not one to agree to such things personally."
 		},
 		{
 			"Name":"Maho Hiyajou",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Steins%20Gate%20images/Season%202/Characters/03maho.webp",
 			"Description": "Another researcher at Viktor Chondria University's Neuroscience Lab, similar to Kurisu. She attends a lecture at Okabe's university as Professor Leskinen's assistant."
 		},
 		{
 			"Name":"Itaru Hashida",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Steins%20Gate%20images/Season%202/Characters/04itaru.webp",
 			"Description": "First year student in Tokyo Denki University. Pro-active otaku, who's got a thing for both 2-D and 3-D girls. Talks quite a lot, and uses @ch (a spin-off of 2ch) terminology. Plenty of statements he makes could be taken as sexual harassment. He and Rintarou have known each other since high school. Usually turns down Rintarou's ridiculous requests as \"annoying,\" but in truth gets them done in proper order. However, he trusts Rintarou as a friend. Has great confidence in his programming and hacking abilities . He's always in front of the computer."
 		},
 		{
 			"Name":"Mayuri Shiina",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Steins%20Gate%20images/Season%202/Characters/05mayuri.webp",
 			"Description": "Second year in Kasensou Private Preparatory Academy. Childhood friend of Rintarou's, and slow by nature. Speaks in a very wavy manner, and seems to always be smiling and having fun. She's quite the optimist. She has trouble understanding complicated theories, but doesn't mind as long as it's enjoyable. Doesn't like people arguing, and is depressed when things are unpleasant. Though she'd like to ease the situation in such cases, she's not really good at reading between the lines. She often went with her grandmother to see the stars on her grandmother's back. Because of that, she has a habit of reaching her arm out to the sky at times, which has led Rintarou to naming it the \"Stardust Shakehand.\" She abruptly does this (even if she's talking with someone), which surprises everyone around her."
 		},
 		{
 			"Name":"Suzuha Amane",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Steins%20Gate%20images/Season%202/Characters/06suzuha.webp",
 			"Description": "A girl that really likes riding bicycles, and is quite energetic, though a little crude. If you stick around her, she's surprisingly cautious. She is very helpful and a little too familiar with things, but doesn't dig too deep. She's also not quite comfortable with having other people help her. Her personality drastically changes when it comes to her own interests. She is proactive and has a habit of using strange and difficult vocabulary at times, but somehow you can tell she's purposely doing so. She ended up hanging out with the Future Gadget Laboratory since she started working at the CRT TV Workshop."
 		}
 	],
-	"SteinGateSeasonTwoEpisodeData":[
+	"SteinsGateSeasonTwoEpisodeData":[
 		{
 			"Number":"0",
 			"Name":"Divide by Zero",
@@ -2473,14 +2476,20 @@
 			"Link":""
 		}
 	],
-	"SteinGateSeasonTwoImageData":[
+	"SteinsGateSeasonTwoImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Steins%20Gate%20images/Season%202/SteinsGateS2Cover1.webp"
+		},
+		{
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Steins%20Gate%20images/Season%202/SteinsGateS2Cover2.webp"
+		},
+		{
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Steins%20Gate%20images/Season%202/SteinsGateS2Cover3.webp"
 		}
 	],
-	"SteinGateSeasonTwoVideoData":[
+	"SteinsGateSeasonTwoVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/IVVihb4-cHo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 
@@ -2581,7 +2590,7 @@
 	],
 	"AoBSeasonOneVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	"AoBSeasonTwoAnimeData":[
@@ -2676,7 +2685,7 @@
 	],
 	"AoBSeasonTwoVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 
@@ -2757,7 +2766,7 @@
 	],
 	"ManariaFriendsSeasonOneVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 
@@ -2858,7 +2867,7 @@
 	],
 	"RageBahamuttSeasonOneVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	"RageBahamuttSeasonTwoAnimeData":[
@@ -3024,7 +3033,7 @@
 	],
 	"RageBahamuttSeasonTwoVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 
@@ -3805,7 +3814,7 @@
 	],
 	"HxHSeasonOneVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 
@@ -3906,7 +3915,7 @@
 	],
 	"SymphogearSeasonOneVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	"SymphogearSeasonTwoAnimeData":[
@@ -4006,7 +4015,7 @@
 	],
 	"SymphogearSeasonTwoVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	"SymphogearSeasonThreeAnimeData":[
@@ -4121,7 +4130,7 @@
 	],
 	"SymphogearSeasonThreeVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	"SymphogearSeasonFourAnimeData":[
@@ -4236,7 +4245,7 @@
 	],
 	"SymphogearSeasonFourVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	"SymphogearSeasonFiveAnimeData":[
@@ -4351,7 +4360,7 @@
 	],
 	"SymphogearSeasonFiveVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	
@@ -4442,7 +4451,7 @@
 	],
 	"GLTSeasonOneVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	
