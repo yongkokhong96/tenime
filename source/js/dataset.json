@@ -2585,10 +2585,10 @@
 	],
 	"AoBSeasonOneImageData":[
 		{
-			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Ascendecnce%20of%20a%20Bookworm%20images/Season%201/Characters/AoBS1Cover1.webp"
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Ascendecnce%20of%20a%20Bookworm%20images/Season%201/AoBS1Cover1.webp"
 		},
 		{
-			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Ascendecnce%20of%20a%20Bookworm%20images/Season%201/Characters/AoBS1Cover2.webp"
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Ascendecnce%20of%20a%20Bookworm%20images/Season%201/AoBS1Cover2.webp"
 		}
 	],
 	"AoBSeasonOneVideoData":[
@@ -2683,10 +2683,10 @@
 	],
 	"AoBSeasonTwoImageData":[
 		{
-			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Ascendecnce%20of%20a%20Bookworm%20images/Season%201/Characters/AoBS2Cover1.webp"
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Ascendecnce%20of%20a%20Bookworm%20images/Season%201/AoBS2Cover1.webp"
 		},
 		{
-			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Ascendecnce%20of%20a%20Bookworm%20images/Season%201/Characters/AoBS2Cover2.webp"
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Ascendecnce%20of%20a%20Bookworm%20images/Season%201/AoBS2Cover2.webp"
 		}
 	],
 	"AoBSeasonTwoVideoData":[
@@ -2704,13 +2704,11 @@
 	"ManariaFriendsSeasonOneCharacterData":[
 		{
 			"Name":"Anne",
-			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Manaria%20Friends%20images/Characters/01anne.webp",
-			"Description": ""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Manaria%20Friends%20images/Characters/01anne.webp"
 		},
 		{
 			"Name":"Grea",
-			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Manaria%20Friends%20images/Characters/02grea.webp",
-			"Description": ""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Manaria%20Friends%20images/Characters/02grea.webp"
 		}
 	],
 	"ManariaFriendsSeasonOneEpisodeData":[
@@ -4455,7 +4453,7 @@
 	],
 	"GLTSeasonOneVideoData":[
 		{
-			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SuVVs4giZrI&t\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SuVVs4giZrI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	
