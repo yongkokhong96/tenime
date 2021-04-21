@@ -11,7 +11,7 @@
 			"Technical Name":"Title One"
 		},
 		{
-			"Title":"JJBA",
+			"Title":"JoJo's Bizarre Adventure",
 			"Seasons": "5",
 			"Episodes": "152",
 			"Status":"Ongoing",
@@ -812,37 +812,37 @@
 	"JJBASeasonOneCharacterData":[
 		{
 			"Name":"Jonathan Joestar",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%201/Characters/01jonathan.webp",
 			"Description": "Jonathan Joestar is the main protagonist of the first part of the JoJo's Bizarre Adventure series, Phantom Blood, and the first JoJo of the series. His legacy extends throughout almost the entirety of the first six parts of the series, with major characters such as Joseph Joestar and Jotaro Kujo being his descendants."
 		},
 		{
 			"Name":"Dio Brando",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%201/Characters/02dio.webp",
 			"Description": "The central villain of the Jojo's Bizarre Adventure series, Dio is an immortal vampire and the arch rival of the Joestar family."
 		},
 		{
 			"Name":"Robert E. O. Speedwagon",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%201/Characters/03speedwagon.webp",
 			"Description": "Robert E. O. Speedwagon is a major ally featured in Phantom Blood and is a minor ally in Battle Tendency."
 		},
 		{
 			"Name":"Will A. Zeppeli",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%201/Characters/04zeppeli.webp",
 			"Description": "Will A. Zeppeli was on a ship with a crew studying Aztec ruins when he was younger when his father put on the mask and killed everyone in the crew but his son. After this horrific event, Zeppeli travels the world in order to destroy the mask."
 		},
 		{
 			"Name":"Joseph Joestar",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%201/Characters/05joseph.webp",
 			"Description": "Joseph is the main protagonist of the second arc, Battle Tendency. He is the grandson of Jonathan Joestar, the main protagonist of the first arc, Phantom Blood. Joseph is hotheaded and confrontational. He also has the uncanny ability to predict what his opponent will say next."
 		},
 		{
 			"Name":"Caesar Zeppeli",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%201/Characters/06caesar.webp",
 			"Description": "The grandson of Will A. Zeppeli. He is a blond, suave ladies' man, as well as a skilled Ripple user. He was taught by Lisa Lisa, and currently lives in Italy. He is rather cool and collected, especially compared to Joseph, with whom he is grudgingly paired to fight the Pillar Men. But over time Joseph starts to grow on him so much he is able to understand his strange thought pattern."
 		},
 		{
 			"Name":"Lisa Lisa",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%201/Characters/07lisa.webp",
 			"Description": "A mysterious Ripple user whom Joseph Joestar meets in Venice, Lisa Lisa reveals herself to be his friend Caesar Zeppeli's mentor. She trains Joseph in the ways of the Ripple and joins in the fight against the Pillar Men, as a powerful Ripple user in her own right."
 		}
 	],
@@ -980,12 +980,12 @@
 	],
 	"JJBASeasonOneImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%201/JJBAS1Cover.webp"
 		}
 	],
 	"JJBASeasonOneVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/fvSKmPdD2a4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	"JJBASeasonTwoAnimeData":[
@@ -997,27 +997,27 @@
 	"JJBASeasonTwoCharacterData":[
 		{
 			"Name":"Kuujou Joutarou",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%202/Characters/01jotaro.webp",
 			"Description": "Joutarou is a fictional character from the Japanese manga JoJo's Bizarre Adventure, and the protagonist of Series 3. He has a recognizable attire of trenchcoat-length school uniform jacket with yellow chains on the collar. He also wears a trademark hat which, while torn in the back, often seems to blend with his hair. While they are first shown as being completely separate, later publications cause more uncertainty as to where his hat and his hair actually meet. His hat is most likely a Japanese student cap that was normally worn along with the gakuran prior to the 1970s."
 		},
 		{
 			"Name":"Joseph Joestar",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%202/Characters/02joseph.webp",
 			"Description": "Joseph is the main protagonist of the second arc, Battle Tendency. He is the grandson of Jonathan Joestar, the main protagonist of the first arc, Phantom Blood. Joseph is hotheaded and confrontational. He also has the uncanny ability to predict what his opponent will say next."
 		},
 		{
 			"Name":"Mohammed Avdol",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%202/Characters/03avdol.webp",
 			"Description": "Avdol is a rather serious fellow, who wears his heart on his sleeve and is a good source of knowledge. He is extremely dedicated and willing to die for his comrades. He acts as an adviser of sorts, but is also a powerful warrior. He is the most moderate member of the team: not as impulsive and warm-blooded as Polnareff and Joseph, and not as cold as Kakyoin and Jotaro. He serves as the voice of reason to the rest of the team."
 		},
 		{
 			"Name":"Noriaki Kakyouin",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%202/Characters/04kakyouin.webp",
 			"Description": "Initially a student who has traveled to Egypt, Dio Brando sensed his Stand powers and asked him for a demonstration, which turned out to be a fight. Afterwards, Kakyoin is brainwashed by Dio using buds from his own cells into following his will, which is to kill Jotaro Kujo."
 		},
 		{
 			"Name":"Jean-Pierre Polnareff",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%202/Characters/05polnareff.webp",
 			"Description": "Jean Pierre Polnareff is the second to last addition to the Crusaders, who joined after he fought and was defeated by Muhammad Avdol. "
 		}
 	],
@@ -1145,12 +1145,12 @@
 	],
 	"JJBASeasonTwoImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%202/JJBAS2Cover.webp"
 		}
 	],
 	"JJBASeasonTwoVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/GR6sJfFdB9I\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	"JJBASeasonThreeAnimeData":[
@@ -1162,32 +1162,32 @@
 	"JJBASeasonThreeCharacterData":[
 		{
 			"Name":"Kuujou Joutarou",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%203/Characters/01jotaro.webp",
 			"Description": "Joutarou is a fictional character from the Japanese manga JoJo's Bizarre Adventure, and the protagonist of Series 3. He has a recognizable attire of trenchcoat-length school uniform jacket with yellow chains on the collar. He also wears a trademark hat which, while torn in the back, often seems to blend with his hair. While they are first shown as being completely separate, later publications cause more uncertainty as to where his hat and his hair actually meet. His hat is most likely a Japanese student cap that was normally worn along with the gakuran prior to the 1970s."
 		},
 		{
 			"Name":"Joseph Joestar",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%203/Characters/02joseph.webp",
 			"Description": "Joseph is the main protagonist of the second arc, Battle Tendency. He is the grandson of Jonathan Joestar, the main protagonist of the first arc, Phantom Blood. Joseph is hotheaded and confrontational. He also has the uncanny ability to predict what his opponent will say next."
 		},
 		{
 			"Name":"Mohammed Avdol",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%203/Characters/03avdol.webp",
 			"Description": "Avdol is a rather serious fellow, who wears his heart on his sleeve and is a good source of knowledge. He is extremely dedicated and willing to die for his comrades. He acts as an adviser of sorts, but is also a powerful warrior. He is the most moderate member of the team: not as impulsive and warm-blooded as Polnareff and Joseph, and not as cold as Kakyoin and Jotaro. He serves as the voice of reason to the rest of the team."
 		},
 		{
 			"Name":"Noriaki Kakyouin",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%203/Characters/04kakyouin.webp",
 			"Description": "Initially a student who has traveled to Egypt, Dio Brando sensed his Stand powers and asked him for a demonstration, which turned out to be a fight. Afterwards, Kakyoin is brainwashed by Dio using buds from his own cells into following his will, which is to kill Jotaro Kujo."
 		},
 		{
 			"Name":"Jean-Pierre Polnareff",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%203/Characters/05polnareff.webp",
 			"Description": "Jean Pierre Polnareff is the second to last addition to the Crusaders, who joined after he fought and was defeated by Muhammad Avdol. "
 		},
 		{
 			"Name":"Iggy",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%203/Characters/06iggy.webp",
 			"Description": "Iggy, who possessed the powers of a Stand, was found by Muhammad Avdol in the street slums of New York. Only Avdol is able to come close to him."
 		}
 	],
@@ -1315,12 +1315,12 @@
 	],
 	"JJBASeasonThreeImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%203/JJBAS3Cover.webp"
 		}
 	],
 	"JJBASeasonThreeVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/GR6sJfFdB9I\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	"JJBASeasonFourAnimeData":[
@@ -1332,22 +1332,22 @@
 	"JJBASeasonFourCharacterData":[
 		{
 			"Name":"Jousuke Higashikata",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%204/Characters/01josuke.webp",
 			"Description": "Jousuke is the main hero of JoJo's Bizarre Adventure Part 4. He begins his story as a new freshman in the town of Morioh. Part 4 begins with Joutarou seeking him out, as Jousuke is the illegitimate son of Joutarou's grandfather, Joseph Joestar."
 		},
 		{
 			"Name":"Kouichi Hirose",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%204/Characters/02koichi.webp",
 			"Description": "An ally and classmate who meets Jousuke when Joutarou is searching for him, resulting in the two becoming quick friends."
 		},
 		{
 			"Name":"Okuyasu Nijimura",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%204/Characters/03okuyasu.webp",
 			"Description": "Okuyasu isn't exactly the brightest character in the Jojo story, and tended to rely on his elder brother Keicho to make hard decisions. After his brother died, he sought revenge against the User of Red Hot Chili Pepper, Akira Otoishi. During this time and the following events surrounding Yoshikage Kira, he became fast friends with Josuke and Koichi. Okuyasu tends to be jealous of Koichi's relationship with Yukako, and enjoys Tonio's cooking. He also befriends Shigekiyo, after doing battle with his Harvest with Josuke. "
 		},
 		{
 			"Name":"Kuujou Joutarou",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%204/Characters/04jotaro.webp",
 			"Description": "Joutarou is a fictional character from the Japanese manga JoJo's Bizarre Adventure, and the protagonist of Series 3. He has a recognizable attire of trenchcoat-length school uniform jacket with yellow chains on the collar. He also wears a trademark hat which, while torn in the back, often seems to blend with his hair. While they are first shown as being completely separate, later publications cause more uncertainty as to where his hat and his hair actually meet. His hat is most likely a Japanese student cap that was normally worn along with the gakuran prior to the 1970s."
 		}
 	],
@@ -1550,12 +1550,12 @@
 	],
 	"JJBASeasonFourImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%204/JJBAS4Cover.webp"
 		}
 	],
 	"JJBASeasonFourVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/t8WxJVBhiTY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	"JJBASeasonFiveAnimeData":[
@@ -1567,37 +1567,37 @@
 	"JJBASeasonFiveCharacterData":[
 		{
 			"Name":"Giorno Giovanna",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%205/Characters/01giono.webp",
 			"Description": "Born Haruno Shiobana, Giorno is the son of Dio and a Japanese woman. As a young child his mother remarried, to an Italian man, and they moved to Italy; hence Haruno Shiobana became Giorno Giovanna."
 		},
 		{
 			"Name":"Bruno Buccellati",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%205/Characters/02bruno.webp",
 			"Description": "As a child, Bruno was born in a poor fishing village, but he looked up to his father because of the love he had for his family. When his father became mixed up in the drug business and was badly injured, Bruno protected his father from the people that were trying to kill him, by killing them himself. This led him into the world of gangsters. Even though he was a member of \"Passione,\" he had a kind personality; many people came to him for help."
 		},
 		{
 			"Name":"Guido Mista",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%205/Characters/03mista.webp",
 			"Description": "Mista is one of the heroes of part 5, a part of Bruno's gang. When he was younger, he had a run-in with a group of gangsters, and was shot at. All of the gangster's shots missed, and that is where he saw an opportunity to pick up a gun, take aim, and shoot them all in the head. He was sentenced to prison for the rest of teenage years, and was eventually bailed out by Bucciarati, and passed Polpo's test. Guido tends to use a revolver as his firearm, and believes the number 4 is unlucky due to events from his childhood and the character for 4 in Japanese sounds similar to the word \"die\"."
 		},
 		{
 			"Name":"Narancia Ghirga",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%205/Characters/04narancia.webp",
 			"Description": "Narancia is one of the heroes of part 5, a part of Bruno's gang. Narancia's mother died of sickness, and his father thinks he is a loser. At age 14 he was wandering around and was picked up by Fugo and from there he meets Bruno. Narancia was so overwhelmed with Bruno's kindness that he vowed to follow him forever."
 		},
 		{
 			"Name":"Leone Abbacchio",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%205/Characters/05abbacchio.webp",
 			"Description": "Leone Abbacchio is a fictional character from the Japanese manga JoJo's Bizarre Adventure. Abbacchio is one of the heroes of part 5, a part of Bruno's gang. Abbacchio was a cop once. His dream was to protect people. Then one day, because of his clumsiness, one of the police died protecting him. From then on, he has no hope of living and decided to join the gang."
 		},
 		{
 			"Name":"Pannacotta Fugo",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%205/Characters/06fugo.webp",
 			"Description": "Fugo is a member of Buccellati's gang and is known to lose his patience and explode with anger. "
 		},
 		{
 			"Name":"Trish Una",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%205/Characters/07trish.webp",
 			"Description": "The sole female member of Buccellati's gang. She is the daughter to their boss, Diavolo, and was living a normal life before she found out who her father was. From then on, she was on the run to meet her father. "
 		}
 	],
@@ -1800,12 +1800,12 @@
 	],
 	"JJBASeasonFiveImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/JJBA%20images/Season%205/JJBAS5Cover.webp"
 		}
 	],
 	"JJBASeasonFiveVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Ubve8INYEws\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	"JJBASeasonSixAnimeData":[

@@ -52,7 +52,7 @@ function changeSeason(){
 	else if (infoCurrentSeason.value == 4){
 		document.getElementById("info-s1").style.display = "none";
 		document.getElementById("info-s2").style.display = "none";
-		document.getElementById("info-s2").style.display = "none";
+		document.getElementById("info-s3").style.display = "none";
 		document.getElementById("info-s4").style.display = "block";
 		document.getElementById("info-s5").style.display = "none";
 		document.getElementById("info-s6").style.display = "none";
@@ -64,7 +64,7 @@ function changeSeason(){
 	else if (infoCurrentSeason.value == 5){
 		document.getElementById("info-s1").style.display = "none";
 		document.getElementById("info-s2").style.display = "none";
-		document.getElementById("info-s2").style.display = "none";
+		document.getElementById("info-s3").style.display = "none";
 		document.getElementById("info-s4").style.display = "none";
 		document.getElementById("info-s5").style.display = "block";
 		document.getElementById("info-s6").style.display = "none";
@@ -112,7 +112,7 @@ function changeSeason(){
 	else if (infoCurrentSeason.value == 9){
 		document.getElementById("info-s1").style.display = "none";
 		document.getElementById("info-s2").style.display = "none";
-		document.getElementById("info-s2").style.display = "none";
+		document.getElementById("info-s3").style.display = "none";
 		document.getElementById("info-s4").style.display = "none";
 		document.getElementById("info-s5").style.display = "none";
 		document.getElementById("info-s6").style.display = "none";
@@ -124,7 +124,7 @@ function changeSeason(){
 	else if (infoCurrentSeason.value == 10){
 		document.getElementById("info-s1").style.display = "none";
 		document.getElementById("info-s2").style.display = "none";
-		document.getElementById("info-s2").style.display = "none";
+		document.getElementById("info-s3").style.display = "none";
 		document.getElementById("info-s4").style.display = "none";
 		document.getElementById("info-s5").style.display = "none";
 		document.getElementById("info-s6").style.display = "none";
@@ -516,10 +516,46 @@ function animeSeasonSelect(season){
 	return section
 }
 function addSypnosis(data){
-	var sypnosisElement = document.getElementById("synopsisPara")
+	var sypnosisElement = sypnosisElementSelect()
 	var titleElement = document.getElementById("animeTitle")
 	titleElement.innerText = `${data[0].TitleName}`
 	sypnosisElement.innerHTML = `${data[0].Sypnosis}`
+}
+
+function sypnosisElementSelect(){
+	if (infoCurrentSeason.value == 1){
+		return document.getElementById("synopsisParaSeasonOne")
+	}
+	else if (infoCurrentSeason.value == 2){
+		return document.getElementById("synopsisParaSeasonTwo")
+	}
+	else if (infoCurrentSeason.value == 3){
+		return document.getElementById("synopsisParaSeasonThree")
+	}
+	else if (infoCurrentSeason.value == 4){
+		return document.getElementById("synopsisParaSeasonFour")
+	}
+	else if (infoCurrentSeason.value == 5){
+		return document.getElementById("synopsisParaSeasonFive")
+	}
+	else if (infoCurrentSeason.value == 6){
+		return document.getElementById("synopsisParaSeasonSix")
+	}
+	else if (infoCurrentSeason.value == 7){
+		return document.getElementById("synopsisParaSeasonSeven")
+	}
+	else if (infoCurrentSeason.value == 8){
+		return document.getElementById("synopsisParaSeasonEight")
+	}
+	else if (infoCurrentSeason.value == 9){
+		return document.getElementById("synopsisParaSeasonNine")
+	}
+	else if (infoCurrentSeason.value == 10){
+		return document.getElementById("synopsisParaSeasonTen")
+	}
+	else{
+		console.log("Something went wrong at sypnosisElementSelect()")
+	}
 }
 //Generate characters for each season
 
@@ -591,6 +627,42 @@ function addCharacters(data){
 			</div>
 			`
 		infoSection.innerHTML += characterSlot;
+	}
+}
+
+function characterElementSelect(){
+	if (infoCurrentSeason.value == 1){
+		return document.getElementById("seasonOneCharacters")
+	}
+	else if (infoCurrentSeason.value == 2){
+		return document.getElementById("seasonTwoCharacters")
+	}
+	else if (infoCurrentSeason.value == 3){
+		return document.getElementById("seasonThreeCharacters")
+	}
+	else if (infoCurrentSeason.value == 4){
+		return document.getElementById("seasonFourCharacters")
+	}
+	else if (infoCurrentSeason.value == 5){
+		return document.getElementById("seasonFiveCharacters")
+	}
+	else if (infoCurrentSeason.value == 6){
+		return document.getElementById("seasonSixCharacters")
+	}
+	else if (infoCurrentSeason.value == 7){
+		return document.getElementById("seasonSevenCharacters")
+	}
+	else if (infoCurrentSeason.value == 8){
+		return document.getElementById("seasonEightCharacters")
+	}
+	else if (infoCurrentSeason.value == 9){
+		return document.getElementById("seasonNineCharacters")
+	}
+	else if (infoCurrentSeason.value == 10){
+		return document.getElementById("seasonTenCharacters")
+	}
+	else{
+		console.log("Something went wrong at characterElementSelect()")
 	}
 }
 
@@ -731,7 +803,7 @@ function episodeSeasonSelect(season){
 
 function addEpisodes(data){
 	console.log(data)
-	episodeListElement = document.getElementById("episodeListSeasonOne")
+	episodeListElement = episodeElementSelect()
 	episodeListElement.innerHTML = `
 	<p class="episode-list-header"></p>
 	<p class="episode-list-header">Name</p>
@@ -744,6 +816,42 @@ function addEpisodes(data){
 		<p class="list-item"><a href="${data[i].Link}">Link</a></p>
 		`
 		episodeListElement.innerHTML += episodeRow
+	}
+}
+
+function episodeElementSelect(){
+	if (infoCurrentSeason.value == 1){
+		return document.getElementById("episodeListSeasonOne")
+	}
+	else if (infoCurrentSeason.value == 2){
+		return document.getElementById("episodeListSeasonTwo")
+	}
+	else if (infoCurrentSeason.value == 3){
+		return document.getElementById("episodeListSeasonThree")
+	}
+	else if (infoCurrentSeason.value == 4){
+		return document.getElementById("episodeListSeasonFour")
+	}
+	else if (infoCurrentSeason.value == 5){
+		return document.getElementById("episodeListSeasonFive")
+	}
+	else if (infoCurrentSeason.value == 6){
+		return document.getElementById("episodeListSeasonSix")
+	}
+	else if (infoCurrentSeason.value == 7){
+		return document.getElementById("episodeListSeasonSeven")
+	}
+	else if (infoCurrentSeason.value == 8){
+		return document.getElementById("episodeListSeasonEight")
+	}
+	else if (infoCurrentSeason.value == 9){
+		return document.getElementById("episodeListSeasonNine")
+	}
+	else if (infoCurrentSeason.value == 10){
+		return document.getElementById("episodeListSeasonTen")
+	}
+	else{
+		console.log("Something went wrong at characterElementSelect()")
 	}
 }
 
@@ -796,11 +904,47 @@ function imageSeasonSelect(season){
 }
 
 function addImages(data){
-	imageContainerElement = document.getElementById("imageContainerSeasonOne")
+	imageContainerElement = imageElementSelect()
 	imageContainerElement.innerHTML = ""
 	for (i in data){
 		var imageSlot = `<img class= "poster-image" src="${data[i].src}">`
 		imageContainerElement.innerHTML += imageSlot
+	}
+}
+
+function imageElementSelect(){
+	if (infoCurrentSeason.value == 1){
+		return document.getElementById("imageContainerSeasonOne")
+	}
+	else if (infoCurrentSeason.value == 2){
+		return document.getElementById("imageContainerSeasonTwo")
+	}
+	else if (infoCurrentSeason.value == 3){
+		return document.getElementById("imageContainerSeasonThree")
+	}
+	else if (infoCurrentSeason.value == 4){
+		return document.getElementById("imageContainerSeasonFour")
+	}
+	else if (infoCurrentSeason.value == 5){
+		return document.getElementById("imageContainerSeasonFive")
+	}
+	else if (infoCurrentSeason.value == 6){
+		return document.getElementById("imageContainerSeasonSix")
+	}
+	else if (infoCurrentSeason.value == 7){
+		return document.getElementById("imageContainerSeasonSeven")
+	}
+	else if (infoCurrentSeason.value == 8){
+		return document.getElementById("imageContainerSeasonEight")
+	}
+	else if (infoCurrentSeason.value == 9){
+		return document.getElementById("imageContainerSeasonNine")
+	}
+	else if (infoCurrentSeason.value == 10){
+		return document.getElementById("imageContainerSeasonTen")
+	}
+	else{
+		console.log("Something went wrong at characterElementSelect()")
 	}
 }
 
@@ -853,11 +997,47 @@ function videoSeasonSelect(season){
 }
 
 function addVideos(data){
-	videoContainerElement = document.getElementById("videoContainerSeasonOne")
+	videoContainerElement = videoElementSelect()
 	videoContainerElement.innerHTML = ""
 	for (i in data){
 		var videoSlot =`${data[i].fullEmbed}`
 		videoContainerElement.innerHTML  += videoSlot
+	}
+}
+
+function videoElementSelect(){
+	if (infoCurrentSeason.value == 1){
+		return document.getElementById("videoContainerSeasonOne")
+	}
+	else if (infoCurrentSeason.value == 2){
+		return document.getElementById("videoContainerSeasonTwo")
+	}
+	else if (infoCurrentSeason.value == 3){
+		return document.getElementById("videoContainerSeasonThree")
+	}
+	else if (infoCurrentSeason.value == 4){
+		return document.getElementById("videoContainerSeasonFour")
+	}
+	else if (infoCurrentSeason.value == 5){
+		return document.getElementById("videoContainerSeasonFive")
+	}
+	else if (infoCurrentSeason.value == 6){
+		return document.getElementById("videoContainerSeasonSix")
+	}
+	else if (infoCurrentSeason.value == 7){
+		return document.getElementById("videoContainerSeasonSeven")
+	}
+	else if (infoCurrentSeason.value == 8){
+		return document.getElementById("videoContainerSeasonEight")
+	}
+	else if (infoCurrentSeason.value == 9){
+		return document.getElementById("videoContainerSeasonNine")
+	}
+	else if (infoCurrentSeason.value == 10){
+		return document.getElementById("videoContainerSeasonTen")
+	}
+	else{
+		console.log("Something went wrong at characterElementSelect()")
 	}
 }
 
