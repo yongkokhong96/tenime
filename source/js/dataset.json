@@ -2585,7 +2585,10 @@
 	],
 	"AoBSeasonOneImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Ascendecnce%20of%20a%20Bookworm%20images/Season%201/Characters/AoBS1Cover1.webp"
+		},
+		{
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Ascendecnce%20of%20a%20Bookworm%20images/Season%201/Characters/AoBS1Cover2.webp"
 		}
 	],
 	"AoBSeasonOneVideoData":[
@@ -2680,7 +2683,10 @@
 	],
 	"AoBSeasonTwoImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Ascendecnce%20of%20a%20Bookworm%20images/Season%201/Characters/AoBS2Cover1.webp"
+		},
+		{
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Ascendecnce%20of%20a%20Bookworm%20images/Season%201/Characters/AoBS2Cover2.webp"
 		}
 	],
 	"AoBSeasonTwoVideoData":[
@@ -2698,12 +2704,12 @@
 	"ManariaFriendsSeasonOneCharacterData":[
 		{
 			"Name":"Anne",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Manaria%20Friends%20images/Characters/01anne.webp",
 			"Description": ""
 		},
 		{
 			"Name":"Grea",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Manaria%20Friends%20images/Characters02/grea.webp",
 			"Description": ""
 		}
 	],
@@ -2761,12 +2767,15 @@
 	],
 	"ManariaFriendsSeasonOneImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Manaria%20Friends%20images/ManariaFriendsS1Cover1"
+		},
+		{
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Manaria%20Friends%20images/ManariaFriendsS1Cover2"
 		}
 	],
 	"ManariaFriendsSeasonOneVideoData":[
 		{
-			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/oNnXrQgoqXI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 
