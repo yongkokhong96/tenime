@@ -223,33 +223,6 @@ function characterElementSelect(){
 	else if (infoCurrentSeason.value == 2){
 		return document.getElementById("seasonTwoCharacters")
 	}
-	else if (infoCurrentSeason.value == 3){
-		return document.getElementById("seasonThreeCharacters")
-	}
-	else if (infoCurrentSeason.value == 4){
-		return document.getElementById("seasonFourCharacters")
-	}
-	else if (infoCurrentSeason.value == 5){
-		return document.getElementById("seasonFiveCharacters")
-	}
-	else if (infoCurrentSeason.value == 6){
-		return document.getElementById("seasonSixCharacters")
-	}
-	else if (infoCurrentSeason.value == 7){
-		return document.getElementById("seasonSevenCharacters")
-	}
-	else if (infoCurrentSeason.value == 8){
-		return document.getElementById("seasonEightCharacters")
-	}
-	else if (infoCurrentSeason.value == 9){
-		return document.getElementById("seasonNineCharacters")
-	}
-	else if (infoCurrentSeason.value == 10){
-		return document.getElementById("seasonTenCharacters")
-	}
-	else{
-		console.log("Something went wrong at characterElementSelect()")
-	}
 }
 
 function linkAdder(data){
@@ -257,6 +230,8 @@ function linkAdder(data){
 	for (i in characterElement){
 		var modifyThis = document.getElementById(characterElement[i].id);
 		modifyThis.setAttribute("onclick", `charInfo("${characterElement[i].id}")`);
+		console.log("RUNNING")
+		console.log(modifyThis)
 		//console.log(modifyThis.id);
 		//characterElement.addEventListener("click",charClick);
 	}
@@ -289,9 +264,9 @@ function characterInfoGet(incomingData, targetName){
 			while (counterTwo != infoContain.length){
 				if (counterTwo == 0){
 					var charImageLine = `
-					<div id="myModal" class="modal-custom">
+					<div id="${modalBoxElementIdSet()}" class="modal-custom">
 					<div class="modal-custom-content">
-						<span id="modalClose" class="close">close</span>
+						<span id="${modalCloseIdSet()}" class="close">close</span>
 						
 						<div id="characterInfoBox">
 							<img src =${infoContain[1][1]} class="character-info-image">
@@ -336,16 +311,58 @@ function modalElementSelect(){
 
 function modalAssign(){
 	console.log("modalAssign")
-	var changeThis = document.getElementById(id="modalClose");
+	var changeThis = modalCloseId()
 	//changeThis.setAttribute("onclick",closeModal);
 	changeThis.onclick = closeModal;
 }
 
 function closeModal(){
 	console.log("closeModal")
-	var targetModal = document.getElementById(id="myModal")
+	var targetModal = modalBoxElementId()
+	console.log(targetModal)
 	targetModal.style.display = "none"
 	console.log("closed")
+}
+
+//Sets id for modal close button
+function modalCloseIdSet(){
+	if (infoCurrentSeason.value == 1){
+		return "modalCloseSeasonOne"
+	}
+	else if (infoCurrentSeason.value == 2){
+		return "modalCloseSeasonTwo"
+	}
+}
+
+//Reference to modal close button's id
+function modalCloseId(){
+	if (infoCurrentSeason.value == 1){
+		return document.getElementById("modalCloseSeasonOne")
+	}
+	else if (infoCurrentSeason.value == 2){
+		return document.getElementById("modalCloseSeasonTwo")
+	}
+}
+
+//Sets id for modal box
+function modalBoxElementIdSet(){
+	if (infoCurrentSeason.value == 1){
+		return "myModalSeasonOne"
+	}
+	else if (infoCurrentSeason.value == 2){
+		return "myModalSeasonTwo"
+	}
+}
+
+
+//Reference to modal box's id
+function modalBoxElementId(){
+	if (infoCurrentSeason.value == 1){
+		return document.getElementById("myModalSeasonOne")
+	}
+	else if (infoCurrentSeason.value == 2){
+		return document.getElementById("myModalSeasonTwo")
+	}
 }
 
 //Episode list generator
