@@ -196,12 +196,13 @@ function charSeasonSelect(season){
 
 function addCharacters(data){
 	var infoSection = characterElementSelect()
+	var currentSeasonText = idCurrentSeason()
 	//var season = infoCurrentSeason.value
 	infoSection.innerHTML = "";
 	for(i in data){
 		//console.log("Okay" + data)
 		//console.log(data)
-		var idGen = data[i].Name
+		var idGen = data[i].Name + currentSeasonText
 		//idGen = idGen.split(" ").join("")
 		//console.log(idGen)
 		var characterSlot = `
@@ -209,10 +210,19 @@ function addCharacters(data){
 				<div class="character-slot">
 					<img class=character-img src=${data[i].src}>
 				</div>
-				<button data-toggle="modal" data-target="#myModal" class="character-name" id ="${idGen}">${data[i].Name}</button>
+				<button data-toggle="modal" data-target="${modalBoxElementId()}" class="character-name ${idCurrentSeason()}" id ="${idGen}">${data[i].Name}</button>
 			</div>
 			`
 		infoSection.innerHTML += characterSlot;
+	}
+}
+
+function idCurrentSeason(){
+	if (infoCurrentSeason.value == 1){
+		return "seasonOne"
+	}
+	else if (infoCurrentSeason.value == 2){
+		return "seasonTwo"
 	}
 }
 
@@ -226,7 +236,8 @@ function characterElementSelect(){
 }
 
 function linkAdder(data){
-	var characterElement = document.querySelectorAll(".character-name")
+	var seasonQuery = idCurrentSeason()
+	var characterElement = document.querySelectorAll("."+ seasonQuery)
 	for (i in characterElement){
 		var modifyThis = document.getElementById(characterElement[i].id);
 		modifyThis.setAttribute("onclick", `charInfo("${characterElement[i].id}")`);
@@ -252,12 +263,13 @@ function charInfo(characterName){
 //Info for character detail boxes
 function characterInfoGet(incomingData, targetName){
 	console.log(incomingData)
+	var characterName = targetName.replace(idCurrentSeason(),'')
 	console.log(targetName)
 	var counter = 0;
 	while (counter != incomingData.length){
 		//console.log(incomingData[counter].Name)
-		if (incomingData[counter].Name == targetName){
-			console.log("Found " + targetName)
+		if (incomingData[counter].Name == characterName){
+			console.log("Found " + characterName)
 			var infoContain = Object.entries(incomingData[counter])
 			console.log(infoContain.length)
 			var counterTwo = 0

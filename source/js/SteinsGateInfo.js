@@ -196,12 +196,13 @@ function charSeasonSelect(season){
 
 function addCharacters(data){
 	var infoSection = characterElementSelect()
+	var currentSeasonText = idCurrentSeason()
 	//var season = infoCurrentSeason.value
 	infoSection.innerHTML = "";
 	for(i in data){
 		//console.log("Okay" + data)
 		//console.log(data)
-		var idGen = data[i].Name
+		var idGen = data[i].Name + currentSeasonText
 		//idGen = idGen.split(" ").join("")
 		//console.log(idGen)
 		var characterSlot = `
@@ -209,7 +210,7 @@ function addCharacters(data){
 				<div class="character-slot">
 					<img class=character-img src=${data[i].src}>
 				</div>
-				<button data-toggle="modal" data-target="#myModal" class="character-name" id ="${idGen}">${data[i].Name}</button>
+				<button data-toggle="modal" data-target="${modalBoxElementId()}" class="character-name ${idCurrentSeason()}" id ="${idGen}">${data[i].Name}</button>
 			</div>
 			`
 		infoSection.innerHTML += characterSlot;
@@ -225,10 +226,22 @@ function characterElementSelect(){
 	}
 }
 
+function idCurrentSeason(){
+	if (infoCurrentSeason.value == 1){
+		return "seasonOne"
+	}
+	else if (infoCurrentSeason.value == 2){
+		return "seasonTwo"
+	}
+}
+
 function linkAdder(data){
-	var characterElement = document.querySelectorAll(".character-name")
+	var seasonQuery = idCurrentSeason()
+	var characterElement = document.querySelectorAll("."+ seasonQuery)
+	//var characterElement = document.querySelectorAll(".character-name")
 	for (i in characterElement){
 		var modifyThis = document.getElementById(characterElement[i].id);
+		console.log(characterElement[i])
 		modifyThis.setAttribute("onclick", `charInfo("${characterElement[i].id}")`);
 		//console.log(modifyThis.id);
 		//characterElement.addEventListener("click",charClick);
@@ -250,12 +263,14 @@ function charInfo(characterName){
 //Info for character detail boxes
 function characterInfoGet(incomingData, targetName){
 	console.log(incomingData)
+	var characterName = targetName.replace(idCurrentSeason(),'')
 	console.log(targetName)
+	console.log(characterName)
 	var counter = 0;
 	while (counter != incomingData.length){
 		//console.log(incomingData[counter].Name)
-		if (incomingData[counter].Name == targetName){
-			console.log("Found " + targetName)
+		if (incomingData[counter].Name == characterName){
+			console.log("Found " + characterName)
 			var infoContain = Object.entries(incomingData[counter])
 			console.log(infoContain.length)
 			var counterTwo = 0
@@ -298,9 +313,11 @@ function characterInfoGet(incomingData, targetName){
 
 function modalElementSelect(){
 	if (infoCurrentSeason.value == 1){
+		console.log("HERE")
 		return document.getElementById("charInfoContainerSeasonOne")
 	}
 	else if (infoCurrentSeason.value == 2){
+		console.log("HERE 2")
 		return document.getElementById("charInfoContainerSeasonTwo")
 	}
 }
@@ -310,6 +327,7 @@ function modalElementSelect(){
 function modalAssign(){
 	console.log("modalAssign")
 	var changeThis = modalCloseId()
+	console.log(changeThis)
 	//changeThis.setAttribute("onclick",closeModal);
 	changeThis.onclick = closeModal;
 }
@@ -330,33 +348,18 @@ function modalCloseIdSet(){
 	else if (infoCurrentSeason.value == 2){
 		return "modalCloseSeasonTwo"
 	}
-	else if (infoCurrentSeason.value == 3){
-		return "modalCloseSeasonThree"
-	}
-	else if (infoCurrentSeason.value == 4){
-		return "modalCloseSeasonFour"
-	}
-	else if (infoCurrentSeason.value == 5){
-		return "modalCloseSeasonFive"
-	}
 }
 
 //Reference to modal close button's id
 function modalCloseId(){
+	
 	if (infoCurrentSeason.value == 1){
+		console.log("What")
 		return document.getElementById("modalCloseSeasonOne")
 	}
 	else if (infoCurrentSeason.value == 2){
+		console.log("How")
 		return document.getElementById("modalCloseSeasonTwo")
-	}
-	else if (infoCurrentSeason.value == 3){
-		return document.getElementById("modalCloseSeasonThree")
-	}
-	else if (infoCurrentSeason.value == 4){
-		return document.getElementById("modalCloseSeasonFour")
-	}
-	else if (infoCurrentSeason.value == 5){
-		return document.getElementById("modalCloseSeasonFive")
 	}
 }
 
@@ -368,15 +371,6 @@ function modalBoxElementIdSet(){
 	else if (infoCurrentSeason.value == 2){
 		return "myModalSeasonTwo"
 	}
-	else if (infoCurrentSeason.value == 3){
-		return "myModalSeasonThree"
-	}
-	else if (infoCurrentSeason.value == 4){
-		return "myModalSeasonFour"
-	}
-	else if (infoCurrentSeason.value == 5){
-		return "myModalSeasonFive"
-	}
 }
 
 //Reference to modal box's id
@@ -386,15 +380,6 @@ function modalBoxElementId(){
 	}
 	else if (infoCurrentSeason.value == 2){
 		return document.getElementById("myModalSeasonTwo")
-	}
-	else if (infoCurrentSeason.value == 3){
-		return document.getElementById("myModalSeasonThree")
-	}
-	else if (infoCurrentSeason.value == 4){
-		return document.getElementById("myModalSeasonFour")
-	}
-	else if (infoCurrentSeason.value == 5){
-		return document.getElementById("myModalSeasonFive")
 	}
 }
 
