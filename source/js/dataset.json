@@ -2502,12 +2502,12 @@
 	"AoBSeasonOneCharacterData":[
 		{
 			"Name":"Myne",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Ascendecnce%20of%20a%20Bookworm%20images/Season%202/Characters/01myne.webp",
 			"Description": "Originally a young woman from our world who just finished her studies to become a librarian and died buried in her own books after an earthquake caused her bookshelves to fall on her, she found herself reincarnated in a very frail body of a 5-year-old young girl called Myne in a fantasy world"
 		},
 		{
 			"Name":"Lutz",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Ascendecnce%20of%20a%20Bookworm%20images/Season%202/Characters/02lutz.webp",
 			"Description": "Lutz has golden hair and jade eyes. He is the fourth and youngest son of Karla and Died. His older brothers are Zasha, Sieg and Ralph. He is close friends with Myne and works closely with her to monitor her health as well as help her created new products. "
 		}
 	],
@@ -2590,7 +2590,7 @@
 	],
 	"AoBSeasonOneVideoData":[
 		{
-			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Wo28IopG2WE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	"AoBSeasonTwoAnimeData":[
@@ -2602,17 +2602,17 @@
 	"AoBSeasonTwoCharacterData":[
 		{
 			"Name":"Myne",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Ascendecnce%20of%20a%20Bookworm%20images/Season%202/Characters/01myne.webp",
 			"Description": "Originally a young woman from our world who just finished her studies to become a librarian and died buried in her own books after an earthquake caused her bookshelves to fall on her, she found herself reincarnated in a very frail body of a 5-year-old young girl called Myne in a fantasy world"
 		},
 		{
 			"Name":"Lutz",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Ascendecnce%20of%20a%20Bookworm%20images/Season%202/Characters/02lutz.webp",
 			"Description": "Lutz has golden hair and jade eyes. He is the fourth and youngest son of Karla and Died. His older brothers are Zasha, Sieg and Ralph. He is close friends with Myne and works closely with her to monitor her health as well as help her created new products. "
 		},
 		{
 			"Name":"Ferdinand",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/Ascendecnce%20of%20a%20Bookworm%20images/Season%202/Characters/03ferdinand.webp",
 			"Description": "Ferdinand is the head priest in the temple of Ehrenfest, as well as the patron and educator of Myne in the temple. Ferdinand teaches and guides her to be a 'proper' shrine maiden and noble lady."
 		}
 	],
@@ -2685,7 +2685,7 @@
 	],
 	"AoBSeasonTwoVideoData":[
 		{
-			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/djJDvBQZbzY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 
@@ -4484,5 +4484,12 @@
 			{
 				"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 			}
-		]
+		],
+	"Comments":[
+		{
+			"Note One":"Make a title page",
+			"Note Two":"Some pages randomly use maximum amount of RAM in device, last occured when JJBA.html is left idle for several minutes, possibly caused by loop that doesnt't do much but never ends. more investigation needed",
+			"Note Three":"Holo No Gra only is not using code from template (Last updated 21/4/2021)"
+		}
+	]
 }
