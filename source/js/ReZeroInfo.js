@@ -280,7 +280,7 @@ function characterInfoGet(incomingData, targetName){
 					<div class="modal-custom-content">
 						<span id="${modalCloseIdSet()}" class="close">close</span>
 						
-						<div id="characterInfoBox">
+						<div id=${modalInfoIdSet()}>
 							<img src =${infoContain[1][1]} class="character-info-image">
 							<p class="character-info-name">${infoContain[counterTwo][1]}</p>
 						</div>
@@ -296,7 +296,7 @@ function characterInfoGet(incomingData, targetName){
 					var charInfoLine = `
 					<p>${infoContain[counterTwo][0]}: ${infoContain[counterTwo][1]}</p>
 					`
-					var targetContainer = document.getElementById("characterInfoBox")
+					var targetContainer = document.getElementById(modalInfoIdSet())
 					//var targetContainer = document.body
 					console.log("HERE")
 					targetContainer.innerHTML+= charInfoLine
@@ -334,6 +334,16 @@ function closeModal(){
 	console.log(targetModal)
 	targetModal.style.display = "none"
 	console.log("closed")
+}
+
+//Sets id for modal info
+function modalInfoIdSet(){
+	if (infoCurrentSeason.value == 1){
+		return "modalInfoSeasonOne"
+	}
+	else if (infoCurrentSeason.value == 2){
+		return "modalInfoSeasonTwo"
+	}
 }
 
 //Sets id for modal close button
