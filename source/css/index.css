@@ -173,6 +173,7 @@
 
 .character-container{
 	display: flex;
+	flex: 1 1 160px;
 	flex-wrap: wrap;
 }
 
@@ -196,8 +197,8 @@
 
 .character-img{
 	border:3px solid black;
-	max-width: 100px;
-	max-height: 100px;
+	width: 100%;
+	height: 100%;
 	border-radius: 50%;
 	transition: 0.3s;
 }
@@ -205,14 +206,14 @@
 .character-img:hover {
 	box-shadow: 0px 0px 10px rgb(0,0,0,.5);
 	transform: scale(1.2,1.2);
-	max-width: 140px;
-	max-height: 140px;
+	max-width: 180px;
+	max-height: 180px;
 	transition: 0.3s;
 }
 
 .character-name{
 	text-align: center;
-	max-width: 300x;
+	max-width: 150px;
 	margin-left: 10%;
 	margin-bottom: 5rem;
 	height : 50px;
