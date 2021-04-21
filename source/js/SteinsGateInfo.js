@@ -273,7 +273,7 @@ function characterInfoGet(incomingData, targetName){
 					</div>
 					</div>
 					`
-					var targetContainer = document.getElementById("charInfoContainer")
+					var targetContainer = modalElementSelect()
 					targetContainer.innerHTML=""
 					targetContainer.innerHTML+= charImageLine
 				}
@@ -293,6 +293,15 @@ function characterInfoGet(incomingData, targetName){
 			console.log(testSplit[0])
 		}
 		counter++;
+	}
+}
+
+function modalElementSelect(){
+	if (infoCurrentSeason.value == 1){
+		return document.getElementById("charInfoContainerSeasonOne")
+	}
+	else if (infoCurrentSeason.value == 2){
+		return document.getElementById("charInfoContainerSeasonTwo")
 	}
 }
 

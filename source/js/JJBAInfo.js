@@ -432,7 +432,7 @@ function characterInfoGet(incomingData, targetName){
 					</div>
 					</div>
 					`
-					var targetContainer = document.getElementById("charInfoContainer")
+					var targetContainer = modalElementSelect()
 					targetContainer.innerHTML=""
 					targetContainer.innerHTML+= charImageLine
 				}
@@ -452,6 +452,24 @@ function characterInfoGet(incomingData, targetName){
 			console.log(testSplit[0])
 		}
 		counter++;
+	}
+}
+
+function modalElementSelect(){
+	if (infoCurrentSeason.value == 1){
+		return document.getElementById("charInfoContainerSeasonOne")
+	}
+	else if (infoCurrentSeason.value == 2){
+		return document.getElementById("charInfoContainerSeasonTwo")
+	}
+	else if (infoCurrentSeason.value == 3){
+		return document.getElementById("charInfoContainerSeasonThree")
+	}
+	else if (infoCurrentSeason.value == 4){
+		return document.getElementById("charInfoContainerSeasonFour")
+	}
+	else if (infoCurrentSeason.value == 5){
+		return document.getElementById("charInfoContainerSeasonFive")
 	}
 }
 
