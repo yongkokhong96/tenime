@@ -1841,19 +1841,19 @@
 
 	"ReZeroSeasonOneAnimeData":[
 		{
-			"TitleName": "Re:ZERO Starting Life in Another World",
+			"TitleName": "Re:Zero Starting Life in Another World",
 			"Sypnosis": "When Subaru Natsuki leaves the convenience store, the last thing he expects is to be wrenched from his everyday life and dropped into a fantasy world. Things aren't looking good for the bewildered teenager; however, not long after his arrival, he is attacked by some thugs. Armed with only a bag of groceries and a now useless cell phone, he is quickly beaten to a pulp. Fortunately, a mysterious beauty named Satella, in hot pursuit after the one who stole her insignia, happens upon Subaru and saves him. In order to thank the honest and kindhearted girl, Subaru offers to help in her search, and later that night, he even finds the whereabouts of that which she seeks. But unbeknownst to them, a much darker force stalks the pair from the shadows."
 		}
 	],
 	"ReZeroSeasonOneCharacterData":[
 		{
 			"Name":"Subaru Natsuki",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/ReZero%20images/Season%201/Characters/01subaru.webp",
 			"Description": "While Subaru tends to not read the situation, he is loyal to those he holds dear, willing to help them, even if that means taking the thorny path. He has his resolve confirmed through the many situations and circumstances he faces in the fantasy world, originally having been one to always take the easy route. As a hikikomori, he is hopeful of the possibilities that being sucked into a new realm brings, but later realizes the realities of the predicament he is in. Ultimately, he resolves himself to be faithful and protective of the ones that he cares most about."
 		},
 		{
 			"Name":"Emilia",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/ReZero%20images/Season%201/Characters/02emilia.webp",
 			"Description": "Emilia is good natured and likes to take care of others, though she herself refuses to admit it, instead thinking of it as her own selfishness. She is indifferent to her own appearance, leaving Puck to take care of her clothes and hair. Because her appearance is similar to the Witch of Envy, she has received unfair discrimination from others. She sometimes acts like a child and is unacquainted with the world as she used to live in the woods with other Elves, though despite this she still works hard to become a ruler."
 		}
 	],
@@ -1986,29 +1986,29 @@
 	],
 	"ReZeroSeasonOneImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/ReZero%20images/Season%201/ReZeroS1Cover.webp"
 		}
 	],
 	"ReZeroSeasonOneVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/vFfXjuVA1Jk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 	"ReZeroSeasonTwoAnimeData":[
 		{
-			"TitleName": "Re:ZERO Starting Life in Another World",
+			"TitleName": "Re:Zero Starting Life in Another World",
 			"Sypnosis": "Everlasting contracts, past sins, and unrequited love will clash and submerge into a river of blood in the second season of Re:Zero kara Hajimeru Isekai Seikatsu. Pushed to the brink of hopelessness, how long will Subaru's resolve to save his loved ones last?"
 		}
 	],
 	"ReZeroSeasonTwoCharacterData":[
 		{
 			"Name":"Subaru Natsuki",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/ReZero%20images/Season%202/Characters/01subaru.webp",
 			"Description": "While Subaru tends to not read the situation, he is loyal to those he holds dear, willing to help them, even if that means taking the thorny path. He has his resolve confirmed through the many situations and circumstances he faces in the fantasy world, originally having been one to always take the easy route. As a hikikomori, he is hopeful of the possibilities that being sucked into a new realm brings, but later realizes the realities of the predicament he is in. Ultimately, he resolves himself to be faithful and protective of the ones that he cares most about."
 		},
 		{
 			"Name":"Emilia",
-			"src":"",
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/ReZero%20images/Season%202/Characters/02emilia.webp",
 			"Description": "Emilia is good natured and likes to take care of others, though she herself refuses to admit it, instead thinking of it as her own selfishness. She is indifferent to her own appearance, leaving Puck to take care of her clothes and hair. Because her appearance is similar to the Witch of Envy, she has received unfair discrimination from others. She sometimes acts like a child and is unacquainted with the world as she used to live in the woods with other Elves, though despite this she still works hard to become a ruler."
 		}
 	],
@@ -2141,12 +2141,15 @@
 	],
 	"ReZeroSeasonTwoImageData":[
 		{
-			"src":""
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/ReZero%20images/Season%202/ReZeroS2Cover.webp"
+		},
+		{
+			"src":"https://raw.githubusercontent.com/yongkokhong96/tenime/main/source/images/ReZero%20images/Season%202/ReZeroS2Cover2.webp"
 		}
 	],
 	"ReZeroSeasonTwoVideoData":[
 		{
-			"fullEmbed":""
+			"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/BjbLdIY2kgY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		}
 	],
 
@@ -4470,7 +4473,7 @@
 		],
 	"TitleBlankSeasonBlankVideoData":[
 			{
-				"fullEmbed":""
+				"fullEmbed":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/[REPLACE WITH VIDEO URL]\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 			}
 		]
 }
